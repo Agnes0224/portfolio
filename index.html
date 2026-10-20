@@ -11,26 +11,47 @@
 </head>
 <body>
   <a class="skip-link" href="#main">跳至内容</a>
-  <header class="site-header"><a class="signature" href="./" aria-label="陈雨婷的作品集首页"><span class="signature-mark">CHEN</span><span>陈雨婷</span></a><nav aria-label="首页导航"><a href="#projects">精选案例 <span>Work</span></a><a href="#about">关于我 <span>About</span></a></nav></header>
+  <header class="site-header">
+    <a class="signature" href="./" aria-label="陈雨婷的作品集首页"><span class="signature-mark">CHEN</span><span>陈雨婷</span></a>
+    <nav aria-label="首页导航"><a href="#projects">精选案例 <span>Work</span></a><a href="#about">关于我 <span>About</span></a></nav>
+  </header>
   <main id="main">
-    <section class="opening" aria-label="个人定位与精选项目">
-      <div class="position"><p class="identity">陈雨婷 <span>/</span> AI 产品经理方向</p><h1>让 AI 能力，<br>变成真正<br><em>好用的产品。</em></h1><p class="foundation">计算机技术背景 <span>×</span> 产品设计实践</p><p class="position-note">从用户任务出发，<br>连接 AI 交互与可靠的产品体验。</p><a class="work-jump" href="#projects"><span aria-hidden="true">↘</span> 精选项目</a></div>
-      <article id="projects" class="featured" aria-labelledby="project-title">
-        <div class="feature-label"><span>FEATURED CASE STUDY</span><b>01</b></div>
-        <div class="project-heading"><div><h2 id="project-title">TripSplit</h2><p>AI 旅行分账助手</p></div><span class="project-field">AI PRODUCT DESIGN</span></div>
-        <a class="prototype-composition" href="projects/tripsplit/" aria-label="查看 TripSplit 完整案例：Chat 与 Ledger 产品原型">
-          <figure class="chat-study"><figcaption><span>Chat</span> 自然表达 → 结构化回执</figcaption><div class="screen-window chat-window"><img src="projects/tripsplit/assets/chat-clean.png" width="1170" height="2532" alt="Chat 高保真原型：沙县小吃128元自然语言输入，生成四人均分回执与修改入口" fetchpriority="high"></div></figure>
-          <figure class="ledger-study"><figcaption><span>Ledger</span> 账目与待处理记录</figcaption><div class="screen-window ledger-window"><img src="projects/tripsplit/assets/ledger-clean.png" width="1170" height="2532" alt="Ledger 高保真原型：正式支出534元，打车60元待补全且不计入余额" fetchpriority="high"></div></figure>
-          <span class="prototype-note">高保真产品原型 · 演示数据</span>
-        </a>
-        <p class="mobile-prototype-note">左右滑动查看 Chat / Ledger · 演示数据</p>
-        <p class="project-task">把零散消费，整理成可核对、可结算的旅行账本。</p>
-        <p class="project-role"><span>我的职责</span>需求规划 · 交互与入账策略 · 核账方案 · 原型验证</p>
-        <a class="case-link" href="projects/tripsplit/"><span>查看完整案例</span><span aria-hidden="true">↗</span></a>
-      </article>
+    <section class="hero" aria-labelledby="intro-title">
+      <p class="identity">陈雨婷 <span>/</span> AI 产品经理方向</p>
+      <h1 id="intro-title">让 AI 能力，<br>变成真正<em>好用的产品。</em></h1>
+      <p class="foundation">计算机技术背景 <span>×</span> 产品设计实践</p>
     </section>
-    <section id="about" class="about" aria-labelledby="about-title"><div class="about-heading"><span class="eyebrow">A LITTLE ABOUT ME</span><h2 id="about-title">技术理解，<br>产品实践。</h2></div><div class="about-copy"><p class="about-lead">港科大 MSc IT <span>·</span> 计算机技术背景</p><p>有实际开发经历，也参与过产品从 0 到 1 的实习实践。持续关注并应用 AI 技术，在用户需求、实现约束和产品体验之间做判断。</p><p class="about-language">海外背景，英语可作为工作语言。</p></div></section>
+
+    <section id="projects" class="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><h2 id="projects-title">精选案例 <span>Selected Work</span></h2></div>
+      <div class="project-list">
+        <!-- Repeat a project-card for each published project; keep the same copy and media regions. -->
+        <article class="project-card" aria-labelledby="tripsplit-title">
+          <div class="project-copy">
+            <p class="project-category">旅行场景 / AI 产品设计</p>
+            <h3 id="tripsplit-title">TripSplit</h3>
+            <p class="project-subtitle">AI 旅行分账助手</p>
+            <p class="project-description">为朋友自由行中的管账人，将零散消费整理成可核对、可结算的旅行账本。</p>
+            <ul class="project-topics" aria-label="案例关注点"><li>Chat First</li><li>AI 入账策略</li><li>核账与可信结算</li></ul>
+            <p class="project-role"><span>我的职责</span>需求规划 · 交互与入账策略<br> 核账方案 · 原型验证</p>
+            <a class="case-link" href="projects/tripsplit/"><span>查看完整案例</span><span aria-hidden="true">↗</span></a>
+          </div>
+          <a class="project-media" href="projects/tripsplit/" aria-label="查看 TripSplit 完整案例：Chat 与 Ledger 高保真产品原型">
+            <div class="phone-pair">
+              <img class="chat-phone" src="projects/tripsplit/assets/chat-clean.png" width="1170" height="2532" alt="TripSplit Chat 高保真原型：自然语言输入与结构化消费回执" fetchpriority="high">
+              <img class="ledger-phone" src="projects/tripsplit/assets/ledger-clean.png" width="1170" height="2532" alt="TripSplit Ledger 高保真原型：正式消费与待处理记录" fetchpriority="high">
+            </div>
+            <span class="visual-caption">高保真产品原型 · 演示数据</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="about-heading"><span class="eyebrow">ABOUT ME</span><h2 id="about-title">技术理解，产品实践。</h2></div>
+      <div class="about-copy"><p class="about-lead">港科大 MSc IT <span>·</span> 计算机技术背景</p><p>有实际开发经历，也参与过产品从 0 到 1 的实习实践。持续关注并应用 AI 技术，在用户需求、实现约束和产品体验之间做判断。</p><p class="about-language">海外背景，英语可作为工作语言。</p></div>
+    </section>
   </main>
-  <footer><span>陈雨婷 <span class="footer-divider">/</span> AI 产品经理方向</span><a href="#main">回到顶部 ↑</a></footer>
+  <footer><span>陈雨婷 <span class="footer-divider">/</span> AI 产品经理方向</span><div><a href="https://github.com/Agnes0224" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#main">回到顶部 ↑</a></div></footer>
 </body>
 </html>
