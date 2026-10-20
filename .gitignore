@@ -1,0 +1,8 @@
+# Local preview / verification artifacts
+validation/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
