@@ -1,0 +1,3967 @@
+{
+  "run_id": "20260909T231953Z_08098148",
+  "report": {
+    "file": "reports/report_v2.md",
+    "sha256": "843e37fc861b395cb5008831fbad451336c51eb826cf7c43cb2c5afb141f7afc",
+    "version": 2,
+    "reviewed_version": 2,
+    "captured_at": "2026-09-09T15:42:14.665858+00:00"
+  },
+  "terminal": {
+    "terminal_state": "partial",
+    "terminal_reasons": [
+      "review_not_passed",
+      "quality_below_threshold",
+      "open_serious_issues",
+      "invalid_evidence_chain",
+      "claims_pending_verification"
+    ],
+    "report_version": 2,
+    "reviewed_version": 2,
+    "review_round": 2,
+    "resolved_issue_ids": [
+      "issue_09961f00",
+      "issue_c709c50b"
+    ],
+    "unresolved_issue_ids": [
+      "issue_cf0eec7e",
+      "issue_51066d2b",
+      "issue_6c9a5dec",
+      "issue_10745936",
+      "issue_c1902b9b",
+      "issue_878c5a10",
+      "issue_e7f186ce",
+      "issue_09660b20",
+      "issue_aab82d6e",
+      "issue_4d81ae1c",
+      "issue_e684d778",
+      "issue_f67e7559",
+      "issue_2759cdcf",
+      "issue_79d088bd",
+      "issue_ca6747ed",
+      "issue_eb218101",
+      "issue_29ca7046",
+      "issue_da776fdb",
+      "issue_eefd3a69",
+      "issue_56ce1728",
+      "issue_8c07058e",
+      "issue_407fb67f",
+      "issue_721a3065",
+      "issue_54487a20",
+      "issue_cc8d7582",
+      "issue_97f3b930",
+      "issue_fd8879be",
+      "issue_4179ab27",
+      "issue_48eeb513",
+      "issue_4dac2d58",
+      "issue_44f2c577",
+      "issue_d95741d1",
+      "issue_062c8089",
+      "issue_85fc192a",
+      "issue_24fcb55a",
+      "issue_89172d12",
+      "issue_1afa6373",
+      "issue_adc00c5b",
+      "issue_0e4d6d91",
+      "issue_b344d369",
+      "issue_e7378043",
+      "issue_fc024741",
+      "issue_7216ae67",
+      "issue_f683abf2",
+      "issue_aa966f1b",
+      "issue_b6018fc0",
+      "issue_050cea1a",
+      "issue_8e5762e8",
+      "issue_2fbfce5e",
+      "issue_6a8e078a",
+      "issue_00f3bc6b",
+      "issue_3377e70d",
+      "issue_51d97926",
+      "issue_5090590b",
+      "issue_842d2923",
+      "issue_ef5d9e2b",
+      "issue_f4dc67d5",
+      "issue_694c8e19",
+      "issue_d52b75ef",
+      "issue_daece1d4",
+      "issue_27c40c42",
+      "issue_39329992",
+      "issue_34c30cff",
+      "issue_6219e1a1",
+      "issue_928645b1",
+      "issue_01953711",
+      "issue_6372411d",
+      "issue_a461c61c",
+      "issue_35d8c2fb",
+      "issue_917b2f4a",
+      "issue_5f7bbaa2",
+      "issue_98694560",
+      "issue_292d16dd",
+      "issue_dac57fd1",
+      "issue_07c1e5b8",
+      "issue_9b6b4f89",
+      "issue_ecea1746",
+      "issue_e8792e16",
+      "issue_18f1ec10",
+      "issue_3b791232",
+      "issue_4dd5a88e",
+      "issue_1810a7de",
+      "issue_82921581",
+      "issue_ebfeb1a9",
+      "issue_5b1a25fe",
+      "issue_73b7d4f2",
+      "issue_2878fc07"
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "claim_ecc0302e959076d356c8",
+      "claim_text": "2025年，中国新能源汽车市场已迈入主流普及的新阶段，行业普遍预测其渗透率将突破50%，标志着新能源汽车从政策驱动转向市场驱动，成为推动整体车市增长的核心引擎。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_1f36380cac98db77c3ff"
+      ],
+      "span_start": 0,
+      "span_end": 80,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_c101cff1be43ab5a09d4",
+          "claim_id": "claim_ecc0302e959076d356c8",
+          "evidence_id": "evidence_1f36380cac98db77c3ff",
+          "source_id": "source_b4336ec406bfa0ff4dad",
+          "url": "https://news.qq.com/rain/a/20250514A058VA00"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/0",
+        "validation_pointer": "/evidence_validation/trace/0"
+      }
+    },
+    {
+      "claim_id": "claim_ede97e710c98f089fb2b",
+      "claim_text": "根据乘联分会数据，2025年3月国内狭义乘用车零售销量达194.0万辆，同比增长14.4%。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_0d06b1b0bf127efcd287"
+      ],
+      "span_start": 80,
+      "span_end": 126,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_97e5c0064830f7181726",
+          "claim_id": "claim_ede97e710c98f089fb2b",
+          "evidence_id": "evidence_0d06b1b0bf127efcd287",
+          "source_id": "source_b168eb91593da1f67efb",
+          "url": "https://new.qq.com/rain/a/20250410A072LO00?media_id=&suid="
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/1",
+        "validation_pointer": "/evidence_validation/trace/1"
+      }
+    },
+    {
+      "claim_id": "claim_4349cfa656d8e651e533",
+      "claim_text": "其中，新能源汽车零售量预计达100万辆，市场渗透率回升至54.1%，成为春季乘用车市场恢复的主要动力。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_65b4c4bd2b6bdf9e7811"
+      ],
+      "span_start": 126,
+      "span_end": 177,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_02aa422a1099fd001f29",
+          "claim_id": "claim_4349cfa656d8e651e533",
+          "evidence_id": "evidence_65b4c4bd2b6bdf9e7811",
+          "source_id": "source_c7cc418c3191fe4c9f65",
+          "url": "https://m.zol.com.cn/article/9630008.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/2",
+        "validation_pointer": "/evidence_validation/trace/2"
+      }
+    },
+    {
+      "claim_id": "claim_e58844f3a7eb48868202",
+      "claim_text": "2025年第一季度，新能源乘用车累计批发销量预计达286万辆，同比大增43%，远高于整体汽车市场12%的增速。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_56a98e26491ebc3ba02c"
+      ],
+      "span_start": 195,
+      "span_end": 250,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_1dace8fdef5459fc9965",
+          "claim_id": "claim_e58844f3a7eb48868202",
+          "evidence_id": "evidence_56a98e26491ebc3ba02c",
+          "source_id": "source_200922db2c8c470e4281",
+          "url": "https://news.m.yiche.com/hao/wenzhang/99459731/"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/3",
+        "validation_pointer": "/evidence_validation/trace/3"
+      }
+    },
+    {
+      "claim_id": "claim_45a0a65de541930b3e57",
+      "claim_text": "全年来看，中国新能源汽车产销量预计将突破600万辆，同比增长超过40%。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_83a49fe490956b84d208"
+      ],
+      "span_start": 250,
+      "span_end": 286,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_0a87ec09b2c86017b110",
+          "claim_id": "claim_45a0a65de541930b3e57",
+          "evidence_id": "evidence_83a49fe490956b84d208",
+          "source_id": "source_9adbd53412c47ae019ce",
+          "url": "https://max.book118.com/html/2025/0105/7012200001010020.shtm"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/4",
+        "validation_pointer": "/evidence_validation/trace/4"
+      }
+    },
+    {
+      "claim_id": "claim_6cf14424f74dfe632656",
+      "claim_text": "2025年3月，纯电动汽车在中国汽车市场的总份额中占比超过三分之一（>33.3%），是增长最快的细分类型。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_dc9dcb0e0736977a786a"
+      ],
+      "span_start": 366,
+      "span_end": 419,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_bf9e4086528d8a48686e",
+          "claim_id": "claim_6cf14424f74dfe632656",
+          "evidence_id": "evidence_dc9dcb0e0736977a786a",
+          "source_id": "source_e93638320d72c38036f8",
+          "url": "http://caifuhao.eastmoney.com/news/20250427080614149743930?from=guba&name=U1TkvJfms7DlkKc%3d"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/5",
+        "validation_pointer": "/evidence_validation/trace/5"
+      }
+    },
+    {
+      "claim_id": "claim_c4c4fe8a15ae8b266b49",
+      "claim_text": "行业预测显示，到2025年，中国PHEV与REEV合计销量份额将达40%。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_0aada6d3caa0b72d1ca2"
+      ],
+      "span_start": 451,
+      "span_end": 488,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_5aaf601c3926c9e366c6",
+          "claim_id": "claim_c4c4fe8a15ae8b266b49",
+          "evidence_id": "evidence_0aada6d3caa0b72d1ca2",
+          "source_id": "source_7d5b758ccbaa1bb96bfb",
+          "url": "https://www.eefocus.com/article/1661723.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/6",
+        "validation_pointer": "/evidence_validation/trace/6"
+      }
+    },
+    {
+      "claim_id": "claim_126a407ebacdafc4f70f",
+      "claim_text": "1月份数据显示，比亚迪以26.9%的市占率稳居榜首，吉利（15.8%）、长安（6.9%）分列二、三位。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_d2d7a0c91678c29c4ba7"
+      ],
+      "span_start": 601,
+      "span_end": 652,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_8a8cac7a9eb6a4ed470b",
+          "claim_id": "claim_126a407ebacdafc4f70f",
+          "evidence_id": "evidence_d2d7a0c91678c29c4ba7",
+          "source_id": "source_c2a3210413d5b882ea7b",
+          "url": "https://m.dongchedi.com/ugc/article/7487746391610950169"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/7",
+        "validation_pointer": "/evidence_validation/trace/7"
+      }
+    },
+    {
+      "claim_id": "claim_1ef14230f8929b2e59d6",
+      "claim_text": "3月，比亚迪以37.14万辆的批发销量稳居月度榜首；",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_56a98e26491ebc3ba02c"
+      ],
+      "span_start": 652,
+      "span_end": 678,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_f65c372ff85b525a49d0",
+          "claim_id": "claim_1ef14230f8929b2e59d6",
+          "evidence_id": "evidence_56a98e26491ebc3ba02c",
+          "source_id": "source_200922db2c8c470e4281",
+          "url": "https://news.m.yiche.com/hao/wenzhang/99459731/"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/8",
+        "validation_pointer": "/evidence_validation/trace/8"
+      }
+    },
+    {
+      "claim_id": "claim_183bbe0b80c2f8d97a27",
+      "claim_text": "特斯拉中国则以7.89万辆的销量位列前茅，但同比下降11.5%。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_56a98e26491ebc3ba02c"
+      ],
+      "span_start": 687,
+      "span_end": 719,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_b93a56bde2cad618766f",
+          "claim_id": "claim_183bbe0b80c2f8d97a27",
+          "evidence_id": "evidence_56a98e26491ebc3ba02c",
+          "source_id": "source_200922db2c8c470e4281",
+          "url": "https://news.m.yiche.com/hao/wenzhang/99459731/"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/9",
+        "validation_pointer": "/evidence_validation/trace/9"
+      }
+    },
+    {
+      "claim_id": "claim_d5df1709b305ea5bd269",
+      "claim_text": "理想汽车作为新势力代表，虽未进入销量前三，但被列为第二梯队主力，其2025年3月新能源批发销量创下历年3月历史新高，同比增幅达34%。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_33e2fe684bf0a8bd06ea"
+      ],
+      "span_start": 719,
+      "span_end": 786,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_23d262714e2e102cb015",
+          "claim_id": "claim_d5df1709b305ea5bd269",
+          "evidence_id": "evidence_33e2fe684bf0a8bd06ea",
+          "source_id": "source_547c47eed87392d9e7f3",
+          "url": "https://c.m.163.com/news/a/KPHNQ4UE0550WHYR.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/10",
+        "validation_pointer": "/evidence_validation/trace/10"
+      }
+    },
+    {
+      "claim_id": "claim_3e7c9f2a0504aa27872d",
+      "claim_text": "长安汽车在部分月度销量榜单中未进入前三，但其整体新能源转型步伐坚定，第一季度新能源销量达19.4万辆，同比增长50.75%。",
+      "section_id": "sec_1",
+      "evidence_ids": [
+        "evidence_ba9c9144a675db598def"
+      ],
+      "span_start": 786,
+      "span_end": 848,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_c532917290be84957082",
+          "claim_id": "claim_3e7c9f2a0504aa27872d",
+          "evidence_id": "evidence_ba9c9144a675db598def",
+          "source_id": "source_7deb7c6c874a9560e637",
+          "url": "https://xueqiu.com/1678212670/330517672"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/11",
+        "validation_pointer": "/evidence_validation/trace/11"
+      }
+    },
+    {
+      "claim_id": "claim_2553416497321ba9fe85",
+      "claim_text": "2025年，中国新能源汽车市场已进入渗透率实质性突破50%的主流普及新阶段，市场竞争格局呈现出“一超多强、分层竞争”的鲜明特征。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_1f36380cac98db77c3ff"
+      ],
+      "span_start": 0,
+      "span_end": 64,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_9b55977bb71cf981233f",
+          "claim_id": "claim_2553416497321ba9fe85",
+          "evidence_id": "evidence_1f36380cac98db77c3ff",
+          "source_id": "source_b4336ec406bfa0ff4dad",
+          "url": "https://news.qq.com/rain/a/20250514A058VA00"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/12",
+        "validation_pointer": "/evidence_validation/trace/12"
+      }
+    },
+    {
+      "claim_id": "claim_4edf987e1db7c71967ba",
+      "claim_text": "根据中国汽车工业协会数据，2025年1月，中国新能源汽车产销分别完成101.5万辆和94.4万辆，市场加速从政策驱动转向市场驱动。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_ebd4deb349d135b961b7"
+      ],
+      "span_start": 188,
+      "span_end": 253,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_19297e42219cc2175bda",
+          "claim_id": "claim_4edf987e1db7c71967ba",
+          "evidence_id": "evidence_ebd4deb349d135b961b7",
+          "source_id": "source_1eddbd2d98347b12b738",
+          "url": "https://www.163.com/dy/article/JQ1OFKR405198SOQ.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/13",
+        "validation_pointer": "/evidence_validation/trace/13"
+      }
+    },
+    {
+      "claim_id": "claim_422f28924ece16826f4d",
+      "claim_text": "在零售端，市场集中度极高，前十厂商合计市场份额达79.8%。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_528ad927f426e9dd140b"
+      ],
+      "span_start": 253,
+      "span_end": 283,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_828488fc782f28c0481f",
+          "claim_id": "claim_422f28924ece16826f4d",
+          "evidence_id": "evidence_528ad927f426e9dd140b",
+          "source_id": "source_d8a13632dbe93f244f18",
+          "url": "https://www.askci.com/news/chanye/20250306/110211274123013072604755_2.shtml"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/14",
+        "validation_pointer": "/evidence_validation/trace/14"
+      }
+    },
+    {
+      "claim_id": "claim_f65f38fca075fcd42dc0",
+      "claim_text": "其中，比亚迪以26.9%的市占率稳居榜首，零售销量达20.02万辆。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_528ad927f426e9dd140b"
+      ],
+      "span_start": 283,
+      "span_end": 317,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_dcfa7aae2bc3551c818c",
+          "claim_id": "claim_f65f38fca075fcd42dc0",
+          "evidence_id": "evidence_528ad927f426e9dd140b",
+          "source_id": "source_d8a13632dbe93f244f18",
+          "url": "https://www.askci.com/news/chanye/20250306/110211274123013072604755_2.shtml"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/15",
+        "validation_pointer": "/evidence_validation/trace/15"
+      }
+    },
+    {
+      "claim_id": "claim_85a6198a1e43328740ad",
+      "claim_text": "吉利汽车紧随其后，市场份额为15.8%，零售销量11.76万辆。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_528ad927f426e9dd140b"
+      ],
+      "span_start": 317,
+      "span_end": 349,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_308141ac552c71ef14b0",
+          "claim_id": "claim_85a6198a1e43328740ad",
+          "evidence_id": "evidence_528ad927f426e9dd140b",
+          "source_id": "source_d8a13632dbe93f244f18",
+          "url": "https://www.askci.com/news/chanye/20250306/110211274123013072604755_2.shtml"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/16",
+        "validation_pointer": "/evidence_validation/trace/16"
+      }
+    },
+    {
+      "claim_id": "claim_27f711a37e8b66496067",
+      "claim_text": "长安汽车位列第三，市场份额为6.9%。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_528ad927f426e9dd140b"
+      ],
+      "span_start": 349,
+      "span_end": 368,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_c8954ea930b42ef51401",
+          "claim_id": "claim_27f711a37e8b66496067",
+          "evidence_id": "evidence_528ad927f426e9dd140b",
+          "source_id": "source_d8a13632dbe93f244f18",
+          "url": "https://www.askci.com/news/chanye/20250306/110211274123013072604755_2.shtml"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/17",
+        "validation_pointer": "/evidence_validation/trace/17"
+      }
+    },
+    {
+      "claim_id": "claim_d89c3ee5612a76b2574d",
+      "claim_text": "比亚迪董事长王传福公布的2025年总销量目标高达550万辆，其中海外市场销量预计超80万辆，中国市场增速约30%。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_3f621cc8889b47478017"
+      ],
+      "span_start": 437,
+      "span_end": 494,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_e69508b810f2da917590",
+          "claim_id": "claim_d89c3ee5612a76b2574d",
+          "evidence_id": "evidence_3f621cc8889b47478017",
+          "source_id": "source_d65c0c97c1f819e4a30c",
+          "url": "https://finance.sina.cn/2025-03-25/detail-ineqwwwa6614557.d.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/18",
+        "validation_pointer": "/evidence_validation/trace/18"
+      }
+    },
+    {
+      "claim_id": "claim_595938734cbaa89f653b",
+      "claim_text": "尽管目标激进，但比亚迪2025年全年实际销量为460.24万辆，同比增长7.73%，创历史新高，其中纯电车型销量225.67万辆，已超过特斯拉全球纯电销量。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_f6ac12bed92b2e8ed5cf"
+      ],
+      "span_start": 494,
+      "span_end": 572,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_e81d7997bfab004a58a1",
+          "claim_id": "claim_595938734cbaa89f653b",
+          "evidence_id": "evidence_f6ac12bed92b2e8ed5cf",
+          "source_id": "source_4405a0f3f5dfe831c2ee",
+          "url": "https://www.dongchedi.com/article/7591474961828119065"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/19",
+        "validation_pointer": "/evidence_validation/trace/19"
+      }
+    },
+    {
+      "claim_id": "claim_8b0569cc876a8646f75e",
+      "claim_text": "根据乘联会数据，2025年1月，吉利汽车零售销量为239,944辆，同比增长28.2%，是当月TOP10厂商中唯一实现正增长且增速最高的企业。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_d6854a4d7d8ab6d5adff"
+      ],
+      "span_start": 589,
+      "span_end": 660,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_ef1de9a65494a3697266",
+          "claim_id": "claim_8b0569cc876a8646f75e",
+          "evidence_id": "evidence_d6854a4d7d8ab6d5adff",
+          "source_id": "source_fdefd4c73a23ebdf2c06",
+          "url": "http://c.m.163.com/news/a/JOJJM11Q0511BBQE.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/20",
+        "validation_pointer": "/evidence_validation/trace/20"
+      }
+    },
+    {
+      "claim_id": "claim_3c0a008479d0bbd7025c",
+      "claim_text": "全年累计销量超过302万辆，超额完成年度目标，新能源销量达到168.78万辆，同比增长约90%，占总销量比例已超过56%。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_12e2eb2c368376c0902f"
+      ],
+      "span_start": 660,
+      "span_end": 721,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_f18ebfd2b3d59e29c5c3",
+          "claim_id": "claim_3c0a008479d0bbd7025c",
+          "evidence_id": "evidence_12e2eb2c368376c0902f",
+          "source_id": "source_4ccc76afa6a0e7172cf8",
+          "url": "https://k.sina.cn/article_5953190046_162d6789e06702iemg.html?from=auto&vt=4&ab=qiche&_rewriteTime=1767617653826"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/21",
+        "validation_pointer": "/evidence_validation/trace/21"
+      }
+    },
+    {
+      "claim_id": "claim_aae800b74206fc894188",
+      "claim_text": "长安汽车2025年全年销量为291.3万辆，同比增长8.5%，创近九年新高，其新能源板块表现突出，成为增长重要引擎。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_f6ac12bed92b2e8ed5cf"
+      ],
+      "span_start": 723,
+      "span_end": 781,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_273598cd16199fe50ea6",
+          "claim_id": "claim_aae800b74206fc894188",
+          "evidence_id": "evidence_f6ac12bed92b2e8ed5cf",
+          "source_id": "source_4405a0f3f5dfe831c2ee",
+          "url": "https://www.dongchedi.com/article/7591474961828119065"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/22",
+        "validation_pointer": "/evidence_validation/trace/22"
+      }
+    },
+    {
+      "claim_id": "claim_ece777f0f360186c3831",
+      "claim_text": "理想汽车作为新势力头部玩家，2025年销量目标据媒体报道设定为70万辆，1月同比增幅为34%，在新势力中属于增长稳健的第二梯队主力。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_b484a3b2f5e1846ab520"
+      ],
+      "span_start": 781,
+      "span_end": 847,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_5218c25c27b030e57e89",
+          "claim_id": "claim_ece777f0f360186c3831",
+          "evidence_id": "evidence_b484a3b2f5e1846ab520",
+          "source_id": "source_aacc2482407e3e555c4c",
+          "url": "https://www.toutiao.com/topic/7475256720084715535/"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/23",
+        "validation_pointer": "/evidence_validation/trace/23"
+      }
+    },
+    {
+      "claim_id": "claim_ba78ebfb0911284c1699",
+      "claim_text": "其产品布局兼顾主流家用市场与个性化细分市场（如深蓝G318代表的硬派越野），在保持燃油车基本盘的同时，快速提升新能源占比，2025年新能源销量同比大涨51%。",
+      "section_id": "sec_2",
+      "evidence_ids": [
+        "evidence_f6ac12bed92b2e8ed5cf"
+      ],
+      "span_start": 1262,
+      "span_end": 1341,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_67459f1a1c8f1a688a2c",
+          "claim_id": "claim_ba78ebfb0911284c1699",
+          "evidence_id": "evidence_f6ac12bed92b2e8ed5cf",
+          "source_id": "source_4405a0f3f5dfe831c2ee",
+          "url": "https://www.dongchedi.com/article/7591474961828119065"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/24",
+        "validation_pointer": "/evidence_validation/trace/24"
+      }
+    },
+    {
+      "claim_id": "claim_8650a88c2d76409861cf",
+      "claim_text": "2025年3月，比亚迪官宣了第三代刀片电池，其电芯能量密度达到约230Wh/kg，较第二代（约199-200Wh/kg）提升约15%。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_653aba927f96665e2510"
+      ],
+      "span_start": 322,
+      "span_end": 389,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_54b2ccbc36c74d89375c",
+          "claim_id": "claim_8650a88c2d76409861cf",
+          "evidence_id": "evidence_653aba927f96665e2510",
+          "source_id": "source_3496bc7d9bc39f7e315f",
+          "url": "https://www.yoojia.com/article/9964116787235339416.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/25",
+        "validation_pointer": "/evidence_validation/trace/25"
+      }
+    },
+    {
+      "claim_id": "claim_d957ba4971454ecd4c9f",
+      "claim_text": "比亚迪刀片电池采用磷酸铁锂化学体系，在针刺测试中表现出无明火、无烟、表面温升仅30–60°C的极高安全性。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_649ac8f6a5aad19b6549"
+      ],
+      "span_start": 389,
+      "span_end": 442,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_40e6e8bb47cfb064f3e6",
+          "claim_id": "claim_d957ba4971454ecd4c9f",
+          "evidence_id": "evidence_649ac8f6a5aad19b6549",
+          "source_id": "source_2115463d71d218adcca2",
+          "url": "https://k.sina.com.cn/article_7880068201_1d5b04c6901901ptcs.html?from=auto&subch=oauto"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/26",
+        "validation_pointer": "/evidence_validation/trace/26"
+      }
+    },
+    {
+      "claim_id": "claim_49d7f39779576831924a",
+      "claim_text": "结合CTP/CTB等结构创新技术，搭载第三代刀片电池的汉EV实现了CLTC续航突破1000公里的里程碑。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_653aba927f96665e2510"
+      ],
+      "span_start": 442,
+      "span_end": 494,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_42dd4eef3f700e3b02bd",
+          "claim_id": "claim_49d7f39779576831924a",
+          "evidence_id": "evidence_653aba927f96665e2510",
+          "source_id": "source_3496bc7d9bc39f7e315f",
+          "url": "https://www.yoojia.com/article/9964116787235339416.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/27",
+        "validation_pointer": "/evidence_validation/trace/27"
+      }
+    },
+    {
+      "claim_id": "claim_742a6267d2e53322a98f",
+      "claim_text": "此外，新一代刀片电池支持充电倍率超5.5C、放电倍率超14C，为高压快充和高性能输出奠定了基础。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_249d2fe0dbb73f902474"
+      ],
+      "span_start": 494,
+      "span_end": 542,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_dd6ecf37feb32507242c",
+          "claim_id": "claim_742a6267d2e53322a98f",
+          "evidence_id": "evidence_249d2fe0dbb73f902474",
+          "source_id": "source_f5e8c55998f776a34ee4",
+          "url": "https://club.m.autohome.com.cn/bbs/thread-a-23-109903686-1.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/28",
+        "validation_pointer": "/evidence_validation/trace/28"
+      }
+    },
+    {
+      "claim_id": "claim_43902779b32197b9bfbf",
+      "claim_text": "吉利在混合动力领域构建了深厚的技术护城河，并荣获“2024年度中国汽车混合动力控制技术创新领先企业”奖项。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_014519669a6d6d147b8c"
+      ],
+      "span_start": 625,
+      "span_end": 678,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_8924ac82dde35db9e5e8",
+          "claim_id": "claim_43902779b32197b9bfbf",
+          "evidence_id": "evidence_014519669a6d6d147b8c",
+          "source_id": "source_5d9006f1cda8e44cf949",
+          "url": "https://m.163.com/dy/article/KBH1O0PI05278DF4.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/29",
+        "validation_pointer": "/evidence_validation/trace/29"
+      }
+    },
+    {
+      "claim_id": "claim_bcdb13c34fd3bdd51129",
+      "claim_text": "2025年6月，吉利正式发布行业首个基于AI场景引擎的动力域智能体——星睿AI云动力2.0，驱动其雷神电混系统升级为“雷神AI电混2.0”。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_3776a8e78161feaa6a1f"
+      ],
+      "span_start": 678,
+      "span_end": 748,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_4507e0bb0908bb0824bf",
+          "claim_id": "claim_bcdb13c34fd3bdd51129",
+          "evidence_id": "evidence_3776a8e78161feaa6a1f",
+          "source_id": "source_86731960190d1c5ccf1c",
+          "url": "https://k.sina.com.cn/article_5937504527_161e7210f00101dx72.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/30",
+        "validation_pointer": "/evidence_validation/trace/30"
+      }
+    },
+    {
+      "claim_id": "claim_3d64983bf4dbc5f06f24",
+      "claim_text": "搭载该技术的轿车可实现低至2L/100km的油耗，SUV油耗为3L/100km。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_3c74e3fd3ccea0ca9606"
+      ],
+      "span_start": 811,
+      "span_end": 851,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_a922f02912c09a122684",
+          "claim_id": "claim_3d64983bf4dbc5f06f24",
+          "evidence_id": "evidence_3c74e3fd3ccea0ca9606",
+          "source_id": "source_92db6155464a4f5c545f",
+          "url": "https://m.sohu.com/a/875250429_122066676/?pvid=000115_3w_a"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/31",
+        "validation_pointer": "/evidence_validation/trace/31"
+      }
+    },
+    {
+      "claim_id": "claim_aebf421a9a3a4dbe0a51",
+      "claim_text": "在电池领域，吉利采取“多条腿走路”策略，除“神盾金砖电池”外，正稳步推进半固态与全固态电池的产业化，计划于2026年完成自研全固态电池首个Pack下线并装车验证。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_1ae3b69352d3ed44f248"
+      ],
+      "span_start": 851,
+      "span_end": 932,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_cfa66df2a4f9a47fb5c7",
+          "claim_id": "claim_aebf421a9a3a4dbe0a51",
+          "evidence_id": "evidence_1ae3b69352d3ed44f248",
+          "source_id": "source_fc4f4163c5e368e2f98d",
+          "url": "https://k.sina.com.cn/article_1826017320_6cd6d02802001j6mg.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/32",
+        "validation_pointer": "/evidence_validation/trace/32"
+      }
+    },
+    {
+      "claim_id": "claim_37613401250eed0e00ed",
+      "claim_text": "尽管在公开的2025年新能源汽车下乡车型目录中未见长安品牌，但其技术路线在下沉市场仍具潜力。",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_771739ff780dfa39b59c"
+      ],
+      "span_start": 1097,
+      "span_end": 1143,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_f76f0c6ab74b59c57493",
+          "claim_id": "claim_37613401250eed0e00ed",
+          "evidence_id": "evidence_771739ff780dfa39b59c",
+          "source_id": "source_1365a755751949f39619",
+          "url": "https://www.chinanews.com/cj/2025/06-03/10426522.shtml"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/33",
+        "validation_pointer": "/evidence_validation/trace/33"
+      }
+    },
+    {
+      "claim_id": "claim_247245963e7806f22763",
+      "claim_text": "吉利凭借161件混动系统控制授权专利和“全域AI智能化”布局，在AI赋能动力系统层面走在行业前列；",
+      "section_id": "sec_3",
+      "evidence_ids": [
+        "evidence_014519669a6d6d147b8c"
+      ],
+      "span_start": 1536,
+      "span_end": 1585,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_d756e5a2d5cffece5969",
+          "claim_id": "claim_247245963e7806f22763",
+          "evidence_id": "evidence_014519669a6d6d147b8c",
+          "source_id": "source_5d9006f1cda8e44cf949",
+          "url": "https://m.163.com/dy/article/KBH1O0PI05278DF4.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/34",
+        "validation_pointer": "/evidence_validation/trace/34"
+      }
+    },
+    {
+      "claim_id": "claim_912299500c1c3fee98f5",
+      "claim_text": "进入2025年，中国新能源汽车市场已实质性迈入主流普及阶段，市场渗透率预计将历史性地突破50%，标志着行业“市场驱动”特征日益凸显。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_db0daf71681ff56cb058"
+      ],
+      "span_start": 0,
+      "span_end": 66,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_133c678c521f42a5159d",
+          "claim_id": "claim_912299500c1c3fee98f5",
+          "evidence_id": "evidence_db0daf71681ff56cb058",
+          "source_id": "source_92ec746f48dc2f658374",
+          "url": "https://m.caixin.com/m/2025-09-11/102361571.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/35",
+        "validation_pointer": "/evidence_validation/trace/35"
+      }
+    },
+    {
+      "claim_id": "claim_e90bc53027b37cc57e32",
+      "claim_text": "根据现行政策，2024年1月1日至2025年12月31日期间，购置新能源汽车免征车辆购置税，每辆新能源乘用车免税额不超过3万元；",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_881e77db8703c2bade02"
+      ],
+      "span_start": 230,
+      "span_end": 294,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_8d56400c6971b6efed03",
+          "claim_id": "claim_e90bc53027b37cc57e32",
+          "evidence_id": "evidence_881e77db8703c2bade02",
+          "source_id": "source_66666b27856cc6be9ce6",
+          "url": "https://www.autohome.com.cn/ask/13871368.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/36",
+        "validation_pointer": "/evidence_validation/trace/36"
+      }
+    },
+    {
+      "claim_id": "claim_0914417c8ede7bb4f766",
+      "claim_text": "2026年1月1日至2027年12月31日期间，购置税将减半征收，每辆新能源乘用车减税额不超过1.5万元。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_881e77db8703c2bade02"
+      ],
+      "span_start": 294,
+      "span_end": 347,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_5ba0b00fbe87efc62b2b",
+          "claim_id": "claim_0914417c8ede7bb4f766",
+          "evidence_id": "evidence_881e77db8703c2bade02",
+          "source_id": "source_66666b27856cc6be9ce6",
+          "url": "https://www.autohome.com.cn/ask/13871368.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/37",
+        "validation_pointer": "/evidence_validation/trace/37"
+      }
+    },
+    {
+      "claim_id": "claim_15e5089ec9480f6572de",
+      "claim_text": "例如，2025年10万元至20万元价格区间新能源车型累计销量达694.1万辆，占新能源乘用车总量的53.4%，构成了市场主力。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_7b464e19d53a228bd290"
+      ],
+      "span_start": 678,
+      "span_end": 741,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_7ffc79686a42a04770f7",
+          "claim_id": "claim_15e5089ec9480f6572de",
+          "evidence_id": "evidence_7b464e19d53a228bd290",
+          "source_id": "source_9644c37507f408245ca2",
+          "url": "https://k.sina.com.cn/article_7857201856_1d45362c001905vk22.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/38",
+        "validation_pointer": "/evidence_validation/trace/38"
+      }
+    },
+    {
+      "claim_id": "claim_d7ec4d2e29b596afe026",
+      "claim_text": "吉利在该区间拥有星越L（定价14.77–17.97万元）等核心销量支柱。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_e0454dc5551865074468"
+      ],
+      "span_start": 741,
+      "span_end": 777,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_17af9d21b06f1b86267c",
+          "claim_id": "claim_d7ec4d2e29b596afe026",
+          "evidence_id": "evidence_e0454dc5551865074468",
+          "source_id": "source_07967d7336d55e80c740",
+          "url": "https://www.yoojia.com/article/10230124250942788305.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/39",
+        "validation_pointer": "/evidence_validation/trace/39"
+      }
+    },
+    {
+      "claim_id": "claim_9fb686a2701b6877e0dd",
+      "claim_text": "一方面，工业和信息化部装备工业发展中心已于2025年5月正式启动2024年度双积分数据核算审查工作，依据现行《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法》（工信部等五部委令第64号）严格执行，监管力度加强。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_01770ca24bfd6fcabce4"
+      ],
+      "span_start": 1059,
+      "span_end": 1167,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_7ab95fd090af8045a7f0",
+          "claim_id": "claim_9fb686a2701b6877e0dd",
+          "evidence_id": "evidence_01770ca24bfd6fcabce4",
+          "source_id": "source_126dc175f01312f41c06",
+          "url": "https://new.qq.com/rain/a/20250520A05OCP00"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/40",
+        "validation_pointer": "/evidence_validation/trace/40"
+      }
+    },
+    {
+      "claim_id": "claim_e2984256791a33c65dc7",
+      "claim_text": "另一方面，政策本身正处于动态调整期，工信部已将《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法（修订）》列入2026年规章制定工作计划，并已于2025年1月就2026-2027年度的管理要求公开征求意见。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_c1f3d18a47df9b135456"
+      ],
+      "span_start": 1167,
+      "span_end": 1272,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_8eeae923011a66347044",
+          "claim_id": "claim_e2984256791a33c65dc7",
+          "evidence_id": "evidence_c1f3d18a47df9b135456",
+          "source_id": "source_ccab474dbdff6e62ce99",
+          "url": "https://mchd.in-en.com/html/chd-2459448.shtml"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/41",
+        "validation_pointer": "/evidence_validation/trace/41"
+      }
+    },
+    {
+      "claim_id": "claim_91089c61335ac8948952",
+      "claim_text": "值得注意的是，现行政策已进行过关键调整：新能源乘用车标准车型积分分值平均下调约40%，并引入了“新能源汽车积分池管理”机制，允许企业将富余的正积分存储以备未来之需，有效期为五年。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_b845bb9e66394462f31c"
+      ],
+      "span_start": 1274,
+      "span_end": 1363,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_3faf5b36bea4dd7b1071",
+          "claim_id": "claim_91089c61335ac8948952",
+          "evidence_id": "evidence_b845bb9e66394462f31c",
+          "source_id": "source_659f43b94bec810a692f",
+          "url": "https://www.autohome.com.cn/ask/11061322.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/42",
+        "validation_pointer": "/evidence_validation/trace/42"
+      }
+    },
+    {
+      "claim_id": "claim_d0c0bb3ea7e6286d754c",
+      "claim_text": "国务院办公厅印发的《关于进一步构建高质量充电基础设施体系的指导意见》设定了到2030年建成高质量充电体系的目标。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_881e77db8703c2bade02"
+      ],
+      "span_start": 1903,
+      "span_end": 1959,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_0e40c39c7cf29db59548",
+          "claim_id": "claim_d0c0bb3ea7e6286d754c",
+          "evidence_id": "evidence_881e77db8703c2bade02",
+          "source_id": "source_66666b27856cc6be9ce6",
+          "url": "https://www.autohome.com.cn/ask/13871368.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/43",
+        "validation_pointer": "/evidence_validation/trace/43"
+      }
+    },
+    {
+      "claim_id": "claim_6d728b4046ab279a0788",
+      "claim_text": "与此同时，2025年全国启动了第二批公共领域车辆全面电动化先行区试点，覆盖10个城市，聚焦公交、出租、环卫、邮政、城市物流等领域的全面电动化。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_c39dce275895c4b93fbb"
+      ],
+      "span_start": 1959,
+      "span_end": 2030,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_809ecb5fdfb6456f9bc5",
+          "claim_id": "claim_6d728b4046ab279a0788",
+          "evidence_id": "evidence_c39dce275895c4b93fbb",
+          "source_id": "source_2ceb9e78b905a1860092",
+          "url": "http://www.cctp.org.cn/guoneiwenjian?category=&orderway=desc&zt=value16"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/44",
+        "validation_pointer": "/evidence_validation/trace/44"
+      }
+    },
+    {
+      "claim_id": "claim_0d257edfa793b20c21f7",
+      "claim_text": "地方层面，如深圳市发布的《加快打造人工智能先锋城市行动计划（2025—2026年）》，明确将新能源汽车与数字智慧交通、车路协同、AI大模型赋能智能驾驶列为协同发展重点。",
+      "section_id": "sec_4",
+      "evidence_ids": [
+        "evidence_c39dce275895c4b93fbb"
+      ],
+      "span_start": 2397,
+      "span_end": 2481,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_7d88412444a87b9bfbcc",
+          "claim_id": "claim_0d257edfa793b20c21f7",
+          "evidence_id": "evidence_c39dce275895c4b93fbb",
+          "source_id": "source_2ceb9e78b905a1860092",
+          "url": "http://www.cctp.org.cn/guoneiwenjian?category=&orderway=desc&zt=value16"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/45",
+        "validation_pointer": "/evidence_validation/trace/45"
+      }
+    },
+    {
+      "claim_id": "claim_701b5c78ba91c5f10bfd",
+      "claim_text": "尽管2024年四季度价格战趋稳，但在渗透率持续攀升至57%（乘联会预测）的背景下，市场竞争白热化将长期存在。",
+      "section_id": "sec_5",
+      "evidence_ids": [
+        "evidence_e01cfa90ab1e01507337"
+      ],
+      "span_start": 683,
+      "span_end": 737,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_3e22d454f256c92644ad",
+          "claim_id": "claim_701b5c78ba91c5f10bfd",
+          "evidence_id": "evidence_e01cfa90ab1e01507337",
+          "source_id": "source_4b51e3d2b1ffb7b69165",
+          "url": "https://www.163.com/dy/article/JO4LUNBA0519D45U.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/46",
+        "validation_pointer": "/evidence_validation/trace/46"
+      }
+    },
+    {
+      "claim_id": "claim_d7b3c39c952fbb03fd73",
+      "claim_text": "美国拟将中国新能源汽车关税提至100%，欧盟反补贴调查可能导致针对性加征关税。",
+      "section_id": "sec_5",
+      "evidence_ids": [
+        "evidence_de953590d01c9d338482"
+      ],
+      "span_start": 1008,
+      "span_end": 1047,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_6dd4cc72fbb1f032b1b2",
+          "claim_id": "claim_d7b3c39c952fbb03fd73",
+          "evidence_id": "evidence_de953590d01c9d338482",
+          "source_id": "source_32bf0cd344f81aaf0c9e",
+          "url": "https://m.eepw.com.cn/article/202406/460357.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/47",
+        "validation_pointer": "/evidence_validation/trace/47"
+      }
+    },
+    {
+      "claim_id": "claim_eda377d9881ef1b2a949",
+      "claim_text": "根据公开数据，比亚迪2024年汽车出口量达43.3万辆，同比增长71.8%；",
+      "section_id": "sec_5",
+      "evidence_ids": [
+        "evidence_35f3507b8b87d42d5fb6"
+      ],
+      "span_start": 1081,
+      "span_end": 1119,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_1c6fc7c4f64c2fbc9308",
+          "claim_id": "claim_eda377d9881ef1b2a949",
+          "evidence_id": "evidence_35f3507b8b87d42d5fb6",
+          "source_id": "source_b5064349418512f9405e",
+          "url": "https://m.163.com/dy/article/JM61FSUV0511CRGN.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/48",
+        "validation_pointer": "/evidence_validation/trace/48"
+      }
+    },
+    {
+      "claim_id": "claim_91a3c5a3842f58b02d3e",
+      "claim_text": "吉利出口量为40.39万辆，同比增长53%。",
+      "section_id": "sec_5",
+      "evidence_ids": [
+        "evidence_35f3507b8b87d42d5fb6"
+      ],
+      "span_start": 1119,
+      "span_end": 1141,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_c0983455c77013c6ef4b",
+          "claim_id": "claim_91a3c5a3842f58b02d3e",
+          "evidence_id": "evidence_35f3507b8b87d42d5fb6",
+          "source_id": "source_b5064349418512f9405e",
+          "url": "https://m.163.com/dy/article/JM61FSUV0511CRGN.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/49",
+        "validation_pointer": "/evidence_validation/trace/49"
+      }
+    },
+    {
+      "claim_id": "claim_498234b6c02efbf09602",
+      "claim_text": "2024年中国新能源乘用车出口已达129.0万辆，同比增长24.3%。",
+      "section_id": "sec_5",
+      "evidence_ids": [
+        "evidence_36fd1d154d9d0d27da79"
+      ],
+      "span_start": 1459,
+      "span_end": 1494,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_61003ceb3b80bb5b2cf3",
+          "claim_id": "claim_498234b6c02efbf09602",
+          "evidence_id": "evidence_36fd1d154d9d0d27da79",
+          "source_id": "source_191b29562332cc60747f",
+          "url": "https://www.163.com/dy/article/JLFP5L200519U3I5.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/50",
+        "validation_pointer": "/evidence_validation/trace/50"
+      }
+    },
+    {
+      "claim_id": "claim_0d315c4b1c7f7a64e3d0",
+      "claim_text": "乘联会预测2025年新能源乘用车零售量将达1565万辆，同比增长28%，渗透率高达66.8%。",
+      "section_id": "sec_5",
+      "evidence_ids": [
+        "evidence_9fc4fd2fc69237d98cb4"
+      ],
+      "span_start": 2031,
+      "span_end": 2078,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_f6a7e084e07c57bd20ae",
+          "claim_id": "claim_0d315c4b1c7f7a64e3d0",
+          "evidence_id": "evidence_9fc4fd2fc69237d98cb4",
+          "source_id": "source_105e181d36aa5aa7bfa6",
+          "url": "https://toutiao.hbzhan.com/shortnews/7182"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/51",
+        "validation_pointer": "/evidence_validation/trace/51"
+      }
+    },
+    {
+      "claim_id": "claim_fe97a2be4f37f072ce2c",
+      "claim_text": "2024年，中国新能源汽车销量已达1286.6万辆，同比增长35.5%，新车销量占汽车总销量的比例达到40.9%。",
+      "section_id": "sec_6",
+      "evidence_ids": [
+        "evidence_943dd9d6120775aad67b"
+      ],
+      "span_start": 204,
+      "span_end": 261,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_14feb9e4599a27af64c0",
+          "claim_id": "claim_fe97a2be4f37f072ce2c",
+          "evidence_id": "evidence_943dd9d6120775aad67b",
+          "source_id": "source_d3af50b2490f1013f65f",
+          "url": "https://www.toutiao.com/article/7459319563704861184/"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/52",
+        "validation_pointer": "/evidence_validation/trace/52"
+      }
+    },
+    {
+      "claim_id": "claim_ece7ba60d63df67f0104",
+      "claim_text": "进入2025年，市场渗透率预计将实质性突破50%（据中国电动汽车百人会等机构预测），标志着新能源汽车从替代品转变为市场主流选择。",
+      "section_id": "sec_6",
+      "evidence_ids": [
+        "evidence_1f36380cac98db77c3ff"
+      ],
+      "span_start": 261,
+      "span_end": 325,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_5acef7544aafc6b520dc",
+          "claim_id": "claim_ece7ba60d63df67f0104",
+          "evidence_id": "evidence_1f36380cac98db77c3ff",
+          "source_id": "source_b4336ec406bfa0ff4dad",
+          "url": "https://news.qq.com/rain/a/20250514A058VA00"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/53",
+        "validation_pointer": "/evidence_validation/trace/53"
+      }
+    },
+    {
+      "claim_id": "claim_1140cc69125e4b03a982",
+      "claim_text": "根据财政部等三部门公告，2024年至2025年期间购置的新能源汽车继续免征车辆购置税（每辆免税额不超过3万元），而2026年至2027年将调整为减半征收。",
+      "section_id": "sec_6",
+      "evidence_ids": [
+        "evidence_55415eb7ce4c3df68c43"
+      ],
+      "span_start": 705,
+      "span_end": 782,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_facc9f39a673afec0d76",
+          "claim_id": "claim_1140cc69125e4b03a982",
+          "evidence_id": "evidence_55415eb7ce4c3df68c43",
+          "source_id": "source_0f1fa110b65d44432c86",
+          "url": "https://www.urumqi.gov.cn/wlmqs/c119180/202308/dd3c7ad7559145bb8a6ffc467e43f937.shtml"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/54",
+        "validation_pointer": "/evidence_validation/trace/54"
+      }
+    },
+    {
+      "claim_id": "claim_90d4cbeb513bebb5ba5e",
+      "claim_text": "吉利汽车（含吉利、银河、极氪、领克）2024年累计销量达217.66万辆，新能源汽车占比为50%，呈现出稳健的转型步伐。",
+      "section_id": "sec_6",
+      "evidence_ids": [
+        "evidence_bd18d38edae292ce1120"
+      ],
+      "span_start": 1732,
+      "span_end": 1792,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_6538eba18de901d74cf3",
+          "claim_id": "claim_90d4cbeb513bebb5ba5e",
+          "evidence_id": "evidence_bd18d38edae292ce1120",
+          "source_id": "source_33e1b47d3638e5f91eaf",
+          "url": "https://max.book118.com/html/2025/0206/5233331344012043.shtm"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/55",
+        "validation_pointer": "/evidence_validation/trace/55"
+      }
+    },
+    {
+      "claim_id": "claim_24ca7fa8949a49aa0f8f",
+      "claim_text": "长安汽车2024年总销量创七年新高，达268万辆，其中新能源汽车销量为73万辆，同比增长超50%，新能源占比为54%。",
+      "section_id": "sec_6",
+      "evidence_ids": [
+        "evidence_1b750ea047c60fbb9095"
+      ],
+      "span_start": 2007,
+      "span_end": 2066,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_c9c70f0c222b1ef5267d",
+          "claim_id": "claim_24ca7fa8949a49aa0f8f",
+          "evidence_id": "evidence_1b750ea047c60fbb9095",
+          "source_id": "source_53c3fe223d8cd9ec5876",
+          "url": "https://finance.sina.cn/2025-01-15/detail-ineezhcf7997218.d.html"
+        }
+      ],
+      "validation_status": "invalid",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/56",
+        "validation_pointer": "/evidence_validation/trace/56"
+      }
+    },
+    {
+      "claim_id": "claim_cce6c792cc2697e99e6b",
+      "claim_text": "理想汽车2024年销量为50.45万辆，作为一个聚焦家庭用户的新势力品牌，已成功在增程细分市场建立起强大的品牌壁垒和盈利能力。",
+      "section_id": "sec_6",
+      "evidence_ids": [
+        "evidence_9f8fa1706f8a32b9621e"
+      ],
+      "span_start": 2265,
+      "span_end": 2328,
+      "occurrence": 1,
+      "citations": [
+        {
+          "citation_id": "citation_3f3bc84d8b6be04f09be",
+          "claim_id": "claim_cce6c792cc2697e99e6b",
+          "evidence_id": "evidence_9f8fa1706f8a32b9621e",
+          "source_id": "source_ea07a9567b9ebb668c38",
+          "url": "http://baa.m.yiche.com/zonghe/thread-51610465.html"
+        }
+      ],
+      "validation_status": "unknown",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/claims/57",
+        "validation_pointer": "/evidence_validation/trace/57"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence_dc9dcb0e0736977a786a",
+      "source_id": "source_e93638320d72c38036f8",
+      "snippet": "2025 年3月,纯电动汽车(BEV)在中国汽车市场的总份额中占比超过三分之一。 3 月标志着中国电动汽车市场淡季的结束 —— 这是由农历新年庆祝活动的时间安排所导致的。今年第一季度的最后一个月,新能源汽车(包括纯电和插电混动等)的销量接近 100 万辆(整体汽车市场销量为 190 万辆)。其增长率达到了 39%,而整个汽车市场的同比增长率为 12%,这是一个不错的成绩,尤其要考虑到 3 月份内燃机汽车(ICE)的销量同比下降了约 7.6 万辆。 内燃机汽车销量下降,电动汽车销量上升 —— 形势看起来不错...... 深入分析这些数据可以发现, 纯电动汽车是增长最快的类型,销量增长了 51%,达到 64.6 万辆,而插电式混合动力汽车(PHEV)增长了 25%,增程式电动汽车(EREV)增长了 4%。 这使得年初至今(YTD)的累计销量超过了 240 万辆。所以,仅在中国,我们预计新能源汽车今年的销量最终会远超过 1000 万辆。 从市场份额来看, 3 月新能源汽车的市场份额突破了 50% 的门槛,达到了 52%!仅纯电动汽车( BEV )就占中国汽车销量的 34%,而插电式混合动力汽车占 27%,增程式电动汽车占 8% ,这使得纯电动汽车成为中",
+      "section_ids": [
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/9"
+      }
+    },
+    {
+      "evidence_id": "evidence_83a49fe490956b84d208",
+      "source_id": "source_9adbd53412c47ae019ce",
+      "snippet": "根据相关数据显示,2025年中国新能源汽车产销量预计将突破600万辆,同比增长超过40%。其中,纯电动汽车(BEV)和插电式混合动力汽车(PHEV)成为市场的主力军,市场份额不断扩大。 (2)在技术创新方面,中国新能源汽车行业取得了显著成果。电池能量密度和续航里程不断提高,智能化和网联化水平逐渐成熟。",
+      "section_ids": [
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/14"
+      }
+    },
+    {
+      "evidence_id": "evidence_0aada6d3caa0b72d1ca2",
+      "source_id": "source_7d5b758ccbaa1bb96bfb",
+      "snippet": "中国新能源乘用车(EV&PHEV&REEV&HEV)销量及同比增速 来源:佐思汽研《2023-2024年全球和中国混合动力汽车研究报告》 中国插电/增程式混动乘用车已经占新能源乘用车的30.6%,2023年,国内车企推出超过30款插电/增程式混动新车。随着新车型的不断涌现,插电/增程式混动乘用车销量将呈现持续增长的趋势,预计到2025年,中国插电/增程式混动乘用车销量份额占比将达到40%。",
+      "section_ids": [
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/16"
+      }
+    },
+    {
+      "evidence_id": "evidence_d2d7a0c91678c29c4ba7",
+      "source_id": "source_c2a3210413d5b882ea7b",
+      "snippet": "一、市场整体格局:头部集中与多元化并存\n销量与份额\n2025年1月,中国新能源汽车销量达94.4万辆,占汽车总销量的38.9%,市场加速从政策驱动转向市场驱动。比亚迪以26.9%的市占率稳居榜首,吉利(15.8%)、长安(6.9%)分列二三位,新势力中理想、问界、零跑增速显著,同比增幅分别达34%、319%、107%。全年销量数据显示,比亚迪以348.9万辆遥遥领先,特斯拉(66万辆)、上汽通用五菱(64.3万辆)紧随其后,新势力理想(50.4万辆)、问界(38.8万辆)、零跑(27万辆)成为第二梯队主力。\n品牌分化与转型\n传统车企加速新能源转型:吉利通过银河、极氪、领克多品牌矩阵覆盖全价位段,2024年新能源销量同比增长52%;一汽奔腾推出纯电序列“悦意”,悦意03以9.29万起售价冲击下沉市场,续航达565km,搭载AI大模型座舱。新势力中,理想、问界凭借增程技术精准定位家庭与高端用户,小鹏通过低价车型MONA 03(12万起)扩大份额。\n二、10-20万主战场:技术与性价比的“绞肉机”\n主流车型竞争白热化\n比亚迪:王朝/海洋系列(秦PLUS、宋Pro DM-i)占其销量70%,但面临混动与纯电双重分流压力。\n吉利银河:L6 EM-i(7.98万起)、星舰7 EM-i(9.78万起)、E5(10.78万起)覆盖7-15万区间,依托雷神电混与Flyme Auto车机抢占市场。\n新势力与合资:零跑B10(9万级)、小鹏MONA 03(12万起)、丰田贴牌埃安(10-15万)以低价+智能化切入;BBA车型(如宝马i3、奔驰EQA)降价至15-20万,凭借豪华属性分食份额。\n技术路线博弈\n混动崛起:插混(PHEV)占比提升至57%,吉利雷神EM-P、比亚迪DM-i、长城柠檬混动形成技术矩阵。\n纯电突破:快充与续航升级成焦点,如银河E8搭载800V平台,10分钟补能400km;奔",
+      "section_ids": [
+        "sec_2",
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/19"
+      }
+    },
+    {
+      "evidence_id": "evidence_528ad927f426e9dd140b",
+      "source_id": "source_d8a13632dbe93f244f18",
+      "snippet": "二、新能源汽车行业竞争格局分析\n1.新能源汽车厂商零售销量排行\n2025年1月,中国新能源汽车厂商零售销量前十厂商零售销量合计59.39万辆,市场份额合计79.8%。其中,比亚迪汽车零售销量最高达20.02万辆,市场份额26.9%。吉利汽车、长安汽车排名第二和第三,零售销量分别为11.76万辆,5.11万辆,市场份额分别为15.8%、6.9%。上汽通用五菱、鸿蒙智行、特斯拉中国、理想汽车、小鹏汽车、奇瑞汽车、零跑汽车进入前十,依次排名第4-10名。\n与上年同期相比,小鹏汽车、奇瑞汽车零售销量翻倍增长,涨幅分别为260.9%、194.1%。零跑汽车、吉利汽车零售销量涨幅超80%。理想汽车、长安汽车、特斯拉中国零售销量负增长。\n数据来源:中商产业研究院整理\n2.中国造车新势力企业新能源汽车销量排行\n2024年我国造车新势力企业销量合计约176.1万辆,同比增长72%,占整个新能源汽车销量的16%,较去年同期市占比上升约2个百分点。其中,理想汽车位列造车新势力企业销量榜首,销售约50.4万辆。问界、零跑分别排名第二和第三,销量分别为38.8万辆、27万辆。蔚来、小鹏、小米销量超10万辆,分别为22.7万辆、17.1万辆、13.7万辆。\n与上年同期相比,极石、问界、零跑销量翻倍增长,涨幅分别为571%、319%、107%。蔚来、理想、小鹏销量涨幅超20%,创维、凌宝、哪吒销量负增长。\n数据来源:新能源汽车交强险口径、中商产业研究院整理",
+      "section_ids": [
+        "sec_2"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/21"
+      }
+    },
+    {
+      "evidence_id": "evidence_ebd4deb349d135b961b7",
+      "source_id": "source_1eddbd2d98347b12b738",
+      "snippet": "2025-03-07 09:39:09 来源: 中商产业研究院 广东 举报 中商情报网讯:新能源汽车是指采用非常规的车用燃料作为动力来源,综合车辆的动力控制和驱动方面的先进技术,形成的技术原理先进、具有新技术、新结构的汽车。新能源汽车是汽车产业转型升级、绿色发展的主要方向,加快新能源汽车产业发展,是培育新的经济增长点的重要举措,也是建设现代化产业体系的战略选择。 一、新能源汽车行业现状分析 近年来,中国新能源汽车产销量不断增长。中汽协数据显示,2025年1月,能源汽车销量与动力电池装车量均实现稳定增长,新能源汽车产销分别完成101.5万辆和94.4万辆,同比分别增长29%和29.4%。 数据来源:中汽协、中商产业研究院整理 中汽协数据显示,2025年1月,新能源汽车新车销量达到汽车新车总销量的38.9%。新能源汽车在整体汽车市场中的占比已接近四成,消费者对电动化产品的接受度持续提升。随着政策推动与技术进步,新能源汽车市场正加速从政策驱动转向市场驱动。 数据来源:中汽协、中商产业研究院整理 二、新能源汽车行业竞争格局分析 1.新能源汽车厂商零售销量排行 2025年1月,中国新能源汽车厂商零售销量前十厂商零售销量合计59.39万辆,市场份额合计79.8%。其中,比亚迪汽车零售销量最高达20.02万辆,市场份额26.9%。吉利汽车、长安汽车排名第二和第三,零售销量分别为11.76万辆,5.11万辆,市场份额分别为15.8%、6.9%。上汽通用五菱、鸿蒙智行、特斯拉中国、理想汽车、小鹏汽车、奇瑞汽车、零跑汽车进入前十,依次排名第4-10名。 与上年同期相比,小鹏汽车、奇瑞汽车零售销量翻倍增长,涨幅分别为260.9%、194.1%。零跑汽车、吉利汽车零售销量涨幅超80%。理想汽车、长安汽车、特斯拉中国零售销量负增长。 数据来源:中商产业研究院整理 2.中国造车新势力企",
+      "section_ids": [
+        "sec_2"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/27"
+      }
+    },
+    {
+      "evidence_id": "evidence_771739ff780dfa39b59c",
+      "source_id": "source_1365a755751949f39619",
+      "snippet": "中新社北京6月3日电\n(记者\n刘育英)中国工业和信息化部、国家发展改革委、农业农村部等五部门6月3日发布关于开展2025年新能源汽车下乡活动的通知,并公布新能源汽车下乡活动车型目录,包括124款车型。\n据中国工信部官网,此次全国汽车下乡活动选取适宜农村市场、口碑较好、质量可靠的124款新能源汽车车型,在新能源汽车推广比例不高、市场潜力较大的典型县域城市,举行若干场专场活动。\n本次车型目录中包括比亚迪、深蓝、埃安、岚图、阿维塔、小鹏、吉利、极氪等众多新能源知名品牌的多款车型。\n通知指出,2025年新能源汽车下乡活动与县域充换电设施补短板试点、智能网联汽车“车路云一体化”试点等工作形成协同效应,推动优质资源向乡村地区倾斜,推动车网互动技术在乡村地区应用,提升乡村绿色发展水平。\n通知称,鼓励各类新能源汽车生产、销售、金融、充换电及售后服务等领域市场主体共同参与,结合以旧换新、县域充换电设施补短板等政策工具,定制“购车优惠+用能支持+服务保障”一体化促销方案,健全覆盖购车、用车、养车全周期售后服务网络。\n据中国汽车工业协会数据,今年1-4月,中国新能源汽车产销分别完成442.9万辆和430万辆,同比分别增长48.3%和46.2%;新能源汽车新车销量达到汽车新车总销量的42.7%。(完)",
+      "section_ids": [
+        "sec_3"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/28"
+      }
+    },
+    {
+      "evidence_id": "evidence_0d06b1b0bf127efcd287",
+      "source_id": "source_b168eb91593da1f67efb",
+      "snippet": "据中国汽车流通协会乘用车市场信息联席分会最新 零售 销量数据统计,2025年3月份国内狭义乘用车市场 零售 销量达194.0万辆,同比增长14.4%,环比增长40.2%;1-3月份累计销量512.7万辆,同比增长6.0%。 \n3月分析: 在国家促消费政策刺激、上海车展前夕的新车发布以及各省市合力出台的促消费政策、叠加最近车企补贴加码等综合利好因素作用下,3月的车市消费主题已经从节前的燃油车消费为主转为节后的新能源消费为主,3月新能源车成为春季乘用车市场恢复的主要动力。3月全月零售194万辆,成为仅次于2018年3月(198万辆)的历史第二巅峰 。\n本文数据是基于 中国汽车流通协会乘用车市场信息联席分会 月报表-初稿。\n*转载或引用本公众号的原创文章,请注明出处。",
+      "section_ids": [
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/36"
+      }
+    },
+    {
+      "evidence_id": "evidence_65b4c4bd2b6bdf9e7811",
+      "source_id": "source_c7cc418c3191fe4c9f65",
+      "snippet": "根据相关行业数据预测,2025年3月,国内狭义乘用车零售市场规模预计将达到约185万辆,与去年同期相比增长9.1%,环比上月增幅达33.7%。这一数据显示出3月车市的强劲增长态势。\n其中,新能源汽车的零售量预计将达到100万辆,市场渗透率回升至54.1%,成为推动车市增长的重要力量。回顾历史数据,中国新能源汽车月销量首次突破100万辆是在2024年8月。\n分析认为,作为传统车市的销售旺季,3月延续了2月底的市场热度,整体氛围保持活跃。从供给端来看,各大车企积极加大研发投入,通过技术创新和多样化产品布局提升市场竞争力。同时,新车型密集上市,产品迭代速度明显加快,为消费者提供了更多优质选择,进一步激发了购车需求。\n此外,新能源汽车渗透率在2025年3月再次超过50%,这得益于政策支持、技术进步以及消费者认知提升等多重因素的共同作用。随着智能化技术的普及和充电基础设施的不断完善,未来新能源汽车的市场渗透率有望继续提高。\n本文属于原创文章,如若转载,请注明来源: 2025年3月车市预测:零售185万辆,新能源破百万辆 https://auto.zol.com.cn/963/9630008.html",
+      "section_ids": [
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/39"
+      }
+    },
+    {
+      "evidence_id": "evidence_9fc4fd2fc69237d98cb4",
+      "source_id": "source_105e181d36aa5aa7bfa6",
+      "snippet": "2月24日消息,乘联会秘书长崔东树近日发文披露,该团队于2月中旬对2025年汽车行业年度预测进行了微调。据预测,2025年乘用车零售量将达到2343万台,同比增长2%。其中,新能源乘用车销量预计将达到1565万台,同比增长28%。这一数据显示,2025年新能源汽车在市场中的占比将高达66.8%,换言之,每售出3辆车中,就有2辆是新能源汽车。乘联会进一步分析指出,2024年全国乘用车厂家销量为1223万台。新能源车价格的下降,叠加国家报废更新和以旧换新政策的推动,以及对新能源车相比燃油车高出0.5万元的补贴政策,共同促成了对燃油车的替代效果超出预期。对于2025年新能源乘用车的预测,乘联会在1月时维持在1563万台的水平,而在2月进行了上调至1565万台,较1月增加了2万台。  #新能源汽车#  (来源: 快科技,作者:随心)",
+      "section_ids": [
+        "sec_3",
+        "sec_5"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/44"
+      }
+    },
+    {
+      "evidence_id": "evidence_56a98e26491ebc3ba02c",
+      "source_id": "source_200922db2c8c470e4281",
+      "snippet": "乘联分会公告数据显示,3月乘用车企业批发销量达114万辆,同比增长37%,环比增长37%。此外,乘联分会还综合预测了今年前1-3月累计批发销量,预计一季度将达到286万辆,同比大增43%。\n数据显示,3月比亚迪以37.14万辆的成绩稳居榜首,紧随其后的是吉利汽车和特斯拉中国,其中特斯拉3月份批发销量为7.89万辆,同比下降了11.5%。\n总体来看,新能源乘用车市场正呈现出强劲的发展势头,市场竞争也日趋白热化。",
+      "section_ids": [
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/52"
+      }
+    },
+    {
+      "evidence_id": "evidence_33e2fe684bf0a8bd06ea",
+      "source_id": "source_547c47eed87392d9e7f3",
+      "snippet": "4月2日,乘联分会发布2026年3月新能源乘用车市场预判。其中指出,2026年春节时间较晚,受此影响,3月上半月仍处于节后消费修复期,市场热度恢复相对缓慢。随着各地以旧换新补贴发力、春季新车陆续上市,反内卷效果显现,终端热度逐步提升,下旬起市场开启季节性回暖,消费者观望情绪有望减弱。由于国际油价近期剧烈波动,国内油价上调力度较大,国内新能源渗透率逐周提升,成为3月乘用车市场恢复的重要驱动力。随着近期主力车企的电动化突破和部分爆款新品的推出,带动3月部分主力厂商创当月历史新高。3月的吉利汽车(00175.HK)、奇瑞汽车(09973.HK)、零跑汽车(09863.HK)、东风汽车、理想汽车(LI.US)、蔚来(NIO.US)汽车、上汽乘用车、极狐汽车、一汽红旗、东风日产、广汽丰田、智己汽车、上汽通用、北汽乘用车等厂商新能源批发销量均创出历年3月历史新高的优异表现。全国乘用车市场,2026年2月新能源销量万辆以上厂商的批发销量占总体新能源乘用车当月销量的93%。根据3月初步汇总数据,这些2月新能源销量万辆以上厂商企业的3月销量为99万辆。目前大部分厂商销量基本都已经锁定大数,部分因2月春节因素批发偏低厂商的3月表现很好,因此按照上月结构占比结合本月数据,测算3月全国新能源乘用车批发销量为112万辆。综上,根据月度初步乘联数据综合:2026年3月全国乘用车厂商新能源批发预估112万辆,同比去年持平,环比2月增长55%。",
+      "section_ids": [
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/53"
+      }
+    },
+    {
+      "evidence_id": "evidence_653aba927f96665e2510",
+      "source_id": "source_3496bc7d9bc39f7e315f",
+      "snippet": "能量密度是大家关心的另一个焦点。\n网上疯传能量密度提升了30%,这个数字需要拆开看。\n根据目前多个渠道的信息,第三代刀片电池的电芯能量密度达到了230Wh/kg左右。\n相比第二代刀片电池大约199-200Wh/kg的水平,提升幅度在15%上下,并没有达到30%那么夸张。\n但是,当这些电芯被集成到电池包里,做成可以装车的成品时,系统的能量密度会因为结构件、连接件等产生损耗。\n比亚迪的厉害之处在于,它的CTP(无模组)和CTB(车身电池一体化)技术,极大地减少了这些“无用”的空间和重量。\n最终的结果是,搭载第三代电池的汉EV,CLTC综合工况续航可以轻松突破1000公里。\n也就是说,能量密度的有效提升,加上极致的空间利用,共同实现了续航的跨越。",
+      "section_ids": [
+        "sec_3"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/57"
+      }
+    },
+    {
+      "evidence_id": "evidence_649ac8f6a5aad19b6549",
+      "source_id": "source_2115463d71d218adcca2",
+      "snippet": "简单整理了一些值得关注的比亚迪刀片电池数据,供各位参考!能量密度-\n目前刀片电池能量密度可达180wh/kg左右,通过结构创新,其体积能量密度与主流三元锂电池持平,使搭载该电池的车辆在相同体积下有相近电量.-\n比亚迪第二代刀片电池能量密度有望提升至190wh/kg,将进一步提升车辆续航里程.续航里程-\n以比亚迪汉EV(配置|询价)为例,其搭载刀片电池后续航可达605km,展现了刀片电池在续航方面的优势,目前部分车型续航里程已超700km,未来随着技术发展,续航有望突破1000公里.安全性能-\n针刺测试中,刀片电池无明火、无烟,表面温度仅30°C-60°C,而三元锂电池会剧烈燃烧爆炸,磷酸铁锂块状电池会冒烟,对比可见刀片电池安全性高.-\n刀片电池单体在高于最高电压2.6倍的充电条件下,仅冒烟未起火爆炸,且某电芯热失控后不引发临近电池起火爆炸,为逃生救援争取时间.使用寿命-\n刀片电池可满足充放电3000次以上,满足车辆行驶全生命周期需求,部分车型电池使用寿命达8年120万公里以上,减少了消费者更换电池成本.低温性能-\n在零下20°C时,刀片电池放电能力至少是常温时的90%,低温充电时间与三元锂电池差距不大,仅低温低电量充电功率稍落后,改善了磷酸铁锂电池低温续航衰减难题.生产效率-\n比亚迪重庆弗迪锂电池工厂,刀片电池极片叠片速度达0.3秒/片,为业界最高水平,且对齐公差控制在±0.3毫米以内,保障了生产质量和效率.",
+      "section_ids": [
+        "sec_3"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/61"
+      }
+    },
+    {
+      "evidence_id": "evidence_249d2fe0dbb73f902474",
+      "source_id": "source_f5e8c55998f776a34ee4",
+      "snippet": "你会关注比亚迪新一代刀片电池哪些数据\n比亚迪新一代刀片电池这几个数据很值得被关注:\n1.能量密度:新一代刀片电池的能量密度将提升至190Wh/kg,相较于第一代刀片电池的140-150Wh/kg有了显著提升,这一提升使得搭载该电池的纯电车型续航里程有望突破1000km,从而大幅提高新能源汽车的续航能力.\n2.充放电倍率:有消息称,新一代刀片电池的充电倍率将超过5.5C,放电倍率将超过14C,这意味着其充电速度将大幅提升,能在更短的时间内为车辆补充电能,同时,较高的放电倍率也能为车辆提供更强的动力性能.\n3.循环寿命:新一代刀片电池在循环充放电寿命方面也有所优化,虽然目前具体数据尚未明确,但有消息称其循环寿命将进一步延长,这将降低车辆的使用成本,提高电池的耐用性.\n4.安全性:比亚迪刀片电池一直以安全性著称,新一代刀片电池预计将继续保持并提升这一优势,通过优化电池结构和材料等方面,进一步提高电池的安全性能,减少电池在使用过程中出现起火、爆炸等安全事故的风险.",
+      "section_ids": [
+        "sec_3"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/62"
+      }
+    },
+    {
+      "evidence_id": "evidence_ba9c9144a675db598def",
+      "source_id": "source_7deb7c6c874a9560e637",
+      "snippet": "1、比亚迪集团:25Q1全球销量986,098辆,同比+57.93%;其中,新能源销量986,098辆,同比+57.93%,占比100%;海外销量213,042辆,同比+110.72%,占到全部销量的21.6%; 2、上汽集团:25Q1全球销量944,850辆,同比+13.27%;其中,新能源销量272,852辆,同比+29.89%,占比28.88%;海外销量219,026辆,同比-3.37%,占到全部销量的23.2%; 3、长安汽车:25Q1全球销量523,371辆,同比+21.13%;其中,新能源销量194,173辆,同比+50.75%,占比37.10%;海外销量159,585辆,同比+45.15%,占到全部销量的22.8%; 4、吉利汽车:25Q1全球销量703,824辆,同比+48.00%;其中,新能源销量339,200辆,同比+135.35%,占比48.19%;海外销量160,555辆,同比+2.00%,占到全部销量的22.8%; 5、奇瑞汽车:25Q1全球销量566,446辆,同比+17.10%;其中,新能源销量163,458辆,同比+171.80%,占比28.9%;海外销量255,465辆,同比+4.00%,占到全部销量的45.1%; 6、长城汽车:25Q1全球销量256,807辆,同比-6.73%;其中,新能源销量62,558辆,占比24.4%;海外销量90,890辆,同比+10.35%,占到全部销量的35.4%。",
+      "section_ids": [
+        "sec_1"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/69"
+      }
+    },
+    {
+      "evidence_id": "evidence_014519669a6d6d147b8c",
+      "source_id": "source_5d9006f1cda8e44cf949",
+      "snippet": "在今年6月由中国汽车知识产权运用促进中心(运促中心)发起的“中国汽车技术创新领先企业评选”中,吉利控股集团凭借在混合动力控制技术方面的卓越表现,荣获“2024年度中国汽车混合动力控制技术创新领先企业”奖项。\n打开网易新闻\n查看精彩图片\n打开网易新闻\n查看精彩图片\n吉利控股集团荣获“2024年度中国汽车混合动力控制技术创新领先企业”奖距离2024年10月\n雷神\n(\n参数\n丨\n图片\n)EM超级电混发布仅一年时间,吉利便实现了显著的技术跃升。这背后,是吉利始终坚持“科技创新”的核心理念。在行业竞争日趋激烈的背景下,吉利坚信科技是赢得未来的关键。雷神电混系统从“优秀”走向“卓越”,得益于其扎实的专利布局与AI生态的双重驱动,以及全球唯一的全域AI智能化研发体系,共同支撑起吉利引领“电混技术进入AI驱动新时代”的底气。运促中心最新发布的《2024年度中国汽车混合动力系统控制技术创新企业榜》显示,吉利汽车凭借161件授权专利、145.69的综合专利创新指数,以及技术创新综合得分90分的成绩,位居榜首。这一成就的核心载体,正是雷神AI电混2.0技术体系。该体系通过EM-i\nAI电混、EM-P\nAI电混和醇氢EF三大技术路径的专利集群布局,不仅实现了全球量产最高电混专用发动机热效率47.26%的突破,更在节能、性能与智能三大维度构筑起坚实的技术护城河。雷神EM-i\nAI电混:树立AI时代的黄金能效标杆雷神EM-i\nAI电混技术在节能方面表现卓越,CLTC工况下银河A7百公里馈电油耗低至2.67L,综合续航超2100km;媒体实测数据更是低至2.49L,成为全球量产混动系统的能耗标杆。其核心突破在于采用了热效率达47.26%的全球最高水平电混专用发动机平台,并通过AI\nfor\nscience技术从百万级参数组合中精准锁定最优压缩比、燃烧室与气道设计,在提升滚流比与湍流强度的同时,精确控制进",
+      "section_ids": [
+        "sec_3"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/75"
+      }
+    },
+    {
+      "evidence_id": "evidence_3776a8e78161feaa6a1f",
+      "source_id": "source_86731960190d1c5ccf1c",
+      "snippet": "自2025年开年以来,“AI定义汽车”的浪潮正以前所未有的势能席卷行业。AI也越来越成为了各家车企抢占技术制高点、用户心智与生态话语权的核心战场。\n然而,当大模型“上车”逐渐成为行业标配,早期的技术红利逐步被稀释,产品之间的差异性也在迅速拉平。在各家车企都在谈论AI赋能出行体验时,所有参赛者似乎又回到了同一个起跑线上。\n而在近日,吉利在这场AI“军备赛”中迈出了关键一步。6月13日,吉利正式发布星睿AI云动力2.0,这也是行业首个基于AI场景引擎的动力域智能体。在AI的深度赋能下,吉利雷神超级电混进阶为“更聪明”的雷神AI电混2.0,其包含雷神EM-i\nAI电混、雷神EM-P\nAI电混以及雷神醇氢EF等多条技术路线。\n业内人士表示,这是行业首个给混动装了个“AI大脑”的动力系统。其核心理念不再是单点能耗优化,而是以AI模型为基础,实现车辆动力系统对驾驶者行为和外部环境的实时理解与自我调节。可以说,吉利不仅仅是用AI思维把汽车重做一遍,更是通过AI驱动的智能化发展开启新能源汽车发展的第二增长曲线。\n如果说此前的智能化集中于感知与交互层面,那么吉利此次通过AI赋能动力系统的操作,显然意在建立一个新的技术范式。用户不再是被动接受动力输出的使用者,而是通过日常驾驶数据持续“训练”AI模型,让车辆在不断学习中逐渐适应甚至预测用户的驾驶习惯与行驶场景,真正实现千车千面。\n这一技术路线的落地也得益于吉利智能化体系的多年积累。根据公开资料显示,吉利目前在混动系统控制领域的专利授权量已达到161件,位居全行业首位。同时,吉利是当前全球唯一完成“全域AI智能化”布局的车企,从能源管理到底盘调校,从智驾系统到云端模型更新,构建起了横跨多个关键技术域的AI生态闭环。\n值得注意的是,在AI发展的“三驾马车”——算力、数据、算法方面,吉利也建立了领先优势。在算力方面,早在2022年,吉利便建成星睿智",
+      "section_ids": [
+        "sec_3"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/76"
+      }
+    },
+    {
+      "evidence_id": "evidence_3c74e3fd3ccea0ca9606",
+      "source_id": "source_92db6155464a4f5c545f",
+      "snippet": "随着新能源汽车市场的快速崛起,2023年2月份国内新能源车零售渗透率已接近50%,标志着电动化出行已成为新常态。在这样的市场背景下,电混技术正在迎来一次革命性的变革,逐渐打破“过渡方案”的陈旧印象,朝着新能源领域的“终极形态”全速迈进。\n作为中国汽车行业的领头羊,吉利凭借其革命性的雷神EM-i超级电混技术,引领了这一行业的潮流。该技术的核心在于将AI技术深度融合于动力系统之中,以智能化手段大幅降低了燃油消耗。数据显示,搭载雷神EM-i技术的轿车油耗已低至2L/100km,SUV的油耗则仅为3L/100km,这不仅是技术上的突破,更是智能节能革命的开端。\n吉利的智能热管理系统表现尤为出色,能根据实际气温及用户出行路线智能调节电能的使用,实现了30%以上的热管理能耗削减。例如,在冬季短途行驶时,系统会自动判断不需加热的情况下省去加热环节,达到节能的效果;而在长途出行时,系统在充电时会提前对车辆进行预热,确保电池及座舱处于最佳工作状态。\n此外,吉利的智能保电功能,能够迅速识别用户的驾驶习惯,特别是在如川藏线等长爬坡道路条件下,提前进行省电操作,为电机提供充足的动力支持。最新数据表明,雷神EM-i超级电混在复杂路况下,相较于同级别竞品动力多出20%,且发动机转速低500rpm,驾乘体验更为丰富与舒适。\n在节能战术的实施上,吉利通过其智慧运动控制系统表现实属不凡。该技术在AI的指引下,能够实时监测驱动电机状态,结合车身动态、环境信息等多元数据,精准调控动力输出,降低打滑量50%,使得车辆在各种路况下都能保持良好稳定性。\n吉利还引入了智慧云诊断技术,利用数字孪生模型对动力系统和热管理进行监控与维护,保证了行驶过程的安全和可靠。实测结果显示,搭载雷神EM-i超级电混技术的车型续航可高达2390.5公里,百公里油耗仅为2.62L,银河星舰7EM-i的表现同样出色,平均油耗仅为3.2L,亏电",
+      "section_ids": [
+        "sec_3"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/77"
+      }
+    },
+    {
+      "evidence_id": "evidence_1ae3b69352d3ed44f248",
+      "source_id": "source_fc4f4163c5e368e2f98d",
+      "snippet": "IT之家\n1\n月\n24\n日消息,在\n1\n月\n22\n日的吉利控股集团战略解析会议上,吉利汽车集团\nCEO\n淦家阅宣布,2026\n年,吉利自研全固态电池将完成首个\nPack\n下线(“Pack\n生产线”即单体电池组装成电池组的完整生产线),并进行装车验证。\n会上还提到,吉利采取了“多条腿走路”的策略,研发了雷神\nAI\n电混发动机、浩瀚超级电混技术、“神盾金砖电池”等技术,半固态与固态电池的产业化搭载也在稳步推进。\n据悉,2025\n年,吉利控股全年总销量达\n411.6\n万辆,同比增长\n26%,连续五年实现快速增长。其中,新能源汽车销量达\n229.3\n万辆,同比增长\n58%,新能源渗透率达\n56%。集团销量首次突破\n400\n万辆,全球销量排名升至第七位。\n据IT之家此前报道,本月早些时候,工信部提出,提升产业链供应链自主可控能力,实施新一轮重点产业链高质量发展行动,加强标志性产品、基础材料、工具软件等攻关布局,加快突破全固态电池、高级别自动驾驶等技术。\n特别声明:以上文章内容仅代表作者本人观点,不代表新浪网观点或立场。如有关于作品内容、版权或其它问题请于作品发表后的30日内与新浪网联系。",
+      "section_ids": [
+        "sec_3"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/79"
+      }
+    },
+    {
+      "evidence_id": "evidence_1f36380cac98db77c3ff",
+      "source_id": "source_b4336ec406bfa0ff4dad",
+      "snippet": "中国电动汽车百人会副秘书长师建华在《新物种\n新理念\n新趋势——新能源汽车消费洞察与预测》发布会上预测,2025年新能源汽车销量达1650万辆(含出口),增速近30%,渗透率超过50%。2030年中国新能源渗透率将超过70%。(@中国经营报\n记者\n陈茂利)",
+      "section_ids": [
+        "sec_2",
+        "sec_5",
+        "sec_1",
+        "sec_6"
+      ],
+      "issue_ids": [
+        "issue_cf0eec7e",
+        "issue_44f2c577"
+      ],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/80"
+      }
+    },
+    {
+      "evidence_id": "evidence_b484a3b2f5e1846ab520",
+      "source_id": "source_aacc2482407e3e555c4c",
+      "snippet": "25年车企销量目标:小米狂翻三倍,理想趋近保守,比亚迪全力冲击 2025年或将成为国内车企最紧张激烈的一年,也是广大车企最后的窗口期。据36氪最新报道,多家新势力造车公司关于2025年销量预测指引出炉,其中有的车企持保守态度,有的车企则非常激进,总之面对明年最后的机遇窗口期,任何一家车企都不愿将蛋糕拱手相让。 天极车讯 31 评论 车企25年销量目标:比亚迪500万辆,吉利271万小米30万理想70万 多家车企订立2025年销量目标,2024年市场表现较好的比亚迪、吉利汽车、小米汽车、零跑汽车、极氪汽车等公司信心满满,看看他们2025年究竟有多高的销售目标? Messon财知道 43 评论 造车新势力|2024年少数达成销量目标,2025年多数计划销量翻番 在新能源车渗透率连续突破50%的2024年,新势力的体量也在膨胀。不知不觉间,榜首公司的销量规模已达到一家量产车企的门槛。具体来看,理想汽车作为造车新势力的领头羊,在2024年全年交付新车500508辆,同比增长33%。 澎湃新闻 理想汽车完成今年销量目标;何小鹏发布内部信;百度App内测极简版 | 晚报 编者按:鞭牛士整理每天热门行业新闻,一站式了解当日动态。—— 国内动态 ——1、理想汽车:2024年累计交付量突破50万辆理想汽车今日宣布,2024年累计交付量突破50万辆。据悉,理想年初定下的年目标销量为80万辆,但因MEGA失利后,连续进行下调至48万。 鞭牛士 2025年销量目标陆续公布,新能源车扛大旗 岁末年初,部分车企相继制定了2025年的销量目标,以东风、吉利、广汽等为代表的几大汽车集团,2025年目标相较于2024年总销量,增幅普遍在10%~30%之间,其中新能源汽车和出口,被认为是驱动各家销量持续增长的关键。 南方+客户端 红观2025丨这些车企,2025年销量目标定了 2025年开年,中国汽车工业传捷",
+      "section_ids": [
+        "sec_2"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/89"
+      }
+    },
+    {
+      "evidence_id": "evidence_f6ac12bed92b2e8ed5cf",
+      "source_id": "source_4405a0f3f5dfe831c2ee",
+      "snippet": "张克刚刚过完元旦节日,各大汽车品牌已经迫不及待公布了2025年销量,即便向来慢一拍的合资阵营,竟也争相公布成绩。当然结果也是几家欢乐几家愁,有人欢喜有人忧。自主五虎;比亚迪最强,长城准备发力2025年市场销冠依然是比亚迪,这个基本无悬念,也没有争议。2025年12月份,比亚迪销量为42万辆,全年累计销量460万辆‌,同比增长7.73%,创历史新高。尤其是‌纯电车型几乎占据销量一半,全年销量225.67万辆,已经超过特斯拉的163.6万辆,真正成为全球第一;‌‌也就是说,2025年比亚迪不仅是新能源全球销冠,也已经是全球纯电销冠,特斯拉的冠军帽子正被比亚迪一顶一顶全部摘下来。当然,比亚迪在2025年确实出现了增长乏力,尤其是后半年表现一般,全年目标完成率只有83.68%。吉利汽车攻势凶猛,2025年全年销量302万辆,同比增长39%,超额完成全年目标,这个数据超过奇瑞,排名国内第二,仅次于比亚迪。吉利最近几年经过整合梳理,旗下各大品牌定位更清晰,攻击性更强。尤其银河品牌,全年销量达到124万辆,贡献出了星愿等多部爆款,走比亚迪的路,大幅度缩短了和比亚迪的差距。尤其在比亚迪擅长的新能源方面,吉利2025年销量达到168.78万辆,轻松创造历史新高,同比增长90%。按照目前发展趋势,吉利还有更大动力和潜能更进一步,凭借2025年超过300万辆的销量,吉利汽车进入全球前10铁板钉钉。2026年,吉利销量目标上调至345万辆,其中新能源目标222万辆。长安汽车向来是自主品牌定海神针,从不激进,也不落后,一直中规中矩。2025年全年销量291.3万辆,同比增长8.5%‌,创下历史记录。尤其新能源表现出色,迅速弥补短板,全年卖出110.9万辆,同比大涨51%,占总销量接近四成份额。在长安旗下几大新能源品牌中,深蓝品牌全年销量33.万辆,启源品牌销量41.1万辆,同比增长42.6%;定位高",
+      "section_ids": [
+        "sec_2"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/90"
+      }
+    },
+    {
+      "evidence_id": "evidence_3f621cc8889b47478017",
+      "source_id": "source_d65c0c97c1f819e4a30c",
+      "snippet": "格隆汇3月25日|据晚点AUTO, 比亚迪 ( 369.590 ,  -5.77 ,  -1.54% ) 董事长王传福公布今年总销量目标为550万辆,其中海外市场销量预计超80万辆。中国市场销量增速约为30%,海外市场增速达91.8%。比亚迪2025年将是产品大年,四个品牌计划推出近20款新车,现有21款车型将换代或增推智驾版本。比亚迪在高端市场和海外市场积极布局,面对技术竞争和品牌建设的挑战。比亚迪计划通过技术立品牌,设计差异化技术标签,推动仰望、腾势、方程豹等高端品牌的发展。同时,比亚迪也在加速智能化转型,提升高阶智驾体验,并加大对AI大模型、智算中心等投入。 \n海量资讯、精准解读,尽在新浪财经APP\n0 条评论 | 0 人参与 网友评论\nAPP专享直播\n开播时间 | 3-25 20:00\n博时基金 陈奥:提振消费“组合拳”!A股风格会切换吗?\n开播时间 | 3-25 19:30\n嘉实基金:【基金经理展开说】重估2025 迎复苏见新机\n开播时间 | 3-25 19:00\n南方基金:未来E起行 “指”掌硬科技 科创板重磅大宽基来了\n开播时间 | 3-25 19:00\n专家解析如何助推人民币债市国际化\n开播时间 | 3-25 19:00\n银华基金:反脆弱第10期 如何避免成为市场情绪的猎物?\n开播时间 | 3-25 16:00\n招商基金 汪洋:硬科技再添新工具,科创综指怎么投?\n开播时间 | 3-25 16:00\n光大证券李泉:DeepSeek模型升级,编程能力媲美顶尖大模型\n开播时间 | 3-25 15:32\n直击现场,新浪财经特派员聊聊博鳌亚洲论坛新鲜事\n开播时间 | 3-25 15:30\n开播时间 | 3-25 15:30\n开播时间 | 3-25 20:00\n博时基金 陈奥:提振消费“组合拳”!A股风格会切换吗?\n开播时间 | 3-25 19:30\n嘉实基金:【基金经",
+      "section_ids": [
+        "sec_2"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/91"
+      }
+    },
+    {
+      "evidence_id": "evidence_12e2eb2c368376c0902f",
+      "source_id": "source_4ccc76afa6a0e7172cf8",
+      "snippet": "(来源:封面新闻)2025年的中国车市,在新能源转型深化与行业竞争白热化中正式落下帷幕,全年呈现出鲜明的强者恒强、分化加剧特征。这一年,中国自主品牌乘用车市场份额一度攀升至近70%的历史新高,在价格战从年初贯穿至岁末的残酷环境下,头部企业凭借产品矩阵与技术优势稳步领跑。其中,比亚迪全年交付460.24万辆新能源汽车,同比微增7.73%。长安汽车\n2025\n年全年销量\n291.3\n万辆,同比增长\n8.5%,创近九年新高。奇瑞280.64万辆的成绩单中,新能源车占比已超过90%,但真正支撑其底气的依然是强大的出海能力。日前,封面新闻记者从吉利汽车获悉,其2025年全年累计销量超过302万辆,超额完成了300万辆的年度目标,2026年,吉利汽车计划推出约10款全新车型,将全年销量目标定为345万辆,其中新能源目标为222万辆。过去的一年里,吉利不仅要在燃油车基盘上与奇瑞、长安等传统对手竞争,更要在新能源赛道上直面比亚迪、特斯拉以及异军突起的小米。2025年,吉利新能源总销量达到169万辆,同比增长约90%,占全年整体销量约56%。在吉利内部,2025年更具里程碑意义的事件是《台州宣言》的落地——通过极氪与领克的战略整合,吉利正在解决过往品牌重叠、资源分散的问题,向管理要效益,向协同要效率。值得注意的是,在新能源浪潮中,吉利并未放弃其赖以生存的燃油车阵地。2025年,中国星系列累计销量达121万辆,超额完成“百万中国星”目标。在燃油车整体市场萎缩的背景下,中国星系列的逆势增长显示了吉利在传统三大件技术上的积淀,以及对燃油车存量市场用户的精准捕捉。吉利在海外市场的表现同样亮眼,2025年全年出口超过42万辆,足迹遍布英国、意大利、巴西等十余个新市场,全球化布局正在成为其销量增长的第二曲线。封面新闻记者\n刘念",
+      "section_ids": [
+        "sec_2"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/92"
+      }
+    },
+    {
+      "evidence_id": "evidence_de953590d01c9d338482",
+      "source_id": "source_32bf0cd344f81aaf0c9e",
+      "snippet": "中国新能源汽车产业在近期面临着来自美国和欧盟的贸易壁垒挑战。美国政府提议将中国新能源汽车的关税提高至100%,而欧盟也正在进行反补贴调查,未来可能会对中国新能源汽车课征针对性关税。在关税壁垒和贸易摩擦加剧的背景下,中国新能源汽车能否承担价格优势骤失的考验,成为一个值得探究的问题。\n中国新能源汽车在国内市场呈现高速发展的态势。根据国际能源署报告,2023年,中国新能源车销量占全球总销量的64%,其中120.3万辆为出口,相较于2022年,产销量增长率超过35%,出口增长率则达到77.6%。中国新能源汽车的快速发展部分归功于车企的创新功能开发,许多车型搭载了先进的智能驾驶辅助系统、5G连接功能、车载语音助手等,这些功能在传统欧美汽车中并不常见。另一个更重要的发展因素是中央与地方政府持续提供的购车补贴。根据Alix\nPartner的报告,2016至2022年间,中国政府对新能源车的补贴金额可能高达560亿美元,且2022年后仍有优惠政策。在政策支持下,中国车企得以扩大生产规模。2022年,中国有超过100家整车企业,以激烈的价格战争夺新能源车市场,导致市场销量巨大,但利润微薄。这种激烈竞争通过出口外溢到国际市场,根据欧盟委员会的资料,2023年欧盟地区纯电动车均价约46,000欧元,而中国出口的纯电动车不仅平均便宜10,000欧元(在非新能源车中仍属中高价位),且功能更丰富,对欧洲传统汽车的新能源车型的生存造成巨大压力。■消费者信任感与品牌力有待提升中国新能源车虽然凭借低价和优良的功能设计在国内外市场上取得市占率,但低廉的销售价格可能不仅与供给侧因素有关,还与需求侧的消费者支付意愿不高有关,这可能影响其在国际市场的发展与抵抗关税的能力。首先,中国汽车品牌在认知度和消费者信任方面仍面临挑战。根据Brand\nFinance的研究,中国汽车品牌的平均价值虽然逐年增加,但仍远低于德、日",
+      "section_ids": [
+        "sec_5"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/100"
+      }
+    },
+    {
+      "evidence_id": "evidence_881e77db8703c2bade02",
+      "source_id": "source_66666b27856cc6be9ce6",
+      "snippet": "新能源汽车的政策内容丰富多样,涵盖了多个方面,旨在促进新能源汽车的发展与普及:\n首先,在车辆购置税方面,从2024年1月1日至2025年12月31日,购置新能源汽车可享受免征车辆购置税的优惠。而在2026年1月1日至2027年12月31日期间,购置新能源汽车则可以享受减半征收车辆购置税的优惠。对于购置日期在2024年1月1日至2025年12月31日的新能源乘用车,免税额度不超过3万元;而在2026年1月1日至2027年12月31日期间,减税额度不超过1.5万元。\n其次,在充电基础设施方面,国务院办公厅印发了《关于进一步构建高质量充电基础设施体系的指导意见》,旨在到2030年基本建成覆盖广泛、规模适度、结构合理、功能完善的高质量充电基础设施体系。为解决“找桩难”“进小区难”“公路充电难”等问题,该指导意见提出了推动公共区域充电设施建设,要求居住区落实充电设施配建等具体措施。\n此外,工信部也在提升产品供给质量,加大重点领域推广力度,强化支撑保障条件,并致力于打造世界一流品牌。同时,为了激发市场需求,国家还将持续开展新能源汽车下乡活动,支持企业开发更多适用车型,以释放农村地区的消费潜力。\n最后,国家也在加快重点矿产项目的开发,并研究制定《新能源汽车动力蓄电池回收利用管理办法》,以健全回收利用体系,为新能源汽车的发展提供持续的支持。",
+      "section_ids": [
+        "sec_4"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/103"
+      }
+    },
+    {
+      "evidence_id": "evidence_c39dce275895c4b93fbb",
+      "source_id": "source_2ceb9e78b905a1860092",
+      "snippet": "政策名称\n地区 \n发布年份\n关键词\n上海市鼓励电动汽车充换电设施发展扶持办法 上海/上海市 2025 新能源汽车,基础设施建设\n甘肃省打造全国区域性现代制造业基地行动方案 甘肃省 2025 清洁能源,新能源汽车\n四川省零碳工业园区试点建设工作方案 四川省 2025 新能源汽车,基础设施建设,绿色货运配送\n深圳市加快打造人工智能先锋城市行动计划(2025—2026年) 广东省/深圳市 2025 新能源汽车,数字智慧交通\n银行业保险业绿色金融高质量发展实施方案 全国 2025 清洁能源,新能源汽车,基础设施建设\n10个城市启动第二批公共领域车辆全面电动化先行区试点 全国 2025 清洁能源,试点示范,新能源汽车,基础设施建设,绿色货运配送,数字智慧交通\n健全新能源汽车动力电池回收利用体系行动方案 全国 2025 清洁能源,新能源汽车\n深圳市汽车置换更新补贴实施指引(2025年) 广东省/深圳市 2025 财政补贴,新能源汽车\n关于开展2025年县域充换电设施补短板试点申报有关工作的通知 全国 2025 试点示范,新能源汽车,基础设施建设\n2025年大连市汽车置换更新补贴实施细则 全国 2025 财政补贴,新能源汽车\n一个非政府、非营利、自愿性的交流、合作及观点传递平台,秉承“独立、开放、共享、包容”的理念 聚焦政策和技术创新,总结、宣传和推广国际、中国和地方先进经验,加速交通迈向零排放",
+      "section_ids": [
+        "sec_4"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/106"
+      }
+    },
+    {
+      "evidence_id": "evidence_36fd1d154d9d0d27da79",
+      "source_id": "source_191b29562332cc60747f",
+      "snippet": "1月9日消息,乘联会数据显示,12月新能源乘用车生产达到145.5万辆,同比增长32.2%,环比下降2.0%。2024年1-12月生产1,218.5万辆,同比增长36.4%。12月新能源乘用车批发销量达到151.2万辆,同比增长35.6%,环比增长5.0%。2024年1-12月批发1,223.0万辆,同比增长37.8%。12月新能源乘用车市场零售130.2万辆,同比增长37.5%,环比增长2.6%。2024年1-12月零售1,089.9万辆,同比增长40.7%。12月新能源乘用车出口12.2万辆,同比增长21.5%,环比增长52.9%。2024年1-12月出口129.0万辆,同比增长24.3%。",
+      "section_ids": [
+        "sec_5"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/123"
+      }
+    },
+    {
+      "evidence_id": "evidence_943dd9d6120775aad67b",
+      "source_id": "source_d3af50b2490f1013f65f",
+      "snippet": "中新经纬1月13日电 “中汽协数据”微信号13日发布2024年汽车工业产销情况。其中显示,2024年,新能源汽车产销分别完成1288.8万辆和1286.6万辆,同比分别增长34.4%和35.5%。中汽协表示,我国汽车产销总量连续16年稳居全",
+      "section_ids": [
+        "sec_6"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/125"
+      }
+    },
+    {
+      "evidence_id": "evidence_c1f3d18a47df9b135456",
+      "source_id": "source_ccab474dbdff6e62ce99",
+      "snippet": "近日,工业和信息化部公布2026年规章制定工作计划,其中在开展研究论证起草的项目中提到乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法(修订)。原文如下:工业和信息化部2026年规章制定工作计划根据《规章制定程序条例》第十二条的规定,现向社会公布工业和信息化部2026年规章制定工作计划。一、年内提请部务会议审议的项目(4项)1.工业和信息化部关于修改部分规章的决定2.食盐储备和应急管理办法3.国家医药储备管理办法4.电子认证服务管理办法(修订)二、力争年内提请部务会议审议的项目(4项)1.拖欠中小企业款项严重失信主体认定管理暂行办法2.工业节水管理办法3.通信建设工程质量监督管理规定(修订)4.无线电频率划分规定(修订)三、开展研究论证起草的项目(13项)1.工业资源综合利用管理办法2.稀土二次资源回收利用管理办法3.乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法(修订)4.中国工艺美术大师管理办法5.国防科学技术奖励办法(修订)6.通信工程建设项目招标投标管理办法(修订)7.电信设备进网管理办法(修订)8.电信网码号资源管理办法(修订)9.电信服务质量监督管理暂行办法(修订)10.卫星通信网和地球站管理规定(修订)11.国防科研生产安全事故报告和调查处理办法(修订)12.核事故辐射影响越境应急管理规定(修订)13.重要军工设施保护监督管理办法\n国际充换电网声明:本文仅代表作者本人观点,与国际充换电网无关,文章内容仅供参考。凡注明“来源:国际充换电网”的所有作品,版权均属于国际充换电网,转载时请署名来源。\n本网转载自合作媒体或其它网站的信息,登载此文出于传递更多信息之目的,并不意味着赞同其观点或证实其描述。如因作品内容、版权和其它问题请及时与本网联系。",
+      "section_ids": [
+        "sec_4"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/131"
+      }
+    },
+    {
+      "evidence_id": "evidence_01770ca24bfd6fcabce4",
+      "source_id": "source_126dc175f01312f41c06",
+      "snippet": "2025-05-20 15:16:48 关于开展2024年度双积分数据核算审查工作的通知 5月13日,工业和信息化部装备工业发展中心公布《关于开展2024年度双积分数据核算审查工作的通知》。 通知称,为贯彻落实《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法》(工业和信息化部、财政部、商务部、海关总署、市场监管总局令 第64号)及《关于2024—2025年度乘用车企业平均燃料消耗量与新能源汽车积分管理有关事项的通知》(工信部通装函〔2023〕378号)有关要求,受工业和信息化部装备工业一司委托,装备中心将通过工业和信息化部政务服务平台乘用车企业平均燃料消耗量与新能源汽车积分管理系统(以下简称“积分管理系统”),开展2024年度乘用车企业燃料消耗量与新能源汽车积分审查核算工作,现将有关事项通知如下: 一、工作流程 (一)参与核算的企业主体,包括境内乘用车生产企业和进口乘用车供应企业。 (二)装备中心对企业双积分数据进行核算,并通过积分管理系统下发核算结果。 (三)企业登录积分管理系统,在“双积分核算”模块中查看并确认核算结果。 1、对核算结果确认无误的企业,请于5月23日之前在线填写相关内容后下载《乘用车企业平均燃料消耗量与新能源汽车积分确认函》,由法人签字并加盖企业公章后,通过积分管理系统上传彩色扫描件,纸质原件邮寄至装备中心(建议EMS邮寄)。 2、对核算结果有异议的企业,请结合核算结果进行自查,并于5月16日之前在线提交复核申请。 (四)装备中心依据企业提交的各项材料开展审查,并将审查结果汇总上报装备工业一司。 二、联系方式 联系电话:010-68209124 联系邮箱:sjc-tech@eidc.org.cn 邮寄地址:北京市海淀区万寿路27号院1号楼 邮政编码:100846 (来源:工业和信息化部) 关于征求GB/T 25982—2024《客车车内噪声限值",
+      "section_ids": [
+        "sec_4"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/133"
+      }
+    },
+    {
+      "evidence_id": "evidence_bd18d38edae292ce1120",
+      "source_id": "source_33e1b47d3638e5f91eaf",
+      "snippet": "2024国内汽车销量 比亚迪427 2024长安268 国奇瑞260g 内吉利218n 汽五菱154i 车长城123X 销理想50. 量埃安49g (前十)鸿蒙45n i 零跑29 *数据来源:各车企官方发布,中汽数研统计公布 蔚来22K 2024年销量 品牌占全国销量比油车占比新能源占比10万10-20万20-30万30-50万50万 (万辆)y 比亚迪427.213.6%100%b11%65%19%4% 长安268.48.5%54%46%25%68%1%6% 奇瑞260.48.3%74%26%6%84%10% d 吉利217.76.9%50%50%22%54%12%10%1% e 蔚来22.20.7%100%10%74%16% r 小鹏19.00.6%100%31%43%26% a 理想50.11.6%p100%98%2% 零跑29.40.9%100%22%63%15% 小米13.50.0%0% 问界38.61.2%100%60%40% P 智界5.80.2%100%53%47% 享界0.70.0%100%100% 尊界0.20.0%100%100% 1 1,401.7 2024国内汽车销量 销量:万辆g 500n i 比亚迪 450X .长安 400 g奇瑞 350n吉利 i 300K蔚来 小鹏 250 y理想 200b零跑 150d小米 埃安 100e r问界 50a智界 -p尊界 01020e3040506070 r P价格:万元 2 各车型销量情况占比1:比亚迪长安 比亚迪:Y2024=427.2萬輛(13.6%);新能源=100%长安:Y2024=268.4萬輛(8.5%);新能源=46%,燃油車=54% 价格区间价格区间 系列车型2024年全年销量级别动力占品牌比例系列车型2024年全年销量级别动力占品牌比例 (万元)g(万元) 秦732,2529~14紧凑",
+      "section_ids": [
+        "sec_6",
+        "sec_5"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/153"
+      }
+    },
+    {
+      "evidence_id": "evidence_1b750ea047c60fbb9095",
+      "source_id": "source_53c3fe223d8cd9ec5876",
+      "snippet": "全文2238字 预计阅读需14分钟\n1月1日,各大汽车厂商都公布了自己2024年的销售数据,\n我们先简单回顾一下:\n2024年中国汽车销冠依然是比亚迪,总计卖了427.21万辆,打破了 大众汽车 多年的记录,2023年这个数据是302.44万辆,累计同比增长41.26%。 比亚迪之后,长安汽车和 吉利汽车 的销售均创新高——长安汽车2024年卖出了268万辆汽车 ,创七年新高,其中73万辆是新能源汽车,同比增长超50%;53万辆出海,同比增长超过47%。奇瑞全年销售260余万辆,同比增长38.4%。吉利旗下的吉利、银河、极氪、领克全年销量累计217.66万辆,同比增长32%。\n不仅是这些00年前后创业的国产自主品牌今年爆发了,风头正盛的“新势力”们今年一样也在狂飙突进。 理想到现在为止已经卖出了113万辆车,但仅仅是2024年就卖出了超50万辆;蔚来汽车2024年卖了超22万辆,同比增长38.7%,小鹏也卖了19万辆;赛力斯汽车,2024年靠着“问界”系列一年做出来了超过42万辆的业绩,同比增长了182.84%。\n其中我个人最关注的是 理想汽车 ,不单单因为我是理想车主,而且理想汽车作为国产新势力“三剑客”里面第一个盈利的车企,自然对 中国新能源 车的未来有参考价值。理想在24年交付了50万辆,而23年交付37.6万辆,同比增长24.8%。虽然在交付量和增长比率上依旧无法撼动比亚迪等国产车的“老前辈”,但对于“新势力”来说理想又何尝不是追赶的目标呢?关于理想在24年的营收和利润分析,因为相关报表尚未公布,所以我们用23年的数据推理。2023年理想汽车在交付37.6万辆车的同时,公司全年营收1238.5亿元,净利润118.1亿,那么我们是否就可以判断公司今年的营收和净利润就会有较大幅度增长呢?其实不然。\n首先在24年三月份的理想新品发布会上发布的首款纯电产品——理想MEGA,",
+      "section_ids": [
+        "sec_6",
+        "sec_5"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/154"
+      }
+    },
+    {
+      "evidence_id": "evidence_9f8fa1706f8a32b9621e",
+      "source_id": "source_ea07a9567b9ebb668c38",
+      "snippet": "理想汽车统计的各品牌2024年中国市场销量:比亚迪349.29万辆、奔驰71.39万辆、宝马69.62万辆、奥迪66.08万辆、特斯拉65.94万辆、五菱64.16万辆、理想50.45万辆、问界38.63  辆、埃安33.05万辆、零  27.19  辆、银河24.73  辆、极氪21.2  辆、长安20.9  辆、蔚来20.53万辆、深  18.77  辆、   萨斯18.04  辆、  鹏17.11  辆、  尔  15.2万辆、小米13.68  辆、  势10.66  辆、极狐7.89  辆~",
+      "section_ids": [
+        "sec_6"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/155"
+      }
+    },
+    {
+      "evidence_id": "evidence_db0daf71681ff56cb058",
+      "source_id": "source_92ec746f48dc2f658374",
+      "snippet": "【财新网】2025年前八个月,中国新能源汽车销量同比增长36.7%、至962万辆,在新车总销量中占比同比增加8个百分点、至45.5%。9月11日,中国汽车工业协会(下称“中汽协”)披露上述数据。\n单看内销,前八个月,新能源汽车在国内销售了808.8万辆,在新车市场的渗透率为48%。中汽协预测称,2025年全年,这项比例有望达到50%。2024年,新能源汽车国内销量为1158.2万辆,渗透率为45.3%。\n新能源汽车在中国市场的普及速度远超预期。主管部门曾在2020年定下目标,希望中国新能源汽车销量在2025年达到新车总销量的20%。前述预测意味着,国内市场新能源汽车渗透率不仅有望在2025年历史性地超过燃油车,还将大幅跑赢此前规划。",
+      "section_ids": [
+        "sec_4"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/159"
+      }
+    },
+    {
+      "evidence_id": "evidence_55415eb7ce4c3df68c43",
+      "source_id": "source_0f1fa110b65d44432c86",
+      "snippet": "财政部 税务总局 工业和信息化部公告 2023年第10号    \n  为支持新能源汽车产业发展,促进汽车消费,现就延续和优化新能源汽车车辆购置税减免政策有关事项公告如下:\n  一、对购置日期在 2024年1月1日至2025年12月31日期间的新能源汽车免征车辆购置税,其中,每辆新能源乘用车免税额不超过3万元;对购置日期在2026年1月1日至2027年12月31日期间的新能源汽车减半征收车辆购置税,其中,每辆新能源乘用车减税额不超过1.5万元。 \n  购置日期按照机动车销售统一发票或海关关税专用缴款书等有效凭证的开具日期确定。\n  享受车辆购置税减免政策的新能源汽车,是指符合新能源汽车产品技术要求的纯电动汽车、插电式混合动力(含增程式)汽车、燃料电池汽车。新能源汽车产品技术要求由工业和信息化部会同财政部、税务总局根据新能源汽车技术进步、标准体系发展和车型变化情况制定。\n  新能源乘用车,是指在设计、制造和技术特性上主要用于载运乘客及其随身行李和(或)临时物品,包括驾驶员座位在内最多不超过 9个座位的新能源汽车。 \n  二、销售方销售 “换电模式”新能源汽车时,不含动力电池的新能源汽车与动力电池分别核算销售额并分别开具发票的,依据购车人购置不含动力电池的新能源汽车取得的机动车销售统一发票载明的不含税价作为车辆购置税计税价格。 \n   “换电模式”新能源汽车应当满足换电相关技术标准和要求,且新能源汽车生产企业能够自行或委托第三方为用户提供换电服务。 \n  三、为加强和规范管理,工业和信息化部、税务总局通过发布《减免车辆购置税的新能源汽车车型目录》(以下简称《目录》)对享受减免车辆购置税的新能源汽车车型实施管理。《目录》发布后,购置列入《目录》的新能源汽车可按规定享受车辆购置税减免政策。\n  对已列入《目录》的新能源汽车,新能源汽车生产企业或进口新能源汽车经销商(以下简称汽车企业)",
+      "section_ids": [
+        "sec_6"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/166"
+      }
+    },
+    {
+      "evidence_id": "evidence_b845bb9e66394462f31c",
+      "source_id": "source_659f43b94bec810a692f",
+      "snippet": "在环保与可持续发展的潮流推动下,中国工业和信息化部等五部门对汽车行业的标志性政策——“双积分”办法进行了重大调整。自2023年8月1日起,新版政策将对新能源汽车积分计算方法进行革新,旨在推动汽车产业向更高效、绿色的方向发展。\n修订后的政策显著降低了新能源乘用车标准车型的积分分值,平均下调幅度达到40%,并重新定义了积分计算方法和上限。新增的“新能源汽车积分池管理”章节引入了动态机制,当年度市场供需失衡时,企业可以自主选择将正积分存储至积分池,这一举措为未来积分市场提供了一定的缓冲空间。存储的积分有效期为五年,有效缓解了市场短期波动对汽车制造商的压力。\n专家指出,这项政策调整意味着企业必须更加注重技术创新和节能效率,例如优化车身结构和提升电池系统的能效,以增加纯电行驶里程。同时,政策对于获取新能源积分的要求更为严格,将促使产业在高质量发展道路上加速前行。\n回顾过往,自2017年“双积分”政策出台以来,它一直是衡量汽车企业环保表现的重要标准。随着政策的不断迭代和完善,政府旨在通过灵活的积分池管理,平衡市场供需,稳定积分价格。据统计,过去几年积分价格的波动反映了供需关系的紧张与变化,而新的修订将有助于这一问题的解决。\n乘联会秘书长崔东树认为,积分池制度的引入为政策的灵活性提供了保障,同时减少了市场预测的不确定性,有助于稳定新能源汽车的发展预期。总的来说,新版“双积分”政策将推动汽车行业的绿色转型,为实现“双碳”目标奠定坚实基础。",
+      "section_ids": [
+        "sec_4"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/171"
+      }
+    },
+    {
+      "evidence_id": "evidence_e01cfa90ab1e01507337",
+      "source_id": "source_4b51e3d2b1ffb7b69165",
+      "snippet": "观点网讯:2月11日,乘联分会发布预测称,2025年国内车市零售量将达到2340万辆,同比增长2%。其中,新能源乘用车零售量预计为1330万辆,增长20%,市场渗透率将提升至57%。免责声明:本文内容与数据由观点根据公开信息整理,不构成投资建议,使用前请核实。",
+      "section_ids": [
+        "sec_5"
+      ],
+      "issue_ids": [],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/174"
+      }
+    },
+    {
+      "evidence_id": "evidence_d6854a4d7d8ab6d5adff",
+      "source_id": "source_fdefd4c73a23ebdf2c06",
+      "snippet": "运营商财经网 李广艳/文\n近日,乘联会发布了2025年1月零售销量排名快报,引发关注。运营商财经网注意到,本月只有吉利汽车和奇瑞汽车实现了同比增长,其余上榜的厂商均出现不同程度的下滑,接下来运营商财经网将揭秘具体情况。\n据2025年1月厂商零售销量排行榜显示,上榜的十家厂商分别为吉利汽车、比亚迪汽车、一汽大众、长安汽车、奇瑞汽车、上汽大众、广汽丰田、一汽丰田、上汽通用五菱以及华晨宝马。\n与上一年同期相比,上榜的十家车企中,仅吉利汽车和奇瑞汽车实现零售销量增长。其中,吉利汽车在1月的销量为239944辆,同比增长28.2%,是增长幅度最大的一家,位居榜单首位;奇瑞汽车的销量为119431辆,同比增长12.2%。此外,同比下滑幅度最大的是长安汽车,其在1月份的销量为121859辆,同比下滑37.3%。\n不过,如果按照包含出口的批发销量来计算,比亚迪汽车仍是第一名。\n打开网易新闻 查看更多图片 \n运营商财经网注意到,新能源车是助推吉利汽车实现销量增长的重要原因。在2025年1月新能源厂商零售销量排行榜中,吉利汽车新能源的销量达到117576辆,同比增长82.9%,排在榜单第二位,仅次于比亚迪汽车,新能源占比接近一半。\n据了解,2024年吉利汽车的销量表现就十分可观,全年累计销量超过217万辆,同比增长超32%,不仅创下了年销量历史新高,还超额完成了200万辆的年度目标。\n值得一提的是,吉利汽车在2024年的销售目标原本是190万辆,在2024年一季度业绩交流会上,吉利汽车集团CEO淦家阅表示:“鉴于目前的销售情况,集团管理层一致决定把2024年的全年目标调整到200万辆以上。”\n2025年,吉利汽车立下了271万辆、同比涨超24%的销量目标,未来能够实现吗?运营商财经网将继续关注。\n(责任编辑:李广艳)\n运营商财经(官方微信公众号yyscjrd)—— 主流财经网站,一家全面覆盖科",
+      "section_ids": [
+        "sec_2"
+      ],
+      "issue_ids": [
+        "issue_e7f186ce"
+      ],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/182"
+      }
+    },
+    {
+      "evidence_id": "evidence_7b464e19d53a228bd290",
+      "source_id": "source_9644c37507f408245ca2",
+      "snippet": "2025年,哪些车卖得好?中国汽车工业协会(以下简称“中汽协”)数据显示,2025年,10万元至20万元价格区间新能源车型累计销量达694.1万辆,占比最多;8万元至10万元车型销量增长78.4%,增速最快。在燃油车市场,10万元至15万元是销量最集中的区间。为什么这些价位的车型受市场欢迎?汽车以旧换新补贴调整后,哪些价位的车将卖得更好?10万至15万元新能源车是销量主力中汽协数据显示,2025年,15万元以下新能源乘用车销量增长最为明显。其中,8万元以下车型、8万元到10万元车型和10万元至15万元车型分别销售153.3万辆、149.4万辆和354.9万辆,同比分别增长51.8%、78.4%和59.5%。为何10万元至15万元这一价格区间车型卖得最多?需求端,该区间覆盖家庭首购、通勤等核心刚需,兼顾实用性与性价比。中国汽车流通协会副秘书长郎学红对本报记者表示,10万元至15万元是典型的高性价比价位段,符合大多数家庭的购车预算。供给端,主流品牌布局密集,纯电、插混车型齐全,配置均衡,能够满足多元需求。例如,比亚迪海狮06(配置|询价)全系年度销量超16万辆,秦L(配置|询价)、宋Pro(配置|询价)等多款车型也位于这一价格区间;零跑汽车将激光雷达等高端配置打入10万元至15万元市场,凭借B10、C10等车型满足市场消费需求,其中C10全年销量超过15万辆。为什么8万元至10万元这一区间车型销量增长更快?郎学红表示,这一现象与政策密切相关。2024年至2025年实施的汽车报废更新补贴政策,采取了定额补贴方式,报废旧车后购买新能源车可获最高2万元补贴,购买燃油车可获1.5万元补贴。在享受以旧换新和报废更新政策的用户中,新能源车的比例约60%。其中,享受报废更新政策用户选择新能源车的比例尤为突出。这部分用户原有车辆残值较低,在定额补贴政策下,只需花费较少资金即可置换一辆新车,提",
+      "section_ids": [
+        "sec_4"
+      ],
+      "issue_ids": [
+        "issue_eefd3a69"
+      ],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/202"
+      }
+    },
+    {
+      "evidence_id": "evidence_e0454dc5551865074468",
+      "source_id": "source_07967d7336d55e80c740",
+      "snippet": "2025年的车市销量榜,为这个“金字塔基座”提供了最有力的注脚。\n全年SUV零售量达1210万辆,其中销量排名第二的吉利星越L,定价14.77-17.97万元,卖出了244,068辆。\n排名第三的吉利博越L,指导价9.99-14.97万元,销量激增100.4%,达到232,926辆。\n就连合资品牌的常青树丰田RAV4荣放,终端起售价也下探到了15万元左右。\n而在新能源领域,这个趋势更加明显。\n2025年,10-20万元价位的新能源车型销量达到了694.1万辆,占新能源乘用车总量的53.4%。\n这个市场,已经彻底被自主品牌的混动和纯电车型攻占。",
+      "section_ids": [
+        "sec_4"
+      ],
+      "issue_ids": [
+        "issue_eefd3a69"
+      ],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/205"
+      }
+    },
+    {
+      "evidence_id": "evidence_35f3507b8b87d42d5fb6",
+      "source_id": "source_b5064349418512f9405e",
+      "snippet": "中国汽车的出口,2024年也做得不错。\n1月13日,中汽协发布最新数据显示,2024年,我国出口汽车585.9万辆,同比增长19.3%。\n在整车出口前十企业中,比亚迪出口43.3万辆,同比增长71.8%,增速位列中国汽车品牌第一。跑出新能源汽车出口加速度。\n出口增速最快的车企前五:\n1.比亚迪 出口43.3万辆,同比增长71.8%\n2.吉利 出口40.39万辆,同比增长53%。\n3.长安 出口53万辆,同比增长47%。\n4.长城 出口45.31万辆,同比增长43.39%。\n5.吉利 出口114.4万辆,同比增长21.4%。\n比亚迪继续高速领跑,增速位列中国汽车品牌第一。\n整体来看:2024年中国新能源汽车产销分别完成1288.8万辆和1286.6万辆,同比分别增长34.4%和35.5%,新能源汽车新车销量达到汽车新车总销量的40.9%,较2023年提高9.3%。\n如果按出口量来排,2024年出口量的前10的车企分别是:\n1.奇瑞 114.4 万辆\n2.上汽 92.9 万辆\n3.长安 53.6 万辆\n4.吉利 53.2 万辆\n5.长城 45.3 万辆\n6.比亚迪 43.3 万辆\n7.北汽 27.4 万辆\n8.特斯拉 26.0 万辆\n9.江淮 24.9 万辆\n10.东风 24.6 万辆\n2024年中国新能源汽车产业交出亮眼“成绩单”,产销连续10年位居全球第一。\n比亚迪毫无疑问是全球市场的冠军,乘用车以425万辆,增幅41.1%的成绩跑在最前面。\n新能源乘用车中,纯电销量1,764,992台,占比41.5%,插混销量2,485,378台,占比58.5%,是中国汽车市场车企销量冠军,中国汽车市场品牌销量冠军,还是全球新能源车市场销量冠军。\n2025年年各家车企,将继续拿出新技术来比拼,百家争鸣还在持续。\n大概海外的消费者,用不了多久也会享受到来自国产汽车,科技豪华的精神冲击。\n比",
+      "section_ids": [
+        "sec_5"
+      ],
+      "issue_ids": [
+        "issue_97f3b930"
+      ],
+      "extracted_data": null,
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/evidence/207"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source_e93638320d72c38036f8",
+      "title": "2025年3月,纯电动汽车(BEV)在中国汽车市场的总份额中占比超过三分之一。3_财富号_东方财富网",
+      "url": "http://caifuhao.eastmoney.com/news/20250427080614149743930?from=guba&name=U1TkvJfms7DlkKc%3d",
+      "content_kind": "search_summary",
+      "content": "2025 年3月,纯电动汽车(BEV)在中国汽车市场的总份额中占比超过三分之一。 3 月标志着中国电动汽车市场淡季的结束 —— 这是由农历新年庆祝活动的时间安排所导致的。今年第一季度的最后一个月,新能源汽车(包括纯电和插电混动等)的销量接近 100 万辆(整体汽车市场销量为 190 万辆)。其增长率达到了 39%,而整个汽车市场的同比增长率为 12%,这是一个不错的成绩,尤其要考虑到 3 月份内燃机汽车(ICE)的销量同比下降了约 7.6 万辆。 内燃机汽车销量下降,电动汽车销量上升 —— 形势看起来不错...... 深入分析这些数据可以发现, 纯电动汽车是增长最快的类型,销量增长了 51%,达到 64.6 万辆,而插电式混合动力汽车(PHEV)增长了 25%,增程式电动汽车(EREV)增长了 4%。 这使得年初至今(YTD)的累计销量超过了 240 万辆。所以,仅在中国,我们预计新能源汽车今年的销量最终会远超过 1000 万辆。 从市场份额来看, 3 月新能源汽车的市场份额突破了 50% 的门槛,达到了 52%!仅纯电动汽车( BEV )就占中国汽车销量的 34%,而插电式混合动力汽车占 27%,增程式电动汽车占 8% ,这使得纯电动汽车成为中",
+      "content_hash": "3ad6a196581ce241f4b18870d90839bcb3fa0357f57f78e66530186683044585",
+      "published_at": "2025-04-27T08:06:00+08:00",
+      "retrieved_at": "2026-09-09T15:20:36.012643+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/9"
+      }
+    },
+    {
+      "source_id": "source_9adbd53412c47ae019ce",
+      "title": "2025年中国新能源汽车融资租赁市场前景预测及投资规划研究报告.docx-原创力文档",
+      "url": "https://max.book118.com/html/2025/0105/7012200001010020.shtm",
+      "content_kind": "search_summary",
+      "content": "根据相关数据显示,2025年中国新能源汽车产销量预计将突破600万辆,同比增长超过40%。其中,纯电动汽车(BEV)和插电式混合动力汽车(PHEV)成为市场的主力军,市场份额不断扩大。 (2)在技术创新方面,中国新能源汽车行业取得了显著成果。电池能量密度和续航里程不断提高,智能化和网联化水平逐渐成熟。",
+      "content_hash": "b3bef6ac8209712f1dfc7c1901376995eaac91952467209fffad57d891db0dd0",
+      "published_at": "2025-01-06T04:16:18+08:00",
+      "retrieved_at": "2026-09-09T15:20:36.012643+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/14"
+      }
+    },
+    {
+      "source_id": "source_7d5b758ccbaa1bb96bfb",
+      "title": "混合动力研究:纯电增速放缓,PHEV&增程式占比将抬升至40% - 与非网",
+      "url": "https://www.eefocus.com/article/1661723.html",
+      "content_kind": "search_summary",
+      "content": "中国新能源乘用车(EV&PHEV&REEV&HEV)销量及同比增速 来源:佐思汽研《2023-2024年全球和中国混合动力汽车研究报告》 中国插电/增程式混动乘用车已经占新能源乘用车的30.6%,2023年,国内车企推出超过30款插电/增程式混动新车。随着新车型的不断涌现,插电/增程式混动乘用车销量将呈现持续增长的趋势,预计到2025年,中国插电/增程式混动乘用车销量份额占比将达到40%。",
+      "content_hash": "26673e65c50f63e9eb840fd7523dd6b0f06352834744505be03b7ce7a3f273ca",
+      "published_at": "2024-01-25T20:23:34+08:00",
+      "retrieved_at": "2026-09-09T15:20:36.013639+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/16"
+      }
+    },
+    {
+      "source_id": "source_c2a3210413d5b882ea7b",
+      "title": "2025年新能源汽车市场竞争格局深度",
+      "url": "https://m.dongchedi.com/ugc/article/7487746391610950169",
+      "content_kind": "search_summary",
+      "content": "一、市场整体格局:头部集中与多元化并存\n销量与份额\n2025年1月,中国新能源汽车销量达94.4万辆,占汽车总销量的38.9%,市场加速从政策驱动转向市场驱动。比亚迪以26.9%的市占率稳居榜首,吉利(15.8%)、长安(6.9%)分列二三位,新势力中理想、问界、零跑增速显著,同比增幅分别达34%、319%、107%。全年销量数据显示,比亚迪以348.9万辆遥遥领先,特斯拉(66万辆)、上汽通用五菱(64.3万辆)紧随其后,新势力理想(50.4万辆)、问界(38.8万辆)、零跑(27万辆)成为第二梯队主力。\n品牌分化与转型\n传统车企加速新能源转型:吉利通过银河、极氪、领克多品牌矩阵覆盖全价位段,2024年新能源销量同比增长52%;一汽奔腾推出纯电序列“悦意”,悦意03以9.29万起售价冲击下沉市场,续航达565km,搭载AI大模型座舱。新势力中,理想、问界凭借增程技术精准定位家庭与高端用户,小鹏通过低价车型MONA 03(12万起)扩大份额。\n二、10-20万主战场:技术与性价比的“绞肉机”\n主流车型竞争白热化\n比亚迪:王朝/海洋系列(秦PLUS、宋Pro DM-i)占其销量70%,但面临混动与纯电双重分流压力。\n吉利银河:L6 EM-i(7.98万起)、星舰7 EM-i(9.78万起)、E5(10.78万起)覆盖7-15万区间,依托雷神电混与Flyme Auto车机抢占市场。\n新势力与合资:零跑B10(9万级)、小鹏MONA 03(12万起)、丰田贴牌埃安(10-15万)以低价+智能化切入;BBA车型(如宝马i3、奔驰EQA)降价至15-20万,凭借豪华属性分食份额。\n技术路线博弈\n混动崛起:插混(PHEV)占比提升至57%,吉利雷神EM-P、比亚迪DM-i、长城柠檬混动形成技术矩阵。\n纯电突破:快充与续航升级成焦点,如银河E8搭载800V平台,10分钟补能400km;奔",
+      "content_hash": "1c85c502544b0ea13bc7b4e048bffd27d723d28e48af8a470e84cbb76501f803",
+      "published_at": "2025-04-01T15:56:34+08:00",
+      "retrieved_at": "2026-09-09T15:20:36.051703+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/19"
+      }
+    },
+    {
+      "source_id": "source_d8a13632dbe93f244f18",
+      "title": "2025年中国新能源汽车行业竞争格局及市场份额解读(图)-中商情报网",
+      "url": "https://www.askci.com/news/chanye/20250306/110211274123013072604755_2.shtml",
+      "content_kind": "search_summary",
+      "content": "二、新能源汽车行业竞争格局分析\n1.新能源汽车厂商零售销量排行\n2025年1月,中国新能源汽车厂商零售销量前十厂商零售销量合计59.39万辆,市场份额合计79.8%。其中,比亚迪汽车零售销量最高达20.02万辆,市场份额26.9%。吉利汽车、长安汽车排名第二和第三,零售销量分别为11.76万辆,5.11万辆,市场份额分别为15.8%、6.9%。上汽通用五菱、鸿蒙智行、特斯拉中国、理想汽车、小鹏汽车、奇瑞汽车、零跑汽车进入前十,依次排名第4-10名。\n与上年同期相比,小鹏汽车、奇瑞汽车零售销量翻倍增长,涨幅分别为260.9%、194.1%。零跑汽车、吉利汽车零售销量涨幅超80%。理想汽车、长安汽车、特斯拉中国零售销量负增长。\n数据来源:中商产业研究院整理\n2.中国造车新势力企业新能源汽车销量排行\n2024年我国造车新势力企业销量合计约176.1万辆,同比增长72%,占整个新能源汽车销量的16%,较去年同期市占比上升约2个百分点。其中,理想汽车位列造车新势力企业销量榜首,销售约50.4万辆。问界、零跑分别排名第二和第三,销量分别为38.8万辆、27万辆。蔚来、小鹏、小米销量超10万辆,分别为22.7万辆、17.1万辆、13.7万辆。\n与上年同期相比,极石、问界、零跑销量翻倍增长,涨幅分别为571%、319%、107%。蔚来、理想、小鹏销量涨幅超20%,创维、凌宝、哪吒销量负增长。\n数据来源:新能源汽车交强险口径、中商产业研究院整理",
+      "content_hash": "e899137b0fb49e90feeed6ebb3d8c9e50458077d65a6ea664c732732eace0e43",
+      "published_at": "2025-03-06T11:02:00+08:00",
+      "retrieved_at": "2026-09-09T15:20:36.052701+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/21"
+      }
+    },
+    {
+      "source_id": "source_1eddbd2d98347b12b738",
+      "title": "2025年中国新能源汽车行业竞争格局及市场份额解读比亚迪长安汽车新能源技术新能源汽车产业_网易订阅",
+      "url": "https://www.163.com/dy/article/JQ1OFKR405198SOQ.html",
+      "content_kind": "search_summary",
+      "content": "2025-03-07 09:39:09 来源: 中商产业研究院 广东 举报 中商情报网讯:新能源汽车是指采用非常规的车用燃料作为动力来源,综合车辆的动力控制和驱动方面的先进技术,形成的技术原理先进、具有新技术、新结构的汽车。新能源汽车是汽车产业转型升级、绿色发展的主要方向,加快新能源汽车产业发展,是培育新的经济增长点的重要举措,也是建设现代化产业体系的战略选择。 一、新能源汽车行业现状分析 近年来,中国新能源汽车产销量不断增长。中汽协数据显示,2025年1月,能源汽车销量与动力电池装车量均实现稳定增长,新能源汽车产销分别完成101.5万辆和94.4万辆,同比分别增长29%和29.4%。 数据来源:中汽协、中商产业研究院整理 中汽协数据显示,2025年1月,新能源汽车新车销量达到汽车新车总销量的38.9%。新能源汽车在整体汽车市场中的占比已接近四成,消费者对电动化产品的接受度持续提升。随着政策推动与技术进步,新能源汽车市场正加速从政策驱动转向市场驱动。 数据来源:中汽协、中商产业研究院整理 二、新能源汽车行业竞争格局分析 1.新能源汽车厂商零售销量排行 2025年1月,中国新能源汽车厂商零售销量前十厂商零售销量合计59.39万辆,市场份额合计79.8%。其中,比亚迪汽车零售销量最高达20.02万辆,市场份额26.9%。吉利汽车、长安汽车排名第二和第三,零售销量分别为11.76万辆,5.11万辆,市场份额分别为15.8%、6.9%。上汽通用五菱、鸿蒙智行、特斯拉中国、理想汽车、小鹏汽车、奇瑞汽车、零跑汽车进入前十,依次排名第4-10名。 与上年同期相比,小鹏汽车、奇瑞汽车零售销量翻倍增长,涨幅分别为260.9%、194.1%。零跑汽车、吉利汽车零售销量涨幅超80%。理想汽车、长安汽车、特斯拉中国零售销量负增长。 数据来源:中商产业研究院整理 2.中国造车新势力企",
+      "content_hash": "3f90eea220bae7bae394b6deda8ce66c09cfe3ced619c57a391f17abcc3e3db8",
+      "published_at": "2025-03-07T09:39:09+08:00",
+      "retrieved_at": "2026-09-09T15:20:36.052701+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/27"
+      }
+    },
+    {
+      "source_id": "source_1365a755751949f39619",
+      "title": "五部门开展2025年新能源汽车下乡活动-中新网",
+      "url": "https://www.chinanews.com/cj/2025/06-03/10426522.shtml",
+      "content_kind": "search_summary",
+      "content": "中新社北京6月3日电\n(记者\n刘育英)中国工业和信息化部、国家发展改革委、农业农村部等五部门6月3日发布关于开展2025年新能源汽车下乡活动的通知,并公布新能源汽车下乡活动车型目录,包括124款车型。\n据中国工信部官网,此次全国汽车下乡活动选取适宜农村市场、口碑较好、质量可靠的124款新能源汽车车型,在新能源汽车推广比例不高、市场潜力较大的典型县域城市,举行若干场专场活动。\n本次车型目录中包括比亚迪、深蓝、埃安、岚图、阿维塔、小鹏、吉利、极氪等众多新能源知名品牌的多款车型。\n通知指出,2025年新能源汽车下乡活动与县域充换电设施补短板试点、智能网联汽车“车路云一体化”试点等工作形成协同效应,推动优质资源向乡村地区倾斜,推动车网互动技术在乡村地区应用,提升乡村绿色发展水平。\n通知称,鼓励各类新能源汽车生产、销售、金融、充换电及售后服务等领域市场主体共同参与,结合以旧换新、县域充换电设施补短板等政策工具,定制“购车优惠+用能支持+服务保障”一体化促销方案,健全覆盖购车、用车、养车全周期售后服务网络。\n据中国汽车工业协会数据,今年1-4月,中国新能源汽车产销分别完成442.9万辆和430万辆,同比分别增长48.3%和46.2%;新能源汽车新车销量达到汽车新车总销量的42.7%。(完)",
+      "content_hash": "95bdf29ea252faefd766b771db6506d8264f5cbe16b430a415e61a0babe69352",
+      "published_at": "2025-06-03T20:26:00+08:00",
+      "retrieved_at": "2026-09-09T15:21:17.994755+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/28"
+      }
+    },
+    {
+      "source_id": "source_b168eb91593da1f67efb",
+      "title": "协会发布 | 2025年3月零售销量排名快报",
+      "url": "https://new.qq.com/rain/a/20250410A072LO00?media_id=&suid=",
+      "content_kind": "search_summary",
+      "content": "据中国汽车流通协会乘用车市场信息联席分会最新 零售 销量数据统计,2025年3月份国内狭义乘用车市场 零售 销量达194.0万辆,同比增长14.4%,环比增长40.2%;1-3月份累计销量512.7万辆,同比增长6.0%。 \n3月分析: 在国家促消费政策刺激、上海车展前夕的新车发布以及各省市合力出台的促消费政策、叠加最近车企补贴加码等综合利好因素作用下,3月的车市消费主题已经从节前的燃油车消费为主转为节后的新能源消费为主,3月新能源车成为春季乘用车市场恢复的主要动力。3月全月零售194万辆,成为仅次于2018年3月(198万辆)的历史第二巅峰 。\n本文数据是基于 中国汽车流通协会乘用车市场信息联席分会 月报表-初稿。\n*转载或引用本公众号的原创文章,请注明出处。",
+      "content_hash": "df0e2e48a4dc0fba3360bdeeed1c5321b213fa037f452fb37a27db37e00c7c86",
+      "published_at": "2025-04-11T00:56:00+08:00",
+      "retrieved_at": "2026-09-09T15:21:27.635239+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/36"
+      }
+    },
+    {
+      "source_id": "source_c7cc418c3191fe4c9f65",
+      "title": "2025年3月车市预测：零售185万辆，新能源破百万辆",
+      "url": "https://m.zol.com.cn/article/9630008.html",
+      "content_kind": "search_summary",
+      "content": "根据相关行业数据预测,2025年3月,国内狭义乘用车零售市场规模预计将达到约185万辆,与去年同期相比增长9.1%,环比上月增幅达33.7%。这一数据显示出3月车市的强劲增长态势。\n其中,新能源汽车的零售量预计将达到100万辆,市场渗透率回升至54.1%,成为推动车市增长的重要力量。回顾历史数据,中国新能源汽车月销量首次突破100万辆是在2024年8月。\n分析认为,作为传统车市的销售旺季,3月延续了2月底的市场热度,整体氛围保持活跃。从供给端来看,各大车企积极加大研发投入,通过技术创新和多样化产品布局提升市场竞争力。同时,新车型密集上市,产品迭代速度明显加快,为消费者提供了更多优质选择,进一步激发了购车需求。\n此外,新能源汽车渗透率在2025年3月再次超过50%,这得益于政策支持、技术进步以及消费者认知提升等多重因素的共同作用。随着智能化技术的普及和充电基础设施的不断完善,未来新能源汽车的市场渗透率有望继续提高。\n本文属于原创文章,如若转载,请注明来源: 2025年3月车市预测:零售185万辆,新能源破百万辆 https://auto.zol.com.cn/963/9630008.html",
+      "content_hash": "170c18bd47d83738b5661b1104ddab046fdabd944dbb9b7c167ede03a2b36f18",
+      "published_at": "2025-03-22T20:09:38+08:00",
+      "retrieved_at": "2026-09-09T15:21:27.635239+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/39"
+      }
+    },
+    {
+      "source_id": "source_105e181d36aa5aa7bfa6",
+      "title": "2月24日消息，乘联会秘书长崔东树近日发文披露，该团队于2月中旬-环保号",
+      "url": "https://toutiao.hbzhan.com/shortnews/7182",
+      "content_kind": "search_summary",
+      "content": "2月24日消息,乘联会秘书长崔东树近日发文披露,该团队于2月中旬对2025年汽车行业年度预测进行了微调。据预测,2025年乘用车零售量将达到2343万台,同比增长2%。其中,新能源乘用车销量预计将达到1565万台,同比增长28%。这一数据显示,2025年新能源汽车在市场中的占比将高达66.8%,换言之,每售出3辆车中,就有2辆是新能源汽车。乘联会进一步分析指出,2024年全国乘用车厂家销量为1223万台。新能源车价格的下降,叠加国家报废更新和以旧换新政策的推动,以及对新能源车相比燃油车高出0.5万元的补贴政策,共同促成了对燃油车的替代效果超出预期。对于2025年新能源乘用车的预测,乘联会在1月时维持在1563万台的水平,而在2月进行了上调至1565万台,较1月增加了2万台。  #新能源汽车#  (来源: 快科技,作者:随心)",
+      "content_hash": "c4e90332affb6dc44030c864f01f826b90faf6266cb52c10b6397d1b837588fc",
+      "published_at": "2025-02-24T19:37:53+08:00",
+      "retrieved_at": "2026-09-09T15:21:38.218622+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/44"
+      }
+    },
+    {
+      "source_id": "source_200922db2c8c470e4281",
+      "title": "2025年3月新能源车销量：乘联会批发数据出炉",
+      "url": "https://news.m.yiche.com/hao/wenzhang/99459731/",
+      "content_kind": "search_summary",
+      "content": "乘联分会公告数据显示,3月乘用车企业批发销量达114万辆,同比增长37%,环比增长37%。此外,乘联分会还综合预测了今年前1-3月累计批发销量,预计一季度将达到286万辆,同比大增43%。\n数据显示,3月比亚迪以37.14万辆的成绩稳居榜首,紧随其后的是吉利汽车和特斯拉中国,其中特斯拉3月份批发销量为7.89万辆,同比下降了11.5%。\n总体来看,新能源乘用车市场正呈现出强劲的发展势头,市场竞争也日趋白热化。",
+      "content_hash": "cf16fcc2fd27d1467adce90f630cf4913fb139edc5a8f0aecfa071f6e58b99db",
+      "published_at": "2025-04-04T02:52:00+08:00",
+      "retrieved_at": "2026-09-09T15:21:46.761833+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/52"
+      }
+    },
+    {
+      "source_id": "source_547c47eed87392d9e7f3",
+      "title": "乘联分会3月新能源乘用车市预判:比亚迪、吉利、特斯拉批发销量位列前三",
+      "url": "https://c.m.163.com/news/a/KPHNQ4UE0550WHYR.html",
+      "content_kind": "search_summary",
+      "content": "4月2日,乘联分会发布2026年3月新能源乘用车市场预判。其中指出,2026年春节时间较晚,受此影响,3月上半月仍处于节后消费修复期,市场热度恢复相对缓慢。随着各地以旧换新补贴发力、春季新车陆续上市,反内卷效果显现,终端热度逐步提升,下旬起市场开启季节性回暖,消费者观望情绪有望减弱。由于国际油价近期剧烈波动,国内油价上调力度较大,国内新能源渗透率逐周提升,成为3月乘用车市场恢复的重要驱动力。随着近期主力车企的电动化突破和部分爆款新品的推出,带动3月部分主力厂商创当月历史新高。3月的吉利汽车(00175.HK)、奇瑞汽车(09973.HK)、零跑汽车(09863.HK)、东风汽车、理想汽车(LI.US)、蔚来(NIO.US)汽车、上汽乘用车、极狐汽车、一汽红旗、东风日产、广汽丰田、智己汽车、上汽通用、北汽乘用车等厂商新能源批发销量均创出历年3月历史新高的优异表现。全国乘用车市场,2026年2月新能源销量万辆以上厂商的批发销量占总体新能源乘用车当月销量的93%。根据3月初步汇总数据,这些2月新能源销量万辆以上厂商企业的3月销量为99万辆。目前大部分厂商销量基本都已经锁定大数,部分因2月春节因素批发偏低厂商的3月表现很好,因此按照上月结构占比结合本月数据,测算3月全国新能源乘用车批发销量为112万辆。综上,根据月度初步乘联数据综合:2026年3月全国乘用车厂商新能源批发预估112万辆,同比去年持平,环比2月增长55%。",
+      "content_hash": "3239696877ab099e6ad6a19576c1f9f4b2afcf3db613827b2ffda6a0085d94c2",
+      "published_at": "2026-04-02T20:41:00+08:00",
+      "retrieved_at": "2026-09-09T15:21:46.761833+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/53"
+      }
+    },
+    {
+      "source_id": "source_3496bc7d9bc39f7e315f",
+      "title": "惊蛰放大招!比亚迪 3 月 5 日官宣,第三代刀片电池即将亮相-有驾",
+      "url": "https://www.yoojia.com/article/9964116787235339416.html",
+      "content_kind": "search_summary",
+      "content": "能量密度是大家关心的另一个焦点。\n网上疯传能量密度提升了30%,这个数字需要拆开看。\n根据目前多个渠道的信息,第三代刀片电池的电芯能量密度达到了230Wh/kg左右。\n相比第二代刀片电池大约199-200Wh/kg的水平,提升幅度在15%上下,并没有达到30%那么夸张。\n但是,当这些电芯被集成到电池包里,做成可以装车的成品时,系统的能量密度会因为结构件、连接件等产生损耗。\n比亚迪的厉害之处在于,它的CTP(无模组)和CTB(车身电池一体化)技术,极大地减少了这些“无用”的空间和重量。\n最终的结果是,搭载第三代电池的汉EV,CLTC综合工况续航可以轻松突破1000公里。\n也就是说,能量密度的有效提升,加上极致的空间利用,共同实现了续航的跨越。",
+      "content_hash": "483f1b7dcb2b535a6f95748110febd08be7aa67044679271e42fdc72529a4efc",
+      "published_at": "2026-03-03T15:30:00+08:00",
+      "retrieved_at": "2026-09-09T15:22:05.534614+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/57"
+      }
+    },
+    {
+      "source_id": "source_2115463d71d218adcca2",
+      "title": "比亚迪刀片电池你更关注哪些数据?_车主动态论坛-新浪汽车",
+      "url": "https://k.sina.com.cn/article_7880068201_1d5b04c6901901ptcs.html?from=auto&subch=oauto",
+      "content_kind": "search_summary",
+      "content": "简单整理了一些值得关注的比亚迪刀片电池数据,供各位参考!能量密度-\n目前刀片电池能量密度可达180wh/kg左右,通过结构创新,其体积能量密度与主流三元锂电池持平,使搭载该电池的车辆在相同体积下有相近电量.-\n比亚迪第二代刀片电池能量密度有望提升至190wh/kg,将进一步提升车辆续航里程.续航里程-\n以比亚迪汉EV(配置|询价)为例,其搭载刀片电池后续航可达605km,展现了刀片电池在续航方面的优势,目前部分车型续航里程已超700km,未来随着技术发展,续航有望突破1000公里.安全性能-\n针刺测试中,刀片电池无明火、无烟,表面温度仅30°C-60°C,而三元锂电池会剧烈燃烧爆炸,磷酸铁锂块状电池会冒烟,对比可见刀片电池安全性高.-\n刀片电池单体在高于最高电压2.6倍的充电条件下,仅冒烟未起火爆炸,且某电芯热失控后不引发临近电池起火爆炸,为逃生救援争取时间.使用寿命-\n刀片电池可满足充放电3000次以上,满足车辆行驶全生命周期需求,部分车型电池使用寿命达8年120万公里以上,减少了消费者更换电池成本.低温性能-\n在零下20°C时,刀片电池放电能力至少是常温时的90%,低温充电时间与三元锂电池差距不大,仅低温低电量充电功率稍落后,改善了磷酸铁锂电池低温续航衰减难题.生产效率-\n比亚迪重庆弗迪锂电池工厂,刀片电池极片叠片速度达0.3秒/片,为业界最高水平,且对齐公差控制在±0.3毫米以内,保障了生产质量和效率.",
+      "content_hash": "a2b755099f322725a2f76604b11b937153ed84fca630f009b73c6c0aefd03a5c",
+      "published_at": "2026-01-16T01:19:10+08:00",
+      "retrieved_at": "2026-09-09T15:22:05.536120+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/61"
+      }
+    },
+    {
+      "source_id": "source_f5e8c55998f776a34ee4",
+      "title": "比亚迪新一代刀片电池这几个数据很值得被关注：",
+      "url": "https://club.m.autohome.com.cn/bbs/thread-a-23-109903686-1.html",
+      "content_kind": "search_summary",
+      "content": "你会关注比亚迪新一代刀片电池哪些数据\n比亚迪新一代刀片电池这几个数据很值得被关注:\n1.能量密度:新一代刀片电池的能量密度将提升至190Wh/kg,相较于第一代刀片电池的140-150Wh/kg有了显著提升,这一提升使得搭载该电池的纯电车型续航里程有望突破1000km,从而大幅提高新能源汽车的续航能力.\n2.充放电倍率:有消息称,新一代刀片电池的充电倍率将超过5.5C,放电倍率将超过14C,这意味着其充电速度将大幅提升,能在更短的时间内为车辆补充电能,同时,较高的放电倍率也能为车辆提供更强的动力性能.\n3.循环寿命:新一代刀片电池在循环充放电寿命方面也有所优化,虽然目前具体数据尚未明确,但有消息称其循环寿命将进一步延长,这将降低车辆的使用成本,提高电池的耐用性.\n4.安全性:比亚迪刀片电池一直以安全性著称,新一代刀片电池预计将继续保持并提升这一优势,通过优化电池结构和材料等方面,进一步提高电池的安全性能,减少电池在使用过程中出现起火、爆炸等安全事故的风险.",
+      "content_hash": "250383601dbca38df83138f995533eb67641b580174d98cafd8729da975d59ec",
+      "published_at": "2025-04-10T11:55:34+08:00",
+      "retrieved_at": "2026-09-09T15:22:05.536120+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/62"
+      }
+    },
+    {
+      "source_id": "source_7deb7c6c874a9560e637",
+      "title": "25年Q1国内车企集团销量1、比亚迪集团:25Q1全球销量986,098辆,同比57.93%;其中, 新能源 销量98... - 雪球",
+      "url": "https://xueqiu.com/1678212670/330517672",
+      "content_kind": "search_summary",
+      "content": "1、比亚迪集团:25Q1全球销量986,098辆,同比+57.93%;其中,新能源销量986,098辆,同比+57.93%,占比100%;海外销量213,042辆,同比+110.72%,占到全部销量的21.6%; 2、上汽集团:25Q1全球销量944,850辆,同比+13.27%;其中,新能源销量272,852辆,同比+29.89%,占比28.88%;海外销量219,026辆,同比-3.37%,占到全部销量的23.2%; 3、长安汽车:25Q1全球销量523,371辆,同比+21.13%;其中,新能源销量194,173辆,同比+50.75%,占比37.10%;海外销量159,585辆,同比+45.15%,占到全部销量的22.8%; 4、吉利汽车:25Q1全球销量703,824辆,同比+48.00%;其中,新能源销量339,200辆,同比+135.35%,占比48.19%;海外销量160,555辆,同比+2.00%,占到全部销量的22.8%; 5、奇瑞汽车:25Q1全球销量566,446辆,同比+17.10%;其中,新能源销量163,458辆,同比+171.80%,占比28.9%;海外销量255,465辆,同比+4.00%,占到全部销量的45.1%; 6、长城汽车:25Q1全球销量256,807辆,同比-6.73%;其中,新能源销量62,558辆,占比24.4%;海外销量90,890辆,同比+10.35%,占到全部销量的35.4%。",
+      "content_hash": "9666525144b2e56ab2283fb4b69998a21b94fc01c1e26b1e8928cb7e2236e223",
+      "published_at": "2025-04-07T14:22:00+08:00",
+      "retrieved_at": "2026-09-09T15:22:12.774479+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/69"
+      }
+    },
+    {
+      "source_id": "source_5d9006f1cda8e44cf949",
+      "title": "吉利获2024年度中国混动系统控制技术创新领先企业|em|发动机|吉利汽车|工况|技术进阶让用户|控制技术|混动系统|混合动力|电机_手机网易网",
+      "url": "https://m.163.com/dy/article/KBH1O0PI05278DF4.html",
+      "content_kind": "search_summary",
+      "content": "在今年6月由中国汽车知识产权运用促进中心(运促中心)发起的“中国汽车技术创新领先企业评选”中,吉利控股集团凭借在混合动力控制技术方面的卓越表现,荣获“2024年度中国汽车混合动力控制技术创新领先企业”奖项。\n打开网易新闻\n查看精彩图片\n打开网易新闻\n查看精彩图片\n吉利控股集团荣获“2024年度中国汽车混合动力控制技术创新领先企业”奖距离2024年10月\n雷神\n(\n参数\n丨\n图片\n)EM超级电混发布仅一年时间,吉利便实现了显著的技术跃升。这背后,是吉利始终坚持“科技创新”的核心理念。在行业竞争日趋激烈的背景下,吉利坚信科技是赢得未来的关键。雷神电混系统从“优秀”走向“卓越”,得益于其扎实的专利布局与AI生态的双重驱动,以及全球唯一的全域AI智能化研发体系,共同支撑起吉利引领“电混技术进入AI驱动新时代”的底气。运促中心最新发布的《2024年度中国汽车混合动力系统控制技术创新企业榜》显示,吉利汽车凭借161件授权专利、145.69的综合专利创新指数,以及技术创新综合得分90分的成绩,位居榜首。这一成就的核心载体,正是雷神AI电混2.0技术体系。该体系通过EM-i\nAI电混、EM-P\nAI电混和醇氢EF三大技术路径的专利集群布局,不仅实现了全球量产最高电混专用发动机热效率47.26%的突破,更在节能、性能与智能三大维度构筑起坚实的技术护城河。雷神EM-i\nAI电混:树立AI时代的黄金能效标杆雷神EM-i\nAI电混技术在节能方面表现卓越,CLTC工况下银河A7百公里馈电油耗低至2.67L,综合续航超2100km;媒体实测数据更是低至2.49L,成为全球量产混动系统的能耗标杆。其核心突破在于采用了热效率达47.26%的全球最高水平电混专用发动机平台,并通过AI\nfor\nscience技术从百万级参数组合中精准锁定最优压缩比、燃烧室与气道设计,在提升滚流比与湍流强度的同时,精确控制进",
+      "content_hash": "c3fdfc2907826934afda57f5c7738e3948b8ee957757803a6acc68c0e2f2f659",
+      "published_at": "2025-10-10T14:38:03+08:00",
+      "retrieved_at": "2026-09-09T15:22:29.186409+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/75"
+      }
+    },
+    {
+      "source_id": "source_86731960190d1c5ccf1c",
+      "title": "AI时代,吉利给电混装上“智能大脑”|吉利|雷神|动力_新浪新闻",
+      "url": "https://k.sina.com.cn/article_5937504527_161e7210f00101dx72.html",
+      "content_kind": "search_summary",
+      "content": "自2025年开年以来,“AI定义汽车”的浪潮正以前所未有的势能席卷行业。AI也越来越成为了各家车企抢占技术制高点、用户心智与生态话语权的核心战场。\n然而,当大模型“上车”逐渐成为行业标配,早期的技术红利逐步被稀释,产品之间的差异性也在迅速拉平。在各家车企都在谈论AI赋能出行体验时,所有参赛者似乎又回到了同一个起跑线上。\n而在近日,吉利在这场AI“军备赛”中迈出了关键一步。6月13日,吉利正式发布星睿AI云动力2.0,这也是行业首个基于AI场景引擎的动力域智能体。在AI的深度赋能下,吉利雷神超级电混进阶为“更聪明”的雷神AI电混2.0,其包含雷神EM-i\nAI电混、雷神EM-P\nAI电混以及雷神醇氢EF等多条技术路线。\n业内人士表示,这是行业首个给混动装了个“AI大脑”的动力系统。其核心理念不再是单点能耗优化,而是以AI模型为基础,实现车辆动力系统对驾驶者行为和外部环境的实时理解与自我调节。可以说,吉利不仅仅是用AI思维把汽车重做一遍,更是通过AI驱动的智能化发展开启新能源汽车发展的第二增长曲线。\n如果说此前的智能化集中于感知与交互层面,那么吉利此次通过AI赋能动力系统的操作,显然意在建立一个新的技术范式。用户不再是被动接受动力输出的使用者,而是通过日常驾驶数据持续“训练”AI模型,让车辆在不断学习中逐渐适应甚至预测用户的驾驶习惯与行驶场景,真正实现千车千面。\n这一技术路线的落地也得益于吉利智能化体系的多年积累。根据公开资料显示,吉利目前在混动系统控制领域的专利授权量已达到161件,位居全行业首位。同时,吉利是当前全球唯一完成“全域AI智能化”布局的车企,从能源管理到底盘调校,从智驾系统到云端模型更新,构建起了横跨多个关键技术域的AI生态闭环。\n值得注意的是,在AI发展的“三驾马车”——算力、数据、算法方面,吉利也建立了领先优势。在算力方面,早在2022年,吉利便建成星睿智",
+      "content_hash": "3adb109a7ff66e238c035d6adedf2ba56c3fc074de7ae4fc84c315e285600d42",
+      "published_at": "2025-06-17T17:09:00+08:00",
+      "retrieved_at": "2026-09-09T15:22:29.186923+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/76"
+      }
+    },
+    {
+      "source_id": "source_92db6155464a4f5c545f",
+      "title": "吉利雷神EM-i超级电混：AI驱动的混动油耗革命将达成新纪元",
+      "url": "https://m.sohu.com/a/875250429_122066676/?pvid=000115_3w_a",
+      "content_kind": "search_summary",
+      "content": "随着新能源汽车市场的快速崛起,2023年2月份国内新能源车零售渗透率已接近50%,标志着电动化出行已成为新常态。在这样的市场背景下,电混技术正在迎来一次革命性的变革,逐渐打破“过渡方案”的陈旧印象,朝着新能源领域的“终极形态”全速迈进。\n作为中国汽车行业的领头羊,吉利凭借其革命性的雷神EM-i超级电混技术,引领了这一行业的潮流。该技术的核心在于将AI技术深度融合于动力系统之中,以智能化手段大幅降低了燃油消耗。数据显示,搭载雷神EM-i技术的轿车油耗已低至2L/100km,SUV的油耗则仅为3L/100km,这不仅是技术上的突破,更是智能节能革命的开端。\n吉利的智能热管理系统表现尤为出色,能根据实际气温及用户出行路线智能调节电能的使用,实现了30%以上的热管理能耗削减。例如,在冬季短途行驶时,系统会自动判断不需加热的情况下省去加热环节,达到节能的效果;而在长途出行时,系统在充电时会提前对车辆进行预热,确保电池及座舱处于最佳工作状态。\n此外,吉利的智能保电功能,能够迅速识别用户的驾驶习惯,特别是在如川藏线等长爬坡道路条件下,提前进行省电操作,为电机提供充足的动力支持。最新数据表明,雷神EM-i超级电混在复杂路况下,相较于同级别竞品动力多出20%,且发动机转速低500rpm,驾乘体验更为丰富与舒适。\n在节能战术的实施上,吉利通过其智慧运动控制系统表现实属不凡。该技术在AI的指引下,能够实时监测驱动电机状态,结合车身动态、环境信息等多元数据,精准调控动力输出,降低打滑量50%,使得车辆在各种路况下都能保持良好稳定性。\n吉利还引入了智慧云诊断技术,利用数字孪生模型对动力系统和热管理进行监控与维护,保证了行驶过程的安全和可靠。实测结果显示,搭载雷神EM-i超级电混技术的车型续航可高达2390.5公里,百公里油耗仅为2.62L,银河星舰7EM-i的表现同样出色,平均油耗仅为3.2L,亏电",
+      "content_hash": "e15b390ce2a93bd862712152e46756374a04a17eb1ab775348125eee55f9aa16",
+      "published_at": "2025-03-25T03:47:00+08:00",
+      "retrieved_at": "2026-09-09T15:22:29.186923+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/77"
+      }
+    },
+    {
+      "source_id": "source_fc4f4163c5e368e2f98d",
+      "title": "吉利自研全固态电池年内将完成首个Pack下线,并进行装车验证|吉利汽车|吉利集团|工信部|吉利控股|雷神_新浪新闻",
+      "url": "https://k.sina.com.cn/article_1826017320_6cd6d02802001j6mg.html",
+      "content_kind": "search_summary",
+      "content": "IT之家\n1\n月\n24\n日消息,在\n1\n月\n22\n日的吉利控股集团战略解析会议上,吉利汽车集团\nCEO\n淦家阅宣布,2026\n年,吉利自研全固态电池将完成首个\nPack\n下线(“Pack\n生产线”即单体电池组装成电池组的完整生产线),并进行装车验证。\n会上还提到,吉利采取了“多条腿走路”的策略,研发了雷神\nAI\n电混发动机、浩瀚超级电混技术、“神盾金砖电池”等技术,半固态与固态电池的产业化搭载也在稳步推进。\n据悉,2025\n年,吉利控股全年总销量达\n411.6\n万辆,同比增长\n26%,连续五年实现快速增长。其中,新能源汽车销量达\n229.3\n万辆,同比增长\n58%,新能源渗透率达\n56%。集团销量首次突破\n400\n万辆,全球销量排名升至第七位。\n据IT之家此前报道,本月早些时候,工信部提出,提升产业链供应链自主可控能力,实施新一轮重点产业链高质量发展行动,加强标志性产品、基础材料、工具软件等攻关布局,加快突破全固态电池、高级别自动驾驶等技术。\n特别声明:以上文章内容仅代表作者本人观点,不代表新浪网观点或立场。如有关于作品内容、版权或其它问题请于作品发表后的30日内与新浪网联系。",
+      "content_hash": "0012cf6a2c47aeec14664904bdd1eed804d1a36ad3c93374cc09b7fc45babe43",
+      "published_at": "2026-01-24T11:35:11+08:00",
+      "retrieved_at": "2026-09-09T15:22:29.186923+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/79"
+      }
+    },
+    {
+      "source_id": "source_b4336ec406bfa0ff4dad",
+      "title": "视频 | 2025年新能源汽车渗透率有望超50%_腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20250514A058VA00",
+      "content_kind": "search_summary",
+      "content": "中国电动汽车百人会副秘书长师建华在《新物种\n新理念\n新趋势——新能源汽车消费洞察与预测》发布会上预测,2025年新能源汽车销量达1650万辆(含出口),增速近30%,渗透率超过50%。2030年中国新能源渗透率将超过70%。(@中国经营报\n记者\n陈茂利)",
+      "content_hash": "ccb900b6e7d0627742696d9a215b910905db91197cc5a813e2dbc5d0df0e21a2",
+      "published_at": "2025-05-14T14:10:00+08:00",
+      "retrieved_at": "2026-09-09T15:22:39.546541+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/80"
+      }
+    },
+    {
+      "source_id": "source_aacc2482407e3e555c4c",
+      "title": "理想25年销量目标-今日头条",
+      "url": "https://www.toutiao.com/topic/7475256720084715535/",
+      "content_kind": "search_summary",
+      "content": "25年车企销量目标:小米狂翻三倍,理想趋近保守,比亚迪全力冲击 2025年或将成为国内车企最紧张激烈的一年,也是广大车企最后的窗口期。据36氪最新报道,多家新势力造车公司关于2025年销量预测指引出炉,其中有的车企持保守态度,有的车企则非常激进,总之面对明年最后的机遇窗口期,任何一家车企都不愿将蛋糕拱手相让。 天极车讯 31 评论 车企25年销量目标:比亚迪500万辆,吉利271万小米30万理想70万 多家车企订立2025年销量目标,2024年市场表现较好的比亚迪、吉利汽车、小米汽车、零跑汽车、极氪汽车等公司信心满满,看看他们2025年究竟有多高的销售目标? Messon财知道 43 评论 造车新势力|2024年少数达成销量目标,2025年多数计划销量翻番 在新能源车渗透率连续突破50%的2024年,新势力的体量也在膨胀。不知不觉间,榜首公司的销量规模已达到一家量产车企的门槛。具体来看,理想汽车作为造车新势力的领头羊,在2024年全年交付新车500508辆,同比增长33%。 澎湃新闻 理想汽车完成今年销量目标;何小鹏发布内部信;百度App内测极简版 | 晚报 编者按:鞭牛士整理每天热门行业新闻,一站式了解当日动态。—— 国内动态 ——1、理想汽车:2024年累计交付量突破50万辆理想汽车今日宣布,2024年累计交付量突破50万辆。据悉,理想年初定下的年目标销量为80万辆,但因MEGA失利后,连续进行下调至48万。 鞭牛士 2025年销量目标陆续公布,新能源车扛大旗 岁末年初,部分车企相继制定了2025年的销量目标,以东风、吉利、广汽等为代表的几大汽车集团,2025年目标相较于2024年总销量,增幅普遍在10%~30%之间,其中新能源汽车和出口,被认为是驱动各家销量持续增长的关键。 南方+客户端 红观2025丨这些车企,2025年销量目标定了 2025年开年,中国汽车工业传捷",
+      "content_hash": "a0f3d45f44b6536eb9896f848672974674ddc8cf4837ca8e439ffa6456bbd14e",
+      "published_at": "2025-02-25T11:50:04+08:00",
+      "retrieved_at": "2026-09-09T15:23:06.548186+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/89"
+      }
+    },
+    {
+      "source_id": "source_4405a0f3f5dfe831c2ee",
+      "title": "2025车企年终销量大盘点,吉利攻势太凶猛,理想承受压力大_懂车帝",
+      "url": "https://www.dongchedi.com/article/7591474961828119065",
+      "content_kind": "search_summary",
+      "content": "张克刚刚过完元旦节日,各大汽车品牌已经迫不及待公布了2025年销量,即便向来慢一拍的合资阵营,竟也争相公布成绩。当然结果也是几家欢乐几家愁,有人欢喜有人忧。自主五虎;比亚迪最强,长城准备发力2025年市场销冠依然是比亚迪,这个基本无悬念,也没有争议。2025年12月份,比亚迪销量为42万辆,全年累计销量460万辆‌,同比增长7.73%,创历史新高。尤其是‌纯电车型几乎占据销量一半,全年销量225.67万辆,已经超过特斯拉的163.6万辆,真正成为全球第一;‌‌也就是说,2025年比亚迪不仅是新能源全球销冠,也已经是全球纯电销冠,特斯拉的冠军帽子正被比亚迪一顶一顶全部摘下来。当然,比亚迪在2025年确实出现了增长乏力,尤其是后半年表现一般,全年目标完成率只有83.68%。吉利汽车攻势凶猛,2025年全年销量302万辆,同比增长39%,超额完成全年目标,这个数据超过奇瑞,排名国内第二,仅次于比亚迪。吉利最近几年经过整合梳理,旗下各大品牌定位更清晰,攻击性更强。尤其银河品牌,全年销量达到124万辆,贡献出了星愿等多部爆款,走比亚迪的路,大幅度缩短了和比亚迪的差距。尤其在比亚迪擅长的新能源方面,吉利2025年销量达到168.78万辆,轻松创造历史新高,同比增长90%。按照目前发展趋势,吉利还有更大动力和潜能更进一步,凭借2025年超过300万辆的销量,吉利汽车进入全球前10铁板钉钉。2026年,吉利销量目标上调至345万辆,其中新能源目标222万辆。长安汽车向来是自主品牌定海神针,从不激进,也不落后,一直中规中矩。2025年全年销量291.3万辆,同比增长8.5%‌,创下历史记录。尤其新能源表现出色,迅速弥补短板,全年卖出110.9万辆,同比大涨51%,占总销量接近四成份额。在长安旗下几大新能源品牌中,深蓝品牌全年销量33.万辆,启源品牌销量41.1万辆,同比增长42.6%;定位高",
+      "content_hash": "cc1155d6fa3906533860ff2075c2ce07fe8213ea7e3ab84dcde93ed4efddd75c",
+      "published_at": "2026-01-04T12:07:43+08:00",
+      "retrieved_at": "2026-09-09T15:23:06.548818+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/90"
+      }
+    },
+    {
+      "source_id": "source_d65c0c97c1f819e4a30c",
+      "title": "比亚迪2025年销量目标550万辆",
+      "url": "https://finance.sina.cn/2025-03-25/detail-ineqwwwa6614557.d.html",
+      "content_kind": "search_summary",
+      "content": "格隆汇3月25日|据晚点AUTO, 比亚迪 ( 369.590 ,  -5.77 ,  -1.54% ) 董事长王传福公布今年总销量目标为550万辆,其中海外市场销量预计超80万辆。中国市场销量增速约为30%,海外市场增速达91.8%。比亚迪2025年将是产品大年,四个品牌计划推出近20款新车,现有21款车型将换代或增推智驾版本。比亚迪在高端市场和海外市场积极布局,面对技术竞争和品牌建设的挑战。比亚迪计划通过技术立品牌,设计差异化技术标签,推动仰望、腾势、方程豹等高端品牌的发展。同时,比亚迪也在加速智能化转型,提升高阶智驾体验,并加大对AI大模型、智算中心等投入。 \n海量资讯、精准解读,尽在新浪财经APP\n0 条评论 | 0 人参与 网友评论\nAPP专享直播\n开播时间 | 3-25 20:00\n博时基金 陈奥:提振消费“组合拳”!A股风格会切换吗?\n开播时间 | 3-25 19:30\n嘉实基金:【基金经理展开说】重估2025 迎复苏见新机\n开播时间 | 3-25 19:00\n南方基金:未来E起行 “指”掌硬科技 科创板重磅大宽基来了\n开播时间 | 3-25 19:00\n专家解析如何助推人民币债市国际化\n开播时间 | 3-25 19:00\n银华基金:反脆弱第10期 如何避免成为市场情绪的猎物?\n开播时间 | 3-25 16:00\n招商基金 汪洋:硬科技再添新工具,科创综指怎么投?\n开播时间 | 3-25 16:00\n光大证券李泉:DeepSeek模型升级,编程能力媲美顶尖大模型\n开播时间 | 3-25 15:32\n直击现场,新浪财经特派员聊聊博鳌亚洲论坛新鲜事\n开播时间 | 3-25 15:30\n开播时间 | 3-25 15:30\n开播时间 | 3-25 20:00\n博时基金 陈奥:提振消费“组合拳”!A股风格会切换吗?\n开播时间 | 3-25 19:30\n嘉实基金:【基金经",
+      "content_hash": "0db10348eac648f1b1d72a567ed4e1996da2fa5645b5ade4a8ee74c31bcc0e1f",
+      "published_at": "2025-03-26T07:03:00+08:00",
+      "retrieved_at": "2026-09-09T15:23:06.548818+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/91"
+      }
+    },
+    {
+      "source_id": "source_4ccc76afa6a0e7172cf8",
+      "title": "去年302万辆、今年冲345万辆!吉利汽车给2026定了一个小目标|2025年报",
+      "url": "https://k.sina.cn/article_5953190046_162d6789e06702iemg.html?from=auto&vt=4&ab=qiche&_rewriteTime=1767617653826",
+      "content_kind": "search_summary",
+      "content": "(来源:封面新闻)2025年的中国车市,在新能源转型深化与行业竞争白热化中正式落下帷幕,全年呈现出鲜明的强者恒强、分化加剧特征。这一年,中国自主品牌乘用车市场份额一度攀升至近70%的历史新高,在价格战从年初贯穿至岁末的残酷环境下,头部企业凭借产品矩阵与技术优势稳步领跑。其中,比亚迪全年交付460.24万辆新能源汽车,同比微增7.73%。长安汽车\n2025\n年全年销量\n291.3\n万辆,同比增长\n8.5%,创近九年新高。奇瑞280.64万辆的成绩单中,新能源车占比已超过90%,但真正支撑其底气的依然是强大的出海能力。日前,封面新闻记者从吉利汽车获悉,其2025年全年累计销量超过302万辆,超额完成了300万辆的年度目标,2026年,吉利汽车计划推出约10款全新车型,将全年销量目标定为345万辆,其中新能源目标为222万辆。过去的一年里,吉利不仅要在燃油车基盘上与奇瑞、长安等传统对手竞争,更要在新能源赛道上直面比亚迪、特斯拉以及异军突起的小米。2025年,吉利新能源总销量达到169万辆,同比增长约90%,占全年整体销量约56%。在吉利内部,2025年更具里程碑意义的事件是《台州宣言》的落地——通过极氪与领克的战略整合,吉利正在解决过往品牌重叠、资源分散的问题,向管理要效益,向协同要效率。值得注意的是,在新能源浪潮中,吉利并未放弃其赖以生存的燃油车阵地。2025年,中国星系列累计销量达121万辆,超额完成“百万中国星”目标。在燃油车整体市场萎缩的背景下,中国星系列的逆势增长显示了吉利在传统三大件技术上的积淀,以及对燃油车存量市场用户的精准捕捉。吉利在海外市场的表现同样亮眼,2025年全年出口超过42万辆,足迹遍布英国、意大利、巴西等十余个新市场,全球化布局正在成为其销量增长的第二曲线。封面新闻记者\n刘念",
+      "content_hash": "9fe52137840bdbe5083bb4d20d493429cdbb131a858df9bfbe9f9b81cfadc22b",
+      "published_at": "2026-01-04T23:06:00+08:00",
+      "retrieved_at": "2026-09-09T15:23:06.548818+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/92"
+      }
+    },
+    {
+      "source_id": "source_32bf0cd344f81aaf0c9e",
+      "title": "中国新能源车出口 面临的机遇与挑战-电子产品世界手机版",
+      "url": "https://m.eepw.com.cn/article/202406/460357.html",
+      "content_kind": "search_summary",
+      "content": "中国新能源汽车产业在近期面临着来自美国和欧盟的贸易壁垒挑战。美国政府提议将中国新能源汽车的关税提高至100%,而欧盟也正在进行反补贴调查,未来可能会对中国新能源汽车课征针对性关税。在关税壁垒和贸易摩擦加剧的背景下,中国新能源汽车能否承担价格优势骤失的考验,成为一个值得探究的问题。\n中国新能源汽车在国内市场呈现高速发展的态势。根据国际能源署报告,2023年,中国新能源车销量占全球总销量的64%,其中120.3万辆为出口,相较于2022年,产销量增长率超过35%,出口增长率则达到77.6%。中国新能源汽车的快速发展部分归功于车企的创新功能开发,许多车型搭载了先进的智能驾驶辅助系统、5G连接功能、车载语音助手等,这些功能在传统欧美汽车中并不常见。另一个更重要的发展因素是中央与地方政府持续提供的购车补贴。根据Alix\nPartner的报告,2016至2022年间,中国政府对新能源车的补贴金额可能高达560亿美元,且2022年后仍有优惠政策。在政策支持下,中国车企得以扩大生产规模。2022年,中国有超过100家整车企业,以激烈的价格战争夺新能源车市场,导致市场销量巨大,但利润微薄。这种激烈竞争通过出口外溢到国际市场,根据欧盟委员会的资料,2023年欧盟地区纯电动车均价约46,000欧元,而中国出口的纯电动车不仅平均便宜10,000欧元(在非新能源车中仍属中高价位),且功能更丰富,对欧洲传统汽车的新能源车型的生存造成巨大压力。■消费者信任感与品牌力有待提升中国新能源车虽然凭借低价和优良的功能设计在国内外市场上取得市占率,但低廉的销售价格可能不仅与供给侧因素有关,还与需求侧的消费者支付意愿不高有关,这可能影响其在国际市场的发展与抵抗关税的能力。首先,中国汽车品牌在认知度和消费者信任方面仍面临挑战。根据Brand\nFinance的研究,中国汽车品牌的平均价值虽然逐年增加,但仍远低于德、日",
+      "content_hash": "0b51b473b8f1d2bdeffcf63be7839e08a564e3379a3e8cec738db92d29a9ff35",
+      "published_at": "2024-06-26T00:00:00+08:00",
+      "retrieved_at": "2026-09-09T15:23:32.298298+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/100"
+      }
+    },
+    {
+      "source_id": "source_66666b27856cc6be9ce6",
+      "title": "新能源汽车有哪些政策",
+      "url": "https://www.autohome.com.cn/ask/13871368.html",
+      "content_kind": "search_summary",
+      "content": "新能源汽车的政策内容丰富多样,涵盖了多个方面,旨在促进新能源汽车的发展与普及:\n首先,在车辆购置税方面,从2024年1月1日至2025年12月31日,购置新能源汽车可享受免征车辆购置税的优惠。而在2026年1月1日至2027年12月31日期间,购置新能源汽车则可以享受减半征收车辆购置税的优惠。对于购置日期在2024年1月1日至2025年12月31日的新能源乘用车,免税额度不超过3万元;而在2026年1月1日至2027年12月31日期间,减税额度不超过1.5万元。\n其次,在充电基础设施方面,国务院办公厅印发了《关于进一步构建高质量充电基础设施体系的指导意见》,旨在到2030年基本建成覆盖广泛、规模适度、结构合理、功能完善的高质量充电基础设施体系。为解决“找桩难”“进小区难”“公路充电难”等问题,该指导意见提出了推动公共区域充电设施建设,要求居住区落实充电设施配建等具体措施。\n此外,工信部也在提升产品供给质量,加大重点领域推广力度,强化支撑保障条件,并致力于打造世界一流品牌。同时,为了激发市场需求,国家还将持续开展新能源汽车下乡活动,支持企业开发更多适用车型,以释放农村地区的消费潜力。\n最后,国家也在加快重点矿产项目的开发,并研究制定《新能源汽车动力蓄电池回收利用管理办法》,以健全回收利用体系,为新能源汽车的发展提供持续的支持。",
+      "content_hash": "78387fad4952d74cbc1520e2307aae4dcad58734dd931dd7a5c798207434f635",
+      "published_at": "2025-01-31T08:00:00+08:00",
+      "retrieved_at": "2026-09-09T15:23:32.327095+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/103"
+      }
+    },
+    {
+      "source_id": "source_2ceb9e78b905a1860092",
+      "title": "国内文件",
+      "url": "http://www.cctp.org.cn/guoneiwenjian?category=&orderway=desc&zt=value16",
+      "content_kind": "search_summary",
+      "content": "政策名称\n地区 \n发布年份\n关键词\n上海市鼓励电动汽车充换电设施发展扶持办法 上海/上海市 2025 新能源汽车,基础设施建设\n甘肃省打造全国区域性现代制造业基地行动方案 甘肃省 2025 清洁能源,新能源汽车\n四川省零碳工业园区试点建设工作方案 四川省 2025 新能源汽车,基础设施建设,绿色货运配送\n深圳市加快打造人工智能先锋城市行动计划(2025—2026年) 广东省/深圳市 2025 新能源汽车,数字智慧交通\n银行业保险业绿色金融高质量发展实施方案 全国 2025 清洁能源,新能源汽车,基础设施建设\n10个城市启动第二批公共领域车辆全面电动化先行区试点 全国 2025 清洁能源,试点示范,新能源汽车,基础设施建设,绿色货运配送,数字智慧交通\n健全新能源汽车动力电池回收利用体系行动方案 全国 2025 清洁能源,新能源汽车\n深圳市汽车置换更新补贴实施指引(2025年) 广东省/深圳市 2025 财政补贴,新能源汽车\n关于开展2025年县域充换电设施补短板试点申报有关工作的通知 全国 2025 试点示范,新能源汽车,基础设施建设\n2025年大连市汽车置换更新补贴实施细则 全国 2025 财政补贴,新能源汽车\n一个非政府、非营利、自愿性的交流、合作及观点传递平台,秉承“独立、开放、共享、包容”的理念 聚焦政策和技术创新,总结、宣传和推广国际、中国和地方先进经验,加速交通迈向零排放",
+      "content_hash": "265c85dd054d600621f228192b43960aa9fa2a8ba90885be218ba53f397414dc",
+      "published_at": "2025-03-23T17:01:33+08:00",
+      "retrieved_at": "2026-09-09T15:23:32.327095+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/106"
+      }
+    },
+    {
+      "source_id": "source_191b29562332cc60747f",
+      "title": "乘联会:2024年新能源汽车零售1089.9万辆,同比增长40.7%乘用车整车销售收入_网易订阅",
+      "url": "https://www.163.com/dy/article/JLFP5L200519U3I5.html",
+      "content_kind": "search_summary",
+      "content": "1月9日消息,乘联会数据显示,12月新能源乘用车生产达到145.5万辆,同比增长32.2%,环比下降2.0%。2024年1-12月生产1,218.5万辆,同比增长36.4%。12月新能源乘用车批发销量达到151.2万辆,同比增长35.6%,环比增长5.0%。2024年1-12月批发1,223.0万辆,同比增长37.8%。12月新能源乘用车市场零售130.2万辆,同比增长37.5%,环比增长2.6%。2024年1-12月零售1,089.9万辆,同比增长40.7%。12月新能源乘用车出口12.2万辆,同比增长21.5%,环比增长52.9%。2024年1-12月出口129.0万辆,同比增长24.3%。",
+      "content_hash": "d6fca2a213d7fcc163df6220c40c1dd6dc1bdf0d9d46320fc9f76fc50e446f1a",
+      "published_at": "2025-01-09T17:02:03+08:00",
+      "retrieved_at": "2026-09-09T15:24:22.120430+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/123"
+      }
+    },
+    {
+      "source_id": "source_d3af50b2490f1013f65f",
+      "title": "中汽协:2024年新能源汽车销量同比增35.5% - 今日头条",
+      "url": "https://www.toutiao.com/article/7459319563704861184/",
+      "content_kind": "search_summary",
+      "content": "中新经纬1月13日电 “中汽协数据”微信号13日发布2024年汽车工业产销情况。其中显示,2024年,新能源汽车产销分别完成1288.8万辆和1286.6万辆,同比分别增长34.4%和35.5%。中汽协表示,我国汽车产销总量连续16年稳居全",
+      "content_hash": "f955cba9daa96d9e5a6acf874a473eac4a032569c6f580d2cc374d04f87970cc",
+      "published_at": "2025-01-14T00:49:00+08:00",
+      "retrieved_at": "2026-09-09T15:24:22.428608+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/125"
+      }
+    },
+    {
+      "source_id": "source_ccab474dbdff6e62ce99",
+      "title": "工信部2026规章计划公布,新能源汽车双积分办法将修订-新能源汽车政策-行业政策法规--国际充换电网",
+      "url": "https://mchd.in-en.com/html/chd-2459448.shtml",
+      "content_kind": "search_summary",
+      "content": "近日,工业和信息化部公布2026年规章制定工作计划,其中在开展研究论证起草的项目中提到乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法(修订)。原文如下:工业和信息化部2026年规章制定工作计划根据《规章制定程序条例》第十二条的规定,现向社会公布工业和信息化部2026年规章制定工作计划。一、年内提请部务会议审议的项目(4项)1.工业和信息化部关于修改部分规章的决定2.食盐储备和应急管理办法3.国家医药储备管理办法4.电子认证服务管理办法(修订)二、力争年内提请部务会议审议的项目(4项)1.拖欠中小企业款项严重失信主体认定管理暂行办法2.工业节水管理办法3.通信建设工程质量监督管理规定(修订)4.无线电频率划分规定(修订)三、开展研究论证起草的项目(13项)1.工业资源综合利用管理办法2.稀土二次资源回收利用管理办法3.乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法(修订)4.中国工艺美术大师管理办法5.国防科学技术奖励办法(修订)6.通信工程建设项目招标投标管理办法(修订)7.电信设备进网管理办法(修订)8.电信网码号资源管理办法(修订)9.电信服务质量监督管理暂行办法(修订)10.卫星通信网和地球站管理规定(修订)11.国防科研生产安全事故报告和调查处理办法(修订)12.核事故辐射影响越境应急管理规定(修订)13.重要军工设施保护监督管理办法\n国际充换电网声明:本文仅代表作者本人观点,与国际充换电网无关,文章内容仅供参考。凡注明“来源:国际充换电网”的所有作品,版权均属于国际充换电网,转载时请署名来源。\n本网转载自合作媒体或其它网站的信息,登载此文出于传递更多信息之目的,并不意味着赞同其观点或证实其描述。如因作品内容、版权和其它问题请及时与本网联系。",
+      "content_hash": "68d2c3e5241fe8c048478497b2a2561d211efa14c02acd2bb04387c680fb63f2",
+      "published_at": "2026-05-09T00:00:00+08:00",
+      "retrieved_at": "2026-09-09T15:24:36.560243+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/131"
+      }
+    },
+    {
+      "source_id": "source_126dc175f01312f41c06",
+      "title": "协会发布一周要闻回顾 行业政策(2025年5月12日-5月18日)",
+      "url": "https://new.qq.com/rain/a/20250520A05OCP00",
+      "content_kind": "search_summary",
+      "content": "2025-05-20 15:16:48 关于开展2024年度双积分数据核算审查工作的通知 5月13日,工业和信息化部装备工业发展中心公布《关于开展2024年度双积分数据核算审查工作的通知》。 通知称,为贯彻落实《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法》(工业和信息化部、财政部、商务部、海关总署、市场监管总局令 第64号)及《关于2024—2025年度乘用车企业平均燃料消耗量与新能源汽车积分管理有关事项的通知》(工信部通装函〔2023〕378号)有关要求,受工业和信息化部装备工业一司委托,装备中心将通过工业和信息化部政务服务平台乘用车企业平均燃料消耗量与新能源汽车积分管理系统(以下简称“积分管理系统”),开展2024年度乘用车企业燃料消耗量与新能源汽车积分审查核算工作,现将有关事项通知如下: 一、工作流程 (一)参与核算的企业主体,包括境内乘用车生产企业和进口乘用车供应企业。 (二)装备中心对企业双积分数据进行核算,并通过积分管理系统下发核算结果。 (三)企业登录积分管理系统,在“双积分核算”模块中查看并确认核算结果。 1、对核算结果确认无误的企业,请于5月23日之前在线填写相关内容后下载《乘用车企业平均燃料消耗量与新能源汽车积分确认函》,由法人签字并加盖企业公章后,通过积分管理系统上传彩色扫描件,纸质原件邮寄至装备中心(建议EMS邮寄)。 2、对核算结果有异议的企业,请结合核算结果进行自查,并于5月16日之前在线提交复核申请。 (四)装备中心依据企业提交的各项材料开展审查,并将审查结果汇总上报装备工业一司。 二、联系方式 联系电话:010-68209124 联系邮箱:sjc-tech@eidc.org.cn 邮寄地址:北京市海淀区万寿路27号院1号楼 邮政编码:100846 (来源:工业和信息化部) 关于征求GB/T 25982—2024《客车车内噪声限值",
+      "content_hash": "5d7e79de5a2dd6735a4d53f116bc5298b902579402c56d1ae163a91b8b514c52",
+      "published_at": "2025-05-20T15:16:48+08:00",
+      "retrieved_at": "2026-09-09T15:24:36.561202+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/133"
+      }
+    },
+    {
+      "source_id": "source_33e1b47d3638e5f91eaf",
+      "title": "2024国内汽车销量情况 .pdf-原创力文档",
+      "url": "https://max.book118.com/html/2025/0206/5233331344012043.shtm",
+      "content_kind": "search_summary",
+      "content": "2024国内汽车销量 比亚迪427 2024长安268 国奇瑞260g 内吉利218n 汽五菱154i 车长城123X 销理想50. 量埃安49g (前十)鸿蒙45n i 零跑29 *数据来源:各车企官方发布,中汽数研统计公布 蔚来22K 2024年销量 品牌占全国销量比油车占比新能源占比10万10-20万20-30万30-50万50万 (万辆)y 比亚迪427.213.6%100%b11%65%19%4% 长安268.48.5%54%46%25%68%1%6% 奇瑞260.48.3%74%26%6%84%10% d 吉利217.76.9%50%50%22%54%12%10%1% e 蔚来22.20.7%100%10%74%16% r 小鹏19.00.6%100%31%43%26% a 理想50.11.6%p100%98%2% 零跑29.40.9%100%22%63%15% 小米13.50.0%0% 问界38.61.2%100%60%40% P 智界5.80.2%100%53%47% 享界0.70.0%100%100% 尊界0.20.0%100%100% 1 1,401.7 2024国内汽车销量 销量:万辆g 500n i 比亚迪 450X .长安 400 g奇瑞 350n吉利 i 300K蔚来 小鹏 250 y理想 200b零跑 150d小米 埃安 100e r问界 50a智界 -p尊界 01020e3040506070 r P价格:万元 2 各车型销量情况占比1:比亚迪长安 比亚迪:Y2024=427.2萬輛(13.6%);新能源=100%长安:Y2024=268.4萬輛(8.5%);新能源=46%,燃油車=54% 价格区间价格区间 系列车型2024年全年销量级别动力占品牌比例系列车型2024年全年销量级别动力占品牌比例 (万元)g(万元) 秦732,2529~14紧凑",
+      "content_hash": "d128a043cbea36b51763768655cc8806fe0916a636478ce001bf082e249c7186",
+      "published_at": "2025-02-07T17:16:05+08:00",
+      "retrieved_at": "2026-09-09T15:25:03.078159+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/153"
+      }
+    },
+    {
+      "source_id": "source_53c3fe223d8cd9ec5876",
+      "title": "【渤士说 星投顾】2024年是不是“理想”的一年",
+      "url": "https://finance.sina.cn/2025-01-15/detail-ineezhcf7997218.d.html",
+      "content_kind": "search_summary",
+      "content": "全文2238字 预计阅读需14分钟\n1月1日,各大汽车厂商都公布了自己2024年的销售数据,\n我们先简单回顾一下:\n2024年中国汽车销冠依然是比亚迪,总计卖了427.21万辆,打破了 大众汽车 多年的记录,2023年这个数据是302.44万辆,累计同比增长41.26%。 比亚迪之后,长安汽车和 吉利汽车 的销售均创新高——长安汽车2024年卖出了268万辆汽车 ,创七年新高,其中73万辆是新能源汽车,同比增长超50%;53万辆出海,同比增长超过47%。奇瑞全年销售260余万辆,同比增长38.4%。吉利旗下的吉利、银河、极氪、领克全年销量累计217.66万辆,同比增长32%。\n不仅是这些00年前后创业的国产自主品牌今年爆发了,风头正盛的“新势力”们今年一样也在狂飙突进。 理想到现在为止已经卖出了113万辆车,但仅仅是2024年就卖出了超50万辆;蔚来汽车2024年卖了超22万辆,同比增长38.7%,小鹏也卖了19万辆;赛力斯汽车,2024年靠着“问界”系列一年做出来了超过42万辆的业绩,同比增长了182.84%。\n其中我个人最关注的是 理想汽车 ,不单单因为我是理想车主,而且理想汽车作为国产新势力“三剑客”里面第一个盈利的车企,自然对 中国新能源 车的未来有参考价值。理想在24年交付了50万辆,而23年交付37.6万辆,同比增长24.8%。虽然在交付量和增长比率上依旧无法撼动比亚迪等国产车的“老前辈”,但对于“新势力”来说理想又何尝不是追赶的目标呢?关于理想在24年的营收和利润分析,因为相关报表尚未公布,所以我们用23年的数据推理。2023年理想汽车在交付37.6万辆车的同时,公司全年营收1238.5亿元,净利润118.1亿,那么我们是否就可以判断公司今年的营收和净利润就会有较大幅度增长呢?其实不然。\n首先在24年三月份的理想新品发布会上发布的首款纯电产品——理想MEGA,",
+      "content_hash": "9a4b1f0dfd541546371af1c24fd9cdc04773a94b649b81d4a93d5ec5b4441f57",
+      "published_at": "2025-01-15T08:00:00+08:00",
+      "retrieved_at": "2026-09-09T15:25:03.079169+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/154"
+      }
+    },
+    {
+      "source_id": "source_ea07a9567b9ebb668c38",
+      "title": "理想汽车统计的各品牌2024年中国市场销",
+      "url": "http://baa.m.yiche.com/zonghe/thread-51610465.html",
+      "content_kind": "search_summary",
+      "content": "理想汽车统计的各品牌2024年中国市场销量:比亚迪349.29万辆、奔驰71.39万辆、宝马69.62万辆、奥迪66.08万辆、特斯拉65.94万辆、五菱64.16万辆、理想50.45万辆、问界38.63  辆、埃安33.05万辆、零  27.19  辆、银河24.73  辆、极氪21.2  辆、长安20.9  辆、蔚来20.53万辆、深  18.77  辆、   萨斯18.04  辆、  鹏17.11  辆、  尔  15.2万辆、小米13.68  辆、  势10.66  辆、极狐7.89  辆~",
+      "content_hash": "43352b890d60cffce7b7305949c127a3a0a133684fb2d7bce207e7ac76db26aa",
+      "published_at": "2025-01-08T01:20:10+08:00",
+      "retrieved_at": "2026-09-09T15:25:03.079169+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/155"
+      }
+    },
+    {
+      "source_id": "source_92ec746f48dc2f658374",
+      "title": "中汽协:2025年国内新能源汽车渗透率有望升至50%",
+      "url": "https://m.caixin.com/m/2025-09-11/102361571.html",
+      "content_kind": "search_summary",
+      "content": "【财新网】2025年前八个月,中国新能源汽车销量同比增长36.7%、至962万辆,在新车总销量中占比同比增加8个百分点、至45.5%。9月11日,中国汽车工业协会(下称“中汽协”)披露上述数据。\n单看内销,前八个月,新能源汽车在国内销售了808.8万辆,在新车市场的渗透率为48%。中汽协预测称,2025年全年,这项比例有望达到50%。2024年,新能源汽车国内销量为1158.2万辆,渗透率为45.3%。\n新能源汽车在中国市场的普及速度远超预期。主管部门曾在2020年定下目标,希望中国新能源汽车销量在2025年达到新车总销量的20%。前述预测意味着,国内市场新能源汽车渗透率不仅有望在2025年历史性地超过燃油车,还将大幅跑赢此前规划。",
+      "content_hash": "d25298016f7e949fab2181d7c6107b7c1ee06169468beee513f0d710a0a09dec",
+      "published_at": "2025-09-11T22:36:00+08:00",
+      "retrieved_at": "2026-09-09T15:25:10.738740+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/159"
+      }
+    },
+    {
+      "source_id": "source_0f1fa110b65d44432c86",
+      "title": "关于延续和优化新能源汽车车辆购置税减免政策的公告",
+      "url": "https://www.urumqi.gov.cn/wlmqs/c119180/202308/dd3c7ad7559145bb8a6ffc467e43f937.shtml",
+      "content_kind": "search_summary",
+      "content": "财政部 税务总局 工业和信息化部公告 2023年第10号    \n  为支持新能源汽车产业发展,促进汽车消费,现就延续和优化新能源汽车车辆购置税减免政策有关事项公告如下:\n  一、对购置日期在 2024年1月1日至2025年12月31日期间的新能源汽车免征车辆购置税,其中,每辆新能源乘用车免税额不超过3万元;对购置日期在2026年1月1日至2027年12月31日期间的新能源汽车减半征收车辆购置税,其中,每辆新能源乘用车减税额不超过1.5万元。 \n  购置日期按照机动车销售统一发票或海关关税专用缴款书等有效凭证的开具日期确定。\n  享受车辆购置税减免政策的新能源汽车,是指符合新能源汽车产品技术要求的纯电动汽车、插电式混合动力(含增程式)汽车、燃料电池汽车。新能源汽车产品技术要求由工业和信息化部会同财政部、税务总局根据新能源汽车技术进步、标准体系发展和车型变化情况制定。\n  新能源乘用车,是指在设计、制造和技术特性上主要用于载运乘客及其随身行李和(或)临时物品,包括驾驶员座位在内最多不超过 9个座位的新能源汽车。 \n  二、销售方销售 “换电模式”新能源汽车时,不含动力电池的新能源汽车与动力电池分别核算销售额并分别开具发票的,依据购车人购置不含动力电池的新能源汽车取得的机动车销售统一发票载明的不含税价作为车辆购置税计税价格。 \n   “换电模式”新能源汽车应当满足换电相关技术标准和要求,且新能源汽车生产企业能够自行或委托第三方为用户提供换电服务。 \n  三、为加强和规范管理,工业和信息化部、税务总局通过发布《减免车辆购置税的新能源汽车车型目录》(以下简称《目录》)对享受减免车辆购置税的新能源汽车车型实施管理。《目录》发布后,购置列入《目录》的新能源汽车可按规定享受车辆购置税减免政策。\n  对已列入《目录》的新能源汽车,新能源汽车生产企业或进口新能源汽车经销商(以下简称汽车企业)",
+      "content_hash": "6fd7dcf187bea877f631f7799a4a881af7c5336b3d66b5db5351e1d9d55d2a7a",
+      "published_at": "2025-02-05T21:23:51+08:00",
+      "retrieved_at": "2026-09-09T15:25:34.350813+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/166"
+      }
+    },
+    {
+      "source_id": "source_659f43b94bec810a692f",
+      "title": "双积分政策解读？",
+      "url": "https://www.autohome.com.cn/ask/11061322.html",
+      "content_kind": "search_summary",
+      "content": "在环保与可持续发展的潮流推动下,中国工业和信息化部等五部门对汽车行业的标志性政策——“双积分”办法进行了重大调整。自2023年8月1日起,新版政策将对新能源汽车积分计算方法进行革新,旨在推动汽车产业向更高效、绿色的方向发展。\n修订后的政策显著降低了新能源乘用车标准车型的积分分值,平均下调幅度达到40%,并重新定义了积分计算方法和上限。新增的“新能源汽车积分池管理”章节引入了动态机制,当年度市场供需失衡时,企业可以自主选择将正积分存储至积分池,这一举措为未来积分市场提供了一定的缓冲空间。存储的积分有效期为五年,有效缓解了市场短期波动对汽车制造商的压力。\n专家指出,这项政策调整意味着企业必须更加注重技术创新和节能效率,例如优化车身结构和提升电池系统的能效,以增加纯电行驶里程。同时,政策对于获取新能源积分的要求更为严格,将促使产业在高质量发展道路上加速前行。\n回顾过往,自2017年“双积分”政策出台以来,它一直是衡量汽车企业环保表现的重要标准。随着政策的不断迭代和完善,政府旨在通过灵活的积分池管理,平衡市场供需,稳定积分价格。据统计,过去几年积分价格的波动反映了供需关系的紧张与变化,而新的修订将有助于这一问题的解决。\n乘联会秘书长崔东树认为,积分池制度的引入为政策的灵活性提供了保障,同时减少了市场预测的不确定性,有助于稳定新能源汽车的发展预期。总的来说,新版“双积分”政策将推动汽车行业的绿色转型,为实现“双碳”目标奠定坚实基础。",
+      "content_hash": "3b16d2e67d8e5644f97ef81abdc12ee4a16c353580121cf58889818dabf9d41e",
+      "published_at": "2025-02-23T08:00:00+08:00",
+      "retrieved_at": "2026-09-09T15:25:35.479244+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/171"
+      }
+    },
+    {
+      "source_id": "source_4b51e3d2b1ffb7b69165",
+      "title": "乘联分会预测2025年新能源车零售量达1330万辆 市场渗透率升至57%车市乘用车月新能源汽车销量_网易订阅",
+      "url": "https://www.163.com/dy/article/JO4LUNBA0519D45U.html",
+      "content_kind": "search_summary",
+      "content": "观点网讯:2月11日,乘联分会发布预测称,2025年国内车市零售量将达到2340万辆,同比增长2%。其中,新能源乘用车零售量预计为1330万辆,增长20%,市场渗透率将提升至57%。免责声明:本文内容与数据由观点根据公开信息整理,不构成投资建议,使用前请核实。",
+      "content_hash": "94e439674e0d9f3f8aac6e9980d70682bd8283e50403ae24bae30536b9cdffed",
+      "published_at": "2025-02-11T16:21:17+08:00",
+      "retrieved_at": "2026-09-09T15:25:45.961506+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/174"
+      }
+    },
+    {
+      "source_id": "source_fdefd4c73a23ebdf2c06",
+      "title": "吉利汽车1月零售量同比增长28.2%在业内排第一",
+      "url": "http://c.m.163.com/news/a/JOJJM11Q0511BBQE.html",
+      "content_kind": "search_summary",
+      "content": "运营商财经网 李广艳/文\n近日,乘联会发布了2025年1月零售销量排名快报,引发关注。运营商财经网注意到,本月只有吉利汽车和奇瑞汽车实现了同比增长,其余上榜的厂商均出现不同程度的下滑,接下来运营商财经网将揭秘具体情况。\n据2025年1月厂商零售销量排行榜显示,上榜的十家厂商分别为吉利汽车、比亚迪汽车、一汽大众、长安汽车、奇瑞汽车、上汽大众、广汽丰田、一汽丰田、上汽通用五菱以及华晨宝马。\n与上一年同期相比,上榜的十家车企中,仅吉利汽车和奇瑞汽车实现零售销量增长。其中,吉利汽车在1月的销量为239944辆,同比增长28.2%,是增长幅度最大的一家,位居榜单首位;奇瑞汽车的销量为119431辆,同比增长12.2%。此外,同比下滑幅度最大的是长安汽车,其在1月份的销量为121859辆,同比下滑37.3%。\n不过,如果按照包含出口的批发销量来计算,比亚迪汽车仍是第一名。\n打开网易新闻 查看更多图片 \n运营商财经网注意到,新能源车是助推吉利汽车实现销量增长的重要原因。在2025年1月新能源厂商零售销量排行榜中,吉利汽车新能源的销量达到117576辆,同比增长82.9%,排在榜单第二位,仅次于比亚迪汽车,新能源占比接近一半。\n据了解,2024年吉利汽车的销量表现就十分可观,全年累计销量超过217万辆,同比增长超32%,不仅创下了年销量历史新高,还超额完成了200万辆的年度目标。\n值得一提的是,吉利汽车在2024年的销售目标原本是190万辆,在2024年一季度业绩交流会上,吉利汽车集团CEO淦家阅表示:“鉴于目前的销售情况,集团管理层一致决定把2024年的全年目标调整到200万辆以上。”\n2025年,吉利汽车立下了271万辆、同比涨超24%的销量目标,未来能够实现吗?运营商财经网将继续关注。\n(责任编辑:李广艳)\n运营商财经(官方微信公众号yyscjrd)—— 主流财经网站,一家全面覆盖科",
+      "content_hash": "6f043b96f7e98077b4f57e101c37ed939ad780a4fc46ed544c6530a51b3b9ed2",
+      "published_at": "2025-02-18T18:11:09+08:00",
+      "retrieved_at": "2026-09-09T15:36:03.414813+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/182"
+      }
+    },
+    {
+      "source_id": "source_9644c37507f408245ca2",
+      "title": "人民海外版 | 2025年,15万元以下新能源乘用车销量增长最为明显--啥样的车,更受市场欢迎?-新浪汽车",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001905vk22.html",
+      "content_kind": "search_summary",
+      "content": "2025年,哪些车卖得好?中国汽车工业协会(以下简称“中汽协”)数据显示,2025年,10万元至20万元价格区间新能源车型累计销量达694.1万辆,占比最多;8万元至10万元车型销量增长78.4%,增速最快。在燃油车市场,10万元至15万元是销量最集中的区间。为什么这些价位的车型受市场欢迎?汽车以旧换新补贴调整后,哪些价位的车将卖得更好?10万至15万元新能源车是销量主力中汽协数据显示,2025年,15万元以下新能源乘用车销量增长最为明显。其中,8万元以下车型、8万元到10万元车型和10万元至15万元车型分别销售153.3万辆、149.4万辆和354.9万辆,同比分别增长51.8%、78.4%和59.5%。为何10万元至15万元这一价格区间车型卖得最多?需求端,该区间覆盖家庭首购、通勤等核心刚需,兼顾实用性与性价比。中国汽车流通协会副秘书长郎学红对本报记者表示,10万元至15万元是典型的高性价比价位段,符合大多数家庭的购车预算。供给端,主流品牌布局密集,纯电、插混车型齐全,配置均衡,能够满足多元需求。例如,比亚迪海狮06(配置|询价)全系年度销量超16万辆,秦L(配置|询价)、宋Pro(配置|询价)等多款车型也位于这一价格区间;零跑汽车将激光雷达等高端配置打入10万元至15万元市场,凭借B10、C10等车型满足市场消费需求,其中C10全年销量超过15万辆。为什么8万元至10万元这一区间车型销量增长更快?郎学红表示,这一现象与政策密切相关。2024年至2025年实施的汽车报废更新补贴政策,采取了定额补贴方式,报废旧车后购买新能源车可获最高2万元补贴,购买燃油车可获1.5万元补贴。在享受以旧换新和报废更新政策的用户中,新能源车的比例约60%。其中,享受报废更新政策用户选择新能源车的比例尤为突出。这部分用户原有车辆残值较低,在定额补贴政策下,只需花费较少资金即可置换一辆新车,提",
+      "content_hash": "43fb41a97edd8c2fab1d9dcb7654f7a5343edccfeaf4170fd7ca9aedb6797c34",
+      "published_at": "2026-05-24T14:17:34+08:00",
+      "retrieved_at": "2026-09-09T15:36:40.217118+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/202"
+      }
+    },
+    {
+      "source_id": "source_07967d7336d55e80c740",
+      "title": "真实购车数据出炉!中国家庭 37% 买 10 万以下车,45% 选 10-20 万车型,折射出当下消费现状-有驾",
+      "url": "https://www.yoojia.com/article/10230124250942788305.html",
+      "content_kind": "search_summary",
+      "content": "2025年的车市销量榜,为这个“金字塔基座”提供了最有力的注脚。\n全年SUV零售量达1210万辆,其中销量排名第二的吉利星越L,定价14.77-17.97万元,卖出了244,068辆。\n排名第三的吉利博越L,指导价9.99-14.97万元,销量激增100.4%,达到232,926辆。\n就连合资品牌的常青树丰田RAV4荣放,终端起售价也下探到了15万元左右。\n而在新能源领域,这个趋势更加明显。\n2025年,10-20万元价位的新能源车型销量达到了694.1万辆,占新能源乘用车总量的53.4%。\n这个市场,已经彻底被自主品牌的混动和纯电车型攻占。",
+      "content_hash": "24143c262bb7f4d75002a796793ed6597ea977f78c14fad94e00b7385d512e8d",
+      "published_at": "2026-04-16T11:10:00+08:00",
+      "retrieved_at": "2026-09-09T15:36:40.217118+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/205"
+      }
+    },
+    {
+      "source_id": "source_b5064349418512f9405e",
+      "title": "比亚迪2024年汽车出口增速，中国汽车品牌第一",
+      "url": "https://m.163.com/dy/article/JM61FSUV0511CRGN.html",
+      "content_kind": "search_summary",
+      "content": "中国汽车的出口,2024年也做得不错。\n1月13日,中汽协发布最新数据显示,2024年,我国出口汽车585.9万辆,同比增长19.3%。\n在整车出口前十企业中,比亚迪出口43.3万辆,同比增长71.8%,增速位列中国汽车品牌第一。跑出新能源汽车出口加速度。\n出口增速最快的车企前五:\n1.比亚迪 出口43.3万辆,同比增长71.8%\n2.吉利 出口40.39万辆,同比增长53%。\n3.长安 出口53万辆,同比增长47%。\n4.长城 出口45.31万辆,同比增长43.39%。\n5.吉利 出口114.4万辆,同比增长21.4%。\n比亚迪继续高速领跑,增速位列中国汽车品牌第一。\n整体来看:2024年中国新能源汽车产销分别完成1288.8万辆和1286.6万辆,同比分别增长34.4%和35.5%,新能源汽车新车销量达到汽车新车总销量的40.9%,较2023年提高9.3%。\n如果按出口量来排,2024年出口量的前10的车企分别是:\n1.奇瑞 114.4 万辆\n2.上汽 92.9 万辆\n3.长安 53.6 万辆\n4.吉利 53.2 万辆\n5.长城 45.3 万辆\n6.比亚迪 43.3 万辆\n7.北汽 27.4 万辆\n8.特斯拉 26.0 万辆\n9.江淮 24.9 万辆\n10.东风 24.6 万辆\n2024年中国新能源汽车产业交出亮眼“成绩单”,产销连续10年位居全球第一。\n比亚迪毫无疑问是全球市场的冠军,乘用车以425万辆,增幅41.1%的成绩跑在最前面。\n新能源乘用车中,纯电销量1,764,992台,占比41.5%,插混销量2,485,378台,占比58.5%,是中国汽车市场车企销量冠军,中国汽车市场品牌销量冠军,还是全球新能源车市场销量冠军。\n2025年年各家车企,将继续拿出新技术来比拼,百家争鸣还在持续。\n大概海外的消费者,用不了多久也会享受到来自国产汽车,科技豪华的精神冲击。\n比",
+      "content_hash": "8143de794369dd314df64fd3ac28516828c02a585a106b31821cfaa520a82545",
+      "published_at": "2025-01-18T16:41:09+08:00",
+      "retrieved_at": "2026-09-09T15:37:07.377045+00:00",
+      "source_type": "web",
+      "origin": {
+        "file": "state/final_state.json",
+        "pointer": "/sources/207"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "agent": "CriticMaster",
+      "stage": "section:sec_1",
+      "recorded_at": "2026-09-09T15:42:49.351566+00:00",
+      "metadata": {
+        "report_version": 2,
+        "review_round": 2,
+        "section_id": "sec_1"
+      },
+      "success": true,
+      "assessment": {
+        "verdict": "major_issues",
+        "summary": "当前章节存在严重的证据缺口和事实冲突问题。核心问题包括：将行业预测（渗透率超过50%）当作2025年已实现的既定事实陈述，这构成了跨章节的严重事实冲突。同时，多个关键数据点（如2025年3月新能源汽车批发销量、理想汽车3月销量新高）缺乏直接证据支持。此外，还存在引用不匹配（如将3月单月数据描述为第一季度数据）和未支持的概括性判断。这些问题严重影响了章节的可信度，必须优先解决。"
+      },
+      "issues": [
+        {
+          "claim_text": "2025年，中国新能源汽车市场已迈入主流普及的新阶段，行业普遍预测其渗透率将突破50%，标志着新能源汽车从政策驱动转向市场驱动，成为推动整体车市增长的核心引擎。",
+          "description": "章节正文第一句将‘2025年渗透率将突破50%’作为行业普遍预测来陈述，这与claim关联的证据（evidence_1f36380cac98db77c3ff）内容一致。然而，根据跨章节事实冲突问题（issue_adc00c5b），报告其他章节（如sec_2, sec_4, sec_6）将‘2025年市场渗透率已突破50%’作为既定事实。虽然当前章节的claim措辞为‘预测’，但考虑到整个报告存在将预测当作事实的严重冲突，且当前章节是‘市场概况’，其表述可能被误解为对2025年已发生事实的描述，因此仍需标记此冲突，以确保报告整体事实基础的一致性。",
+          "issue_id": null,
+          "issue_type": "factual_conflict",
+          "missing_evidence": null,
+          "recommended_action": "revise",
+          "requires_external_evidence": false,
+          "search_query": null,
+          "section_ids": [
+            "sec_1"
+          ],
+          "severity": "critical"
+        },
+        {
+          "claim_text": "2025年第一季度，新能源乘用车累计批发销量预计达286万辆，同比大增43%，远高于整体汽车市场12%的增速。",
+          "description": "Claim声称‘整体汽车市场12%的增速’，但关联的证据（evidence_56a98e26491ebc3ba02c）仅提供了新能源乘用车批发销量286万辆及同比43%的数据，并未提及整体汽车市场的增速（12%）。这是一个关键的比较数据，缺乏证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "需要证据证明2025年第一季度中国整体汽车市场的增速为12%。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年第一季度 中国汽车市场 整体 增速 12%",
+          "section_ids": [
+            "sec_1"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "2025年3月，纯电动汽车在中国汽车市场的总份额中占比超过三分之一（>33.3%），是增长最快的细分类型。",
+          "description": "Claim声称纯电动汽车是‘增长最快的细分类型’，但关联的证据（evidence_dc9dcb0e0736977a786a）仅提到‘纯电动汽车是增长最快的类型，销量增长了51%’，并未明确这是否在所有细分类型（如PHEV, EREV）中增速最快。虽然证据暗示了这一点，但表述不够直接和明确。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "需要更明确的证据证明在2025年3月，纯电动汽车（BEV）的增速快于插电混动（PHEV）和增程式（EREV）等其他新能源细分类型。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年3月 纯电动汽车 BEV 增长最快 细分类型 增速对比 PHEV EREV",
+          "section_ids": [
+            "sec_1"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "3月，比亚迪以37.14万辆的批发销量稳居月度榜首；",
+          "description": "Claim的表述是‘3月，比亚迪以37.14万辆的批发销量稳居月度榜首’，这本身没有问题。但关联的证据（evidence_56a98e26491ebc3ba02c）的片段描述为‘3月比亚迪以37.14万辆的成绩稳居榜首’，两者一致。然而，在上一轮问题（issue_09961f00）中，一个类似的claim（关于‘第一季度’）被标记为引用不匹配。当前这个claim是正确的，但为了澄清并关闭旧问题，需要确认此证据支持的是3月单月数据，而非第一季度数据。",
+          "issue_id": null,
+          "issue_type": "citation_issue",
+          "missing_evidence": null,
+          "recommended_action": "none",
+          "requires_external_evidence": false,
+          "search_query": null,
+          "section_ids": [
+            "sec_1"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "特斯拉中国则以7.89万辆的销量位列前茅，但同比下降11.5%。",
+          "description": "Claim声称特斯拉中国‘位列前茅’，这是一个模糊的表述。关联的证据（evidence_56a98e26491ebc3ba02c）提到‘紧随其后的是吉利汽车和特斯拉中国’，暗示其排名靠前但未明确具体名次。Claim的推断基本合理，但表述不够精确。",
+          "issue_id": null,
+          "issue_type": "citation_issue",
+          "missing_evidence": null,
+          "recommended_action": "revise",
+          "requires_external_evidence": false,
+          "search_query": null,
+          "section_ids": [
+            "sec_1"
+          ],
+          "severity": "minor"
+        },
+        {
+          "claim_text": "2025年初的市场竞争格局已呈现出明显的头部集中效应与梯队分化。",
+          "description": "这是一个概括性的判断，虽然可以从后续的具体厂商数据中推断，但缺乏直接证据（如行业分析报告）支持‘2025年初’这一时间点的竞争格局呈现‘头部集中效应与梯队分化’的描述。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "需要证据（如行业分析报告或市场评论）支持2025年初中国新能源汽车市场竞争格局呈现头部集中与梯队分化的判断。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年初 中国新能源汽车 竞争格局 头部集中 梯队分化",
+          "section_ids": [
+            "sec_1"
+          ],
+          "severity": "minor"
+        },
+        {
+          "claim_text": "综上所述，2025年的中国新能源汽车市场在总量跨越新台阶的同时，内部技术路线分化与品牌竞争格局也已初步定型，为后续深入分析各主要厂商的竞争策略与优劣势奠定了基础。",
+          "description": "这是一个总结性的陈述，概括了章节的主要结论。虽然前面的数据支持‘总量跨越’和‘技术路线分化’，但‘品牌竞争格局也已初步定型’这一判断缺乏独立的直接证据支持，更多是基于前文数据的推论。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "需要证据（如行业分析或专家评论）支持‘2025年中国新能源汽车品牌竞争格局已初步定型’这一总结性判断。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 中国新能源汽车 品牌竞争格局 初步定型",
+          "section_ids": [
+            "sec_1"
+          ],
+          "severity": "minor"
+        }
+      ],
+      "fact_check_results": [],
+      "missing_aspects": [],
+      "strength_points": [],
+      "resolved_issue_ids": [
+        "issue_09961f00",
+        "issue_c709c50b"
+      ],
+      "unresolved_issue_ids": [
+        "issue_cf0eec7e",
+        "issue_51066d2b",
+        "issue_6c9a5dec",
+        "issue_10745936",
+        "issue_adc00c5b",
+        "issue_e7378043"
+      ],
+      "origin": {
+        "file": "reviews/round_2_section_sec_1_attempt_1.json",
+        "pointer": "/canonical_structured_output"
+      }
+    },
+    {
+      "agent": "CriticMaster",
+      "stage": "section:sec_2",
+      "recorded_at": "2026-09-09T15:43:18.511819+00:00",
+      "metadata": {
+        "report_version": 2,
+        "review_round": 2,
+        "section_id": "sec_2"
+      },
+      "success": true,
+      "assessment": {
+        "verdict": "major_issues",
+        "summary": "章节存在严重的事实冲突和证据缺口。核心问题包括：1）将2025年渗透率预测当作已实现事实陈述；2）关于理想汽车2025年1月销量同比增幅的证据与正文直接矛盾；3）大量关于品牌定位、产品矩阵、价格带、增长归因的具体描述缺乏证据支持。章节无法通过审核。"
+      },
+      "issues": [
+        {
+          "claim_text": "2025年，中国新能源汽车市场已进入渗透率实质性突破50%的主流普及新阶段",
+          "description": "章节正文声称2025年渗透率已“实质性突破50%”，但所引用的证据（evidence_1f36380cac98db77c3ff）是2025年之前的预测（“预测,2025年新能源汽车销量达1650万辆...渗透率超过50%”），并非2025年已实现的、可验证的数据。这构成事实冲突，将预测当作既定事实陈述。",
+          "issue_id": null,
+          "issue_type": "factual_conflict",
+          "missing_evidence": null,
+          "recommended_action": "revise",
+          "requires_external_evidence": false,
+          "search_query": null,
+          "section_ids": [
+            "sec_2"
+          ],
+          "severity": "critical"
+        },
+        {
+          "claim_text": "理想汽车作为新势力代表，成功进入新能源厂商零售销量前十，位列第八。",
+          "description": "章节正文声称理想汽车在2025年1月零售销量中位列第八。然而，所引用的证据（evidence_528ad927f426e9dd140b）显示，在“与上年同期相比”的比较中，“理想汽车...零售销量负增长”。这与章节后文（claim_ece777f0f360186c3831）声称理想汽车“1月同比增幅为34%”存在直接矛盾。证据本身未明确列出具体排名，但“负增长”的描述与“同比增幅为34%”冲突。",
+          "issue_id": null,
+          "issue_type": "factual_conflict",
+          "missing_evidence": null,
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年1月 理想汽车 零售销量 同比 增长",
+          "section_ids": [
+            "sec_2"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "其产品布局兼顾主流家用市场与个性化细分市场（如深蓝G318代表的硬派越野），在保持燃油车基本盘的同时，快速提升新能源占比，2025年新能源销量同比大涨51%。",
+          "description": "章节正文提及长安汽车“深蓝G318代表的硬派越野”作为个性化细分市场的例子，但现有证据（evidence_f6ac12bed92b2e8ed5cf）仅提供了长安新能源总销量数据，并未提及“深蓝G318”这一具体车型或“硬派越野”这一细分市场定位。该具体描述缺乏证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于长安汽车深蓝G318车型定位（硬派越野）及市场表现的具体信息。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "长安深蓝G318 2025 硬派越野 市场定位",
+          "section_ids": [
+            "sec_2"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "**比亚迪**定位为“科技普惠”的全民品牌，凭借垂直整合的供应链和“王朝”、“海洋”等系列产品矩阵，实现了从A00级到D级、从10万元以下到30万元以上的全价格带无缝覆盖。",
+          "description": "章节正文对比亚迪的品牌定位（“科技普惠”）、产品系列（“王朝”、“海洋”）和价格带覆盖（“从A00级到D级、从10万元以下到30万元以上”）进行了具体描述，但现有证据均未支持这些具体信息。证据仅涉及销量、市场份额和目标。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "对比亚迪“科技普惠”品牌定位、王朝/海洋系列产品矩阵覆盖A00-D级全级别、以及10万以下至30万以上价格带的具体描述或数据支持。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 品牌定位 科技普惠 王朝 海洋 产品矩阵 价格带 A00 D级",
+          "section_ids": [
+            "sec_2"
+          ],
+          "severity": "minor"
+        },
+        {
+          "claim_text": "其2025年的高速增长，得益于银河系列（如星愿）在6-15万元市场的爆款效应，以及在燃油车市场“中国星”系列的稳定基本盘，形成了独特的“两条腿走路”竞争力。",
+          "description": "章节正文对吉利汽车增长原因进行了具体归因：银河系列（星愿）在6-15万元市场的爆款效应，以及燃油车“中国星”系列的稳定基本盘。现有证据仅提供了吉利的整体销量和增速，未支持这些具体的产品系列市场表现和价格带分析。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于吉利银河系列（特别是星愿）在6-15万元市场的具体表现（销量、市场份额），以及“中国星”系列燃油车市场基本盘的具体数据或描述。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "吉利银河 星愿 2025 销量 6-15万元 市场 中国星系列 燃油车 基本盘",
+          "section_ids": [
+            "sec_2"
+          ],
+          "severity": "minor"
+        },
+        {
+          "claim_text": "**比亚迪**的核心销量支柱来自10-20万元的主流家用市场，王朝系列的秦PLUS DM-i、宋Pro DM-i以及海洋系列的海鸥等车型贡献了绝大部分销量。",
+          "description": "章节正文具体指出了比亚迪的核心销量支柱价格带（10-20万元）和具体贡献车型（秦PLUS DM-i、宋Pro DM-i、海鸥）。现有证据仅提供了比亚迪的总销量和纯电销量，未支持这些具体的车型销量贡献和价格带分析。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于比亚迪2025年10-20万元价格带销量占比，以及秦PLUS DM-i、宋Pro DM-i、海鸥等具体车型销量贡献的数据或分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 2025 10-20万元 销量 秦PLUS DM-i 宋Pro DM-i 海鸥 销量贡献",
+          "section_ids": [
+            "sec_2"
+          ],
+          "severity": "minor"
+        }
+      ],
+      "fact_check_results": [],
+      "missing_aspects": [],
+      "strength_points": [],
+      "resolved_issue_ids": [],
+      "unresolved_issue_ids": [
+        "issue_c1902b9b",
+        "issue_878c5a10",
+        "issue_e7f186ce",
+        "issue_09660b20",
+        "issue_aab82d6e",
+        "issue_4d81ae1c",
+        "issue_e684d778",
+        "issue_adc00c5b",
+        "issue_0e4d6d91",
+        "issue_e7378043"
+      ],
+      "origin": {
+        "file": "reviews/round_2_section_sec_2_attempt_1.json",
+        "pointer": "/canonical_structured_output"
+      }
+    },
+    {
+      "agent": "CriticMaster",
+      "stage": "section:sec_3",
+      "recorded_at": "2026-09-09T15:43:40.761166+00:00",
+      "metadata": {
+        "report_version": 2,
+        "review_round": 2,
+        "section_id": "sec_3"
+      },
+      "success": true,
+      "assessment": {
+        "verdict": "major_issues",
+        "summary": "章节包含多个未解决的旧问题，且新增了新的证据缺口和引用问题。部分断言缺乏证据支持，部分引用存在歧义。整体质量不达标。"
+      },
+      "issues": [
+        {
+          "claim_text": "2025年，中国新能源汽车市场的技术竞争已从单纯的“电动化”转向“电动化”与“智能化”深度融合的双轮驱动格局。",
+          "description": "这是一个关于2025年行业整体技术趋势的判断性断言，但当前章节没有提供任何证据（如行业报告、专家观点、数据）来支持这一论断。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持2025年技术竞争转向“电动化”与“智能化”双轮驱动格局的行业分析、报告或权威观点。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 中国新能源汽车 技术趋势 电动化 智能化 双轮驱动",
+          "section_ids": [
+            "sec_3"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "理想在持续优化增程平台效率与NVH表现的同时，其高压纯电技术路线（如800V平台）的研发与落地规划也日益清晰，旨在为未来纯电车型的快速补能和性能表现做好技术储备。",
+          "description": "关于理想汽车高压纯电技术路线（如800V平台）的研发与落地规划“日益清晰”的断言，缺乏具体证据支持。章节未提供理想官方关于800V平台研发进展、规划或技术储备的声明、报道或资料。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "理想汽车关于高压纯电技术路线（如800V平台）的研发进展、落地规划或官方声明的证据。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "理想汽车 800V平台 高压纯电 技术路线 研发 规划",
+          "section_ids": [
+            "sec_3"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "尽管在公开的2025年新能源汽车下乡车型目录中未见长安品牌，但其技术路线在下沉市场仍具潜力。",
+          "description": "断言“在公开的2025年新能源汽车下乡车型目录中未见长安品牌”，但未提供该目录的证据。同时，“其技术路线在下沉市场仍具潜力”是一个主观判断，缺乏数据或分析支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "2025年新能源汽车下乡车型目录（官方发布）以及关于长安汽车技术路线在下沉市场潜力的分析或数据。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 新能源汽车下乡 车型目录 长安汽车 下沉市场 潜力",
+          "section_ids": [
+            "sec_3"
+          ],
+          "severity": "minor"
+        },
+        {
+          "claim_text": "比亚迪刀片电池采用磷酸铁锂化学体系，在针刺测试中表现出无明火、无烟、表面温升仅30–60°C的极高安全性。",
+          "description": "此Claim引用的证据（evidence_649ac8f6a5aad19b6549）描述的是刀片电池（未特指第几代）的针刺测试表现。但Claim的上下文（紧随第三代刀片电池官宣之后）暗示这些安全数据属于第三代刀片电池。证据并未明确将“无明火、无烟、表面温升仅30–60°C”与“第三代刀片电池”关联。存在引用不当的风险，可能将前代电池的安全数据错误归因于新产品。",
+          "issue_id": null,
+          "issue_type": "citation_issue",
+          "missing_evidence": null,
+          "recommended_action": "revise",
+          "requires_external_evidence": false,
+          "search_query": null,
+          "section_ids": [
+            "sec_3"
+          ],
+          "severity": "minor"
+        },
+        {
+          "claim_text": "同时，比亚迪正从“量变”转向“智变”，明确将智能驾驶作为2025年的核心KPI之一。",
+          "description": "此Claim引用的证据（evidence_29b7780274ee4f8123be）提及比亚迪“提出了从量变到‘智’变的规划”和“明确了2025年智能驾驶领域的KPI为T0级别”。然而，在章节的上下文中，该Claim被置于“动力系统：从结构创新到AI赋能”下的比亚迪刀片电池技术描述之后，与前后文关于电池技术的讨论衔接生硬，逻辑链条不清晰。智能驾驶KPI的提及显得突兀，未能与“技术趋势”部分的整体结构（动力系统 vs. 智能化）很好地融合。",
+          "issue_id": null,
+          "issue_type": "logic_issue",
+          "missing_evidence": null,
+          "recommended_action": "revise",
+          "requires_external_evidence": false,
+          "search_query": null,
+          "section_ids": [
+            "sec_3"
+          ],
+          "severity": "minor"
+        }
+      ],
+      "fact_check_results": [],
+      "missing_aspects": [],
+      "strength_points": [],
+      "resolved_issue_ids": [],
+      "unresolved_issue_ids": [
+        "issue_f67e7559",
+        "issue_2759cdcf",
+        "issue_79d088bd",
+        "issue_ca6747ed",
+        "issue_eb218101",
+        "issue_29ca7046",
+        "issue_b344d369"
+      ],
+      "origin": {
+        "file": "reviews/round_2_section_sec_3_attempt_1.json",
+        "pointer": "/canonical_structured_output"
+      }
+    },
+    {
+      "agent": "CriticMaster",
+      "stage": "section:sec_4",
+      "recorded_at": "2026-09-09T15:43:48.720031+00:00",
+      "metadata": {
+        "report_version": 2,
+        "review_round": 2,
+        "section_id": "sec_4"
+      },
+      "success": true,
+      "assessment": {
+        "verdict": "major_issues",
+        "summary": "章节存在一个跨章节的严重事实冲突（渗透率预测被当作事实），以及多个未解决的证据缺口和逻辑问题。章节质量不达标，无法通过。"
+      },
+      "issues": [
+        {
+          "claim_text": "进入2025年，中国新能源汽车市场已实质性迈入主流普及阶段，市场渗透率预计将历史性地突破50%，标志着行业“市场驱动”特征日益凸显。",
+          "description": "章节开篇将‘市场渗透率预计将历史性地突破50%’作为论述前提。然而，现有证据（evidence_db0daf71681ff56cb058）显示，中汽协的表述是‘预测称，2025年全年，这项比例有望达到50%’。这是一个预测，而非已实现的、可验证的事实。将预测当作既定事实陈述，构成严重的事实冲突，动摇了整个报告的事实基础。",
+          "issue_id": null,
+          "issue_type": "factual_conflict",
+          "missing_evidence": null,
+          "recommended_action": "revise",
+          "requires_external_evidence": false,
+          "search_query": null,
+          "section_ids": [
+            "sec_4"
+          ],
+          "severity": "critical"
+        }
+      ],
+      "fact_check_results": [],
+      "missing_aspects": [],
+      "strength_points": [],
+      "resolved_issue_ids": [],
+      "unresolved_issue_ids": [
+        "issue_da776fdb",
+        "issue_eefd3a69",
+        "issue_56ce1728",
+        "issue_8c07058e",
+        "issue_407fb67f",
+        "issue_721a3065",
+        "issue_adc00c5b"
+      ],
+      "origin": {
+        "file": "reviews/round_2_section_sec_4_attempt_1.json",
+        "pointer": "/canonical_structured_output"
+      }
+    },
+    {
+      "agent": "CriticMaster",
+      "stage": "section:sec_5",
+      "recorded_at": "2026-09-09T15:45:00.279880+00:00",
+      "metadata": {
+        "report_version": 2,
+        "review_round": 2,
+        "section_id": "sec_5"
+      },
+      "success": true,
+      "assessment": {
+        "verdict": "major_issues",
+        "summary": "章节对四家厂商的挑战与机遇进行了结构化分析，但绝大多数具体断言（如原材料价格回调、技术竞争力、厂商具体优势/劣势、竞争维度升级等）均缺乏直接证据支持。现有证据仅覆盖了部分数据点（如渗透率预测、出口数据、关税风险），但大量关键分析性、预测性内容属于无证据的推测。多个上一轮遗留的major问题仍未解决。章节整体可信度低，需要大量补充研究。"
+      },
+      "issues": [
+        {
+          "claim_text": "进入2025年，中国新能源汽车市场在渗透率实质性突破50%并迈向主流普及阶段的同时，头部厂商面临的挑战与机遇呈现出结构化差异。",
+          "description": "章节开篇断言2025年市场渗透率已“实质性突破50%”并“迈向主流普及阶段”，这是一个关于市场阶段的定性判断，缺乏明确的证据支持（例如，引用2025年初已达到50%渗透率的数据或权威评论）。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持2025年初中国新能源汽车市场渗透率已实质性突破50%并进入主流普及阶段的证据（如行业报告、专家观点）。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 中国新能源汽车 市场渗透率 50% 主流普及 阶段",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "尽管2024年部分原材料价格有所回调，但地缘政治与资源集中度高的特性意味着供应紧张与价格波动仍是悬在车企头上的达摩克利斯之剑。这对于**比亚迪**（垂直整合度高，尤其电池自供）和**理想汽车**（增程式路线对电池依赖度相对低于纯电）构成不同程度的成本压力。比亚迪凭借庞大的采购规模与上游布局（如锂矿投资）具备更强的抗风险能力，而吉利与长安则需在供应链管理上投入更多资源以稳定成本。",
+          "description": "关于2024年原材料价格回调、四家厂商面临的成本压力差异、以及比亚迪抗风险能力更强的具体分析，缺乏数据或报告支持。这属于对厂商供应链风险敞口的比较性断言。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于2024年关键原材料（镍、钴、锂）价格回调的具体数据；关于比亚迪、吉利、长安、理想四家厂商在原材料成本压力、供应链抗风险能力方面的对比分析报告。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2024年 镍 钴 锂 价格 回调 对比亚迪 吉利 长安 理想 供应链 成本压力 抗风险能力",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "技术风险已成为行业核心挑战。电池性能（能量密度、安全、快充）、续航里程及智能化（高阶智能驾驶、智能座舱）是产品差异化的关键。2025年，**比亚迪**在刀片电池与CTB技术上的积累是其护城河，但其智能化（尤其是城市NOA）的追赶速度将面临市场检验。**吉利**（依托亿咖通、魅族生态及自研芯片）与**理想汽车**（城市NOA落地与高压纯电平台推进）在智能化领域投入激进，但持续的巨额研发投入将考验其财务健康度。**长安**与华为的深度合作（阿维塔、深蓝）使其在智能化上具备后发优势，但外部技术依赖也可能带来不确定性。",
+          "description": "对四家厂商2025年在电池技术、智能化方面的竞争力、优劣势及财务影响的详细比较分析，缺乏来自厂商技术路线图、研发投入数据或第三方技术评估报告的直接证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于比亚迪刀片电池/CTB技术2025年竞争力评估；关于吉利（亿咖通、魅族、芯片）、理想（城市NOA、高压平台）、长安（华为合作）在2025年智能化领域具体进展、优劣势及财务影响的行业分析报告。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 比亚迪 刀片电池 CTB 竞争力；吉利 亿咖通 魅族 自研芯片 智能化 投入；理想汽车 城市NOA 高压平台 财务；长安汽车 华为 合作 智能化 优势 风险",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "**比亚迪**凭借全产业链成本控制与规模效应，在价格战中拥有最强的防御能力。**吉利**与**长安**在转型过程中仍需平衡新能源与燃油车业务的利润结构，价格战对其整体盈利冲击更为显著。**理想汽车**定位高端家庭市场，虽一定程度上避开了低端价格战，但其纯电车型的推出将直面与比亚迪、特斯拉等企业的直接竞争，毛利率承压风险增大。",
+          "description": "关于四家厂商在价格战中的防御能力、盈利冲击差异以及理想汽车纯电车型竞争风险的具体断言，缺乏成本结构分析、盈利数据或市场竞争分析报告的支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持比亚迪成本控制与价格战防御能力、吉利/长安新能源转型盈利冲击、理想纯电车型毛利率承压风险的具体数据或行业分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 成本控制 价格战 防御能力；吉利 长安 新能源转型 利润结构 价格战 冲击；理想汽车 纯电车型 竞争 毛利率 风险",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "国内产业政策风险突出，购置税减免等政策的延续性、双积分考核调整将直接影响企业产品布局与盈利结构。四家企业均需为可能的政策退坡预留财务缓冲。",
+          "description": "关于购置税减免等政策延续性风险及双积分考核调整影响的断言，缺乏对2025年具体政策动向或行业共识的引用。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于2025年新能源汽车购置税减免、双积分等政策可能调整及其对企业影响的行业分析或政策评论。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 新能源汽车 购置税 减免 政策 延续性 双积分 调整 影响",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "这对出口规模大且增长迅速的**比亚迪**和**吉利**构成直接冲击。...**长安**与**理想**的海外布局尚在初期，但全球化的雄心必然面临此挑战。RCEP框架虽提供了一定的市场扩张与贸易便利化机遇，但难以完全抵消欧美主要市场的壁垒影响。",
+          "description": "关于四家厂商受欧美贸易壁垒冲击程度差异（比亚迪、吉利直接冲击 vs 长安、理想初期布局）以及RCEP机遇有限性的判断，缺乏对各家厂商具体出口市场结构、海外战略阶段及RCEP实际效益的分析证据。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于比亚迪、吉利、长安、理想四家厂商出口市场结构（欧美占比）、海外布局阶段的具体信息，以及RCEP对其出口机遇的实质性分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 吉利 长安 理想 出口市场 结构 欧美 占比 海外布局 阶段；RCEP 中国新能源汽车 出口 机遇",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "充电基础设施建设滞后、投资成本高的问题依然存在，制约了纯电动车型的进一步普及，这对**比亚迪**的纯电主力车型和**理想**新推出的纯电系列构成潜在制约。同时，电池安全风险仍是行业共同课题，任何严重的安全事故都可能对品牌造成毁灭性打击，四家企业均需在BMS（电池管理系统）与整车安全设计上持续加码。",
+          "description": "关于充电设施滞后对比亚迪和理想纯电车型的具体制约，以及四家企业均需加码BMS和安全设计的断言，缺乏对充电设施现状与车型销量的关联分析，以及对企业具体安全投入的引用。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于充电基础设施滞后对特定厂商（比亚迪、理想）纯电车型销售制约的分析；关于头部新能源汽车厂商在BMS和整车安全设计方面投入的具体信息。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "充电基础设施 滞后 对比亚迪 理想 纯电车型 销售 制约；比亚迪 吉利 长安 理想 BMS 安全设计 投入",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "**比亚迪**凭借先发优势和丰富的产品矩阵，在东南亚、中东、欧洲等地已建立桥头堡。**吉利**（通过极氪、领克品牌）与**长安**正加速海外本地化生产布局，以规避关税风险。**理想汽车**的海外战略聚焦高端市场，其独特的家庭用车定位和增程技术（在充电设施欠佳地区有优势）可能成为差异化突破口。",
+          "description": "关于四家厂商具体海外市场布局（桥头堡、本地化生产、战略聚焦）及理想汽车增程技术海外优势的断言，缺乏对各厂商海外业务进展、本地化生产计划及增程技术海外市场接受度的具体报道支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于比亚迪在东南亚、中东、欧洲市场具体布局（桥头堡）；吉利、长安海外本地化生产的具体计划或进展；理想汽车海外高端市场战略及增程技术优势的市场分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 东南亚 中东 欧洲 市场 布局；吉利 极氪 领克 海外 本地化生产；长安 海外 本地化生产；理想汽车 海外 高端市场 增程技术 优势",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "**吉利**的SEA浩瀚架构、**长安**的EPA平台也具备技术输出的潜力。",
+          "description": "关于吉利SEA架构和长安EPA平台具备技术输出潜力的断言，缺乏这些平台已进行或计划进行对外授权的具体证据。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于吉利SEA浩瀚架构、长安EPA平台进行技术输出（对外授权）的报道或官方声明。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "吉利 SEA 浩瀚架构 技术输出 授权；长安 EPA 平台 技术输出",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "供应链整合方面，头部企业通过投资、合资等方式向上游延伸，或通过规模化采购压低成本，构建更韧性的供应链体系。",
+          "description": "这是一个概括性的断言，指出头部企业通过上游延伸和规模化采购构建韧性供应链。虽然逻辑合理，但缺乏针对四家厂商具体做法的证据。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于比亚迪、吉利、长安、理想四家厂商通过投资、合资等方式向上游延伸，或通过规模化采购构建韧性供应链的具体案例或报道。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 吉利 长安 理想 供应链 上游 投资 合资 规模化采购",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "**理想汽车**和**吉利**在智能座舱生态、用户数据运营上布局较早，有望通过软件服务、生态互联开辟新的收入来源。**比亚迪**在补齐智能化短板后，其庞大的用户基数是其开发生态价值的巨大富矿。",
+          "description": "关于理想、吉利在智能生态变现上的布局和潜力，以及比亚迪用户基数生态价值的断言，缺乏对各家厂商具体生态布局、软件服务收入模式或用户数据运营策略的证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "关于理想汽车、吉利汽车在智能座舱生态、用户数据运营、软件服务收入方面的具体布局和规划；关于比亚迪智能化进展及其用户基数生态价值开发潜力的分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "理想汽车 智能座舱 生态 软件服务 收入；吉利汽车 亿咖通 魅族 生态 变现；比亚迪 智能化 用户基数 生态价值",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "市场增长虽放缓，但存量替代与消费升级并存。**比亚迪**有望继续收割主流大众市场；**吉利**与**长安**在10-25万元主流价位段的混动与纯电车型竞争中将受益于其品牌认知与渠道优势；**理想**则在30万元以上高端家庭市场巩固其领导地位，并探索纯电市场的增量。",
+          "description": "关于四家厂商在2025年国内市场具体机会（收割市场、受益于品牌渠道、巩固领导地位）的断言，缺乏市场份额数据、品牌渠道优势分析或销量预测的支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持比亚迪收割主流市场、吉利/长安在10-25万元价位段品牌渠道优势、理想在30万元以上市场领导地位的具体市场份额、销量数据或市场分析报告。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 比亚迪 主流市场 份额；吉利 长安 10-25万元 新能源汽车 品牌认知 渠道优势 2024；理想汽车 30万元以上 高端家庭市场 领导地位 市场份额",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "| **比亚迪** | 智能化追赶压力；欧美贸易壁垒对出口的直接冲击；规模巨大后的管理复杂度与质量风险。 | 全产业链成本优势在价格战中凸显；技术（电池、平台）出海潜力最大；国内市场基本盘稳固。 |\n| **吉利汽车** | 新能源转型中燃油车利润下滑的平衡难题；智能化高投入带来的财务压力；高端品牌（极氪）面临激烈竞争。 | 技术架构（SEA）与智能化生态（亿咖通、魅族）的协同效应；海外市场多元化布局；品牌矩阵完善。 |\n| **长安汽车** | 对华为等外部技术合作的依赖风险；中低端市场竞争激烈，盈利承压；海外品牌影响力建设处于初期。 | 华为智能化赋能带来的产品力快速提升；传统制造体系与成本控制能力；政府资源与国内渠道优势。 |\n| **理想汽车** | 纯电车型推出后毛利率面临考验；产品线相对单一，市场风险集中；作为新势力，抗宏观风险能力相对较弱。 | 高端家庭用户心智占领牢固；增程技术在特定海外市场有优势；用户运营与生态变现模式探索领先。 |",
+          "description": "总结表格中对四家厂商核心挑战与关键机遇的具体列举，绝大多数条目（如比亚迪的管理复杂度风险、吉利的燃油车利润平衡难题、长安的政府资源优势、理想的用户心智占领等）都是高度具体的断言，缺乏直接证据支持。表格内容本质上是前文分析的总结，因此继承了前文所有证据缺口。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "需要为表格中每一项具体的挑战和机遇断言寻找支持证据，涉及各家厂商的财务压力、竞争态势、技术依赖、市场地位、用户心智等多个方面。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 管理复杂度 质量风险；吉利 新能源转型 燃油车利润 平衡；长安 华为 合作 依赖风险 政府资源 优势；理想汽车 用户心智 占领 增程技术 海外优势 生态变现",
+          "section_ids": [
+            "sec_5"
+          ],
+          "severity": "major"
+        }
+      ],
+      "fact_check_results": [],
+      "missing_aspects": [],
+      "strength_points": [],
+      "resolved_issue_ids": [],
+      "unresolved_issue_ids": [
+        "issue_54487a20",
+        "issue_cc8d7582",
+        "issue_97f3b930",
+        "issue_fd8879be",
+        "issue_4179ab27",
+        "issue_48eeb513",
+        "issue_4dac2d58",
+        "issue_0e4d6d91"
+      ],
+      "origin": {
+        "file": "reviews/round_2_section_sec_5_attempt_1.json",
+        "pointer": "/canonical_structured_output"
+      }
+    },
+    {
+      "agent": "CriticMaster",
+      "stage": "section:sec_6",
+      "recorded_at": "2026-09-09T15:46:20.781430+00:00",
+      "metadata": {
+        "report_version": 2,
+        "review_round": 2,
+        "section_id": "sec_6"
+      },
+      "success": true,
+      "assessment": {
+        "verdict": "major_issues",
+        "summary": "本章节作为未来展望，包含大量对2025年竞争格局、厂商战略和市场份额的预测性断言，但绝大多数断言缺乏直接证据支持，属于推测。现有证据仅能支持部分历史数据（如2024年销量），无法支撑对未来趋势和厂商具体战略的详细分析。章节质量严重受限于证据缺口。"
+      },
+      "issues": [
+        {
+          "claim_text": "2025年中国新能源汽车市场的竞争格局将呈现出“头部集中、分层竞争”的确定性态势，行业正处在从规模扩张向价值竞争、从国内深耕向全球布局的关键转折期。",
+          "description": "关于2025年竞争格局“头部集中、分层竞争”以及行业处于“关键转折期”的总体判断，属于预测性结论，缺乏明确的证据支持。需要引用行业分析报告或权威专家观点来支撑这一宏观趋势判断。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持2025年中国新能源汽车市场竞争格局“头部集中、分层竞争”以及行业处于“规模扩张向价值竞争、国内向全球转折”趋势的行业分析报告或权威观点。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 中国新能源汽车 竞争格局 头部集中 分层竞争 行业趋势 价值竞争 全球化",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "数据显示，PHEV+REEV的市场份额预计在2025年将达到40%，而BEV份额约为33.3%。",
+          "description": "关于2025年PHEV+REEV和BEV市场份额的具体预测数据（40%和33.3%），未提供任何证据支持。这是对未来技术路线格局的重要量化预测，需要引用市场研究机构或行业权威的预测报告。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持2025年PHEV+REEV市场份额达40%、BEV份额约33.3%的预测数据来源（如市场研究报告）。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 中国新能源汽车 PHEV REEV BEV 市场份额 预测 40% 33.3%",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "这一明确的政策预期，一方面为2025年的市场提供了稳定的需求支撑，另一方面也倒逼所有厂商必须在2025年及之前强化自身的产品力与成本控制能力，以应对未来政策红利减弱后的纯市场竞争。",
+          "description": "关于购置税政策对2025年市场影响（提供稳定需求、倒逼厂商强化能力）的分析，属于基于政策的推断，缺乏来自厂商行为、市场数据或行业评论的直接证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持购置税政策退坡预期对2025年市场需求和厂商行为（产品力、成本控制）产生具体影响的行业分析或厂商评论。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "新能源汽车购置税政策 2025年 市场影响 厂商应对 成本控制",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "正如行业分析所指，2025年新能源汽车市场的竞争将聚焦于技术、品牌和价格三大方面。",
+          "description": "关于2025年竞争聚焦于“技术、品牌和价格”三大方面的断言，引用了“行业分析所指”，但未提供具体的行业分析来源。需要引用明确的报告或专家观点来支撑这一判断。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "明确指出2025年新能源汽车市场竞争聚焦于技术、品牌和价格三大方面的行业分析报告或权威观点来源。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 新能源汽车 竞争焦点 技术 品牌 价格 行业分析",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "电池技术的持续突破，如固态电池、钠离子电池等新技术的产业化进程，将推动续航里程和成本优化，但智能化体验的差异将成为高端市场产品力分层的决定性因素。",
+          "description": "关于电池技术突破（固态电池、钠离子电池）对续航和成本的影响，以及智能化体验成为高端市场决定性因素的判断，属于对未来技术趋势和市场偏好的预测，缺乏直接证据支持。需要引用技术发展路线图或市场研究报告。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持固态电池、钠离子电池等新技术在2025年产业化进程及其对续航、成本影响的预测，以及智能化体验成为高端市场决定性因素的行业分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 固态电池 钠离子电池 产业化 续航 成本 智能化 高端市场 决定性因素",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "宏观消费环境：经济周期波动对大宗消费品需求的影响，可能改变市场竞争的激烈程度与价格战的范围。",
+          "description": "关于宏观消费环境作为不确定性因素的描述，虽然合理，但缺乏具体证据或分析表明2025年经济周期波动将如何具体影响新能源汽车市场竞争。需要引用宏观经济预测或行业风险分析。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持2025年宏观经济波动可能影响新能源汽车市场竞争激烈程度和价格战范围的具体分析或预测。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 宏观经济 新能源汽车 需求 价格战 竞争",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "技术突破节奏：固态电池等下一代电池技术的商业化落地速度，可能重塑各企业在续航与成本方面的竞争优势。",
+          "description": "关于固态电池等下一代电池技术商业化落地速度不确定性的描述，缺乏具体证据表明该不确定性在2025年时间框架下的具体影响程度。需要引用技术商业化路线图或行业评论。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持固态电池等下一代电池技术在2025年商业化落地速度存在不确定性，并可能重塑企业竞争优势的具体分析或评论。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 固态电池 商业化 落地速度 不确定性 竞争优势",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "全球化进程的地缘政治风险：头部企业将全球化作为战略重心，但国际贸易保护主义抬头可能为出海业务带来额外挑战。",
+          "description": "关于地缘政治风险作为不确定性因素的描述，缺乏具体证据表明2025年国际贸易保护主义将如何具体影响中国新能源汽车企业的出海业务。需要引用地缘政治分析或行业出海风险报告。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持2025年国际贸易保护主义抬头可能对中国新能源汽车企业出海业务构成具体挑战的分析或报告。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 中国新能源汽车 出海 地缘政治风险 贸易保护主义 挑战",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "供应链稳定性：关键原材料价格波动与地缘政治对供应链的冲击，将持续考验各厂商的供应链管理能力与成本韧性。",
+          "description": "关于供应链稳定性作为不确定性因素的描述，缺乏具体证据表明2025年原材料价格波动和地缘政治将如何具体考验厂商的供应链管理和成本。需要引用供应链风险分析或行业报告。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持2025年关键原材料价格波动和地缘政治冲击将持续考验新能源汽车厂商供应链管理和成本的具体分析或报告。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 新能源汽车 供应链 原材料价格 地缘政治 风险 成本韧性",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "展望2025年，比亚迪的核心任务是巩固其在主流价格区间的统治地位，同时向上突破高端市场（如仰望系列），并加速全球化布局。",
+          "description": "关于“比亚迪2025年核心任务”的断言，属于对厂商未来战略的推测，缺乏明确的官方声明、财报或高管访谈等证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持比亚迪2025年核心任务（巩固主流、突破高端、加速全球化）的官方战略声明或权威分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 2025年 战略规划 高端市场 全球化布局 官方声明",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "其规模优势带来的成本控制能力和全技术路线覆盖，使其在应对政策退坡和价格竞争时具备最强韧性。",
+          "description": "关于比亚迪规模优势带来“最强韧性”的判断，属于基于其现状的推断，缺乏直接证据（如对比分析、财务数据）证明其在应对未来政策退坡和价格竞争时确实具备最强韧性。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持比亚迪因其规模优势和技术路线覆盖，在应对政策退坡和价格竞争时具备“最强韧性”的对比分析或行业评论。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 规模优势 成本控制 政策退坡 价格竞争 韧性 行业分析",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "长期看，比亚迪的目标是成为全球新能源汽车产业的领导者，其挑战在于如何管理庞大的业务体系，并在智能化领域持续构建领先优势。",
+          "description": "关于比亚迪长期目标和挑战的断言，缺乏来自比亚迪官方（如愿景声明）或权威分析对其全球领导地位目标及具体挑战（庞大体系管理、智能化）的直接引用。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持比亚迪长期目标是成为全球新能源汽车产业领导者，以及其挑战在于管理庞大体系和构建智能化优势的官方声明或权威分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 全球领导者 目标 挑战 业务体系管理 智能化 优势",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "2025年，吉利的竞争态势将取决于其新能源转型速度的进一步提升（目前新能源占比50%），以及极氪、领克等高端品牌在智能化竞赛中的表现。",
+          "description": "关于“吉利2025年竞争态势取决于新能源转型速度提升和高端品牌智能化表现”的断言，属于对未来竞争态势的推测，缺乏明确的证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持吉利汽车2025年竞争态势与新能源转型速度、高端品牌智能化表现关联性的分析或官方战略。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "吉利汽车 2025年 新能源转型 目标 极氪 领克 智能化 竞争态势",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "其长期竞争力在于通过技术共享平台（如SEA浩瀚架构）实现效率最大化，并在设计、性能与智能化上建立差异化品牌标签。",
+          "description": "关于吉利长期竞争力来源的断言，缺乏证据表明SEA浩瀚架构等技术平台确实能实现效率最大化，并帮助其在设计、性能、智能化上建立差异化标签。需要引用相关技术分析或市场反馈。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持吉利汽车通过SEA浩瀚架构等技术共享平台实现效率最大化，并在设计、性能、智能化上建立差异化品牌标签的分析或案例。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "吉利汽车 SEA浩瀚架构 效率 差异化 设计 性能 智能化 品牌标签",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "2025年，长安将面临如何在保持燃油车基本盘稳定的同时，全力冲刺新能源销量占比的提升。",
+          "description": "关于“长安汽车2025年面临的任务”的断言，属于对厂商未来挑战的推测，缺乏明确的官方声明或权威分析支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持长安汽车2025年战略重点（平衡燃油与新能源）的官方声明或行业分析。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "长安汽车 2025年 战略 燃油车 基本盘 新能源销量占比",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "其与华为等科技公司的深度合作（如阿维塔），是其冲击高端智能化市场的重要筹码。",
+          "description": "关于长安与华为合作是其冲击高端智能化市场“重要筹码”的判断，缺乏证据表明该合作在2025年时间框架下将如何具体转化为市场竞争力或销量。需要引用合作成果分析或市场预期。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持长安与华为（阿维塔）深度合作是其2025年冲击高端智能化市场重要筹码的具体分析或市场预期报告。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "长安汽车 华为 阿维塔 合作 高端智能化市场 筹码 2025年",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "长期来看，长安的竞争态势取决于其自主研发的核心技术积累深度，以及其“传统制造效率+新科技赋能”模式的最终市场兑现度。",
+          "description": "关于长安长期竞争态势取决于自主研发和“传统制造效率+新科技赋能”模式市场兑现度的断言，属于推测，缺乏证据支持这两点将如何决定其长期成败。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持长安汽车长期竞争态势取决于自主研发核心技术积累深度以及“传统制造效率+新科技赋能”模式市场兑现度的分析报告。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "长安汽车 自主研发 核心技术 传统制造效率 新科技赋能 市场兑现度 长期竞争",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "2025年，理想的竞争态势将迎来关键考验：一方面需捍卫其在增程市场的领导地位，应对更多厂商的入局竞争；另一方面，其纯电产品线的市场接受度，将决定其能否突破单一技术路线的天花板，实现向全场景出行科技公司的跃迁。",
+          "description": "关于“理想汽车2025年竞争态势将迎来关键考验”的断言，属于对未来竞争格局的推测，缺乏明确的证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持理想汽车2025年面临增程市场竞争加剧、领导地位受挑战，以及纯电产品线市场接受度决定其突破天花板的分析或市场预测。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "理想汽车 2025年 竞争态势 增程市场 领导地位 纯电产品 市场接受度 全场景出行",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "理想的长期竞争力在于将其在“家庭用户”细分市场积累的产品定义能力、用户体验和运营效率，成功复制到更广阔的产品矩阵中，并在智能驾驶等前沿领域缩小与领先者的差距。",
+          "description": "关于理想汽车长期竞争力来源的断言，属于推测，缺乏证据表明其能将细分市场能力成功复制到更广产品矩阵，并能在智能驾驶领域缩小差距。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持理想汽车长期竞争力在于将其细分市场能力复制到更广产品矩阵，并在智能驾驶领域缩小差距的分析或官方战略。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "理想汽车 长期竞争力 家庭用户 细分市场 能力复制 产品矩阵 智能驾驶 差距",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "总结而言，2025年的竞争格局将是“分层固化”与“多维进化”并存。",
+          "description": "关于2025年竞争格局“分层固化”与“多维进化”并存的总结性判断，是预测性结论，缺乏证据支持。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持2025年中国新能源汽车竞争格局“分层固化”与“多维进化”并存的行业分析或预测报告。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年 中国新能源汽车 竞争格局 分层固化 多维进化",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "最终的胜出者，不仅需要规模与成本优势，更需要在智能化技术、品牌价值创造以及全球化运营等维度建立起难以复制的核心竞争力。",
+          "description": "关于最终胜出者所需核心竞争力的断言，属于一般性行业判断，虽然合理，但缺乏具体证据或案例支持在2025年背景下这些维度是关键。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "支持在2025年及以后的中国新能源汽车市场，胜出者需要在智能化、品牌价值、全球化运营等维度建立难以复制核心竞争力的行业分析或专家观点。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "新能源汽车 核心竞争力 2025年 智能化 品牌价值 全球化运营",
+          "section_ids": [
+            "sec_6"
+          ],
+          "severity": "major"
+        }
+      ],
+      "fact_check_results": [],
+      "missing_aspects": [],
+      "strength_points": [],
+      "resolved_issue_ids": [],
+      "unresolved_issue_ids": [
+        "issue_44f2c577",
+        "issue_d95741d1",
+        "issue_062c8089",
+        "issue_85fc192a",
+        "issue_24fcb55a",
+        "issue_89172d12",
+        "issue_1afa6373",
+        "issue_adc00c5b",
+        "issue_0e4d6d91",
+        "issue_b344d369"
+      ],
+      "origin": {
+        "file": "reviews/round_2_section_sec_6_attempt_1.json",
+        "pointer": "/canonical_structured_output"
+      }
+    },
+    {
+      "agent": "CriticMaster",
+      "stage": "global",
+      "recorded_at": "2026-09-09T15:46:46.876204+00:00",
+      "metadata": {
+        "report_version": 2,
+        "review_round": 2
+      },
+      "success": true,
+      "assessment": {
+        "verdict": "major_issues",
+        "summary": "报告存在严重的跨章节事实冲突和大量证据缺口。核心问题是：多个章节（sec_2, sec_4, sec_5, sec_6）将‘2025年市场渗透率突破50%’这一行业预测当作已实现的既定事实陈述，与sec_1的预测性表述构成严重冲突，动摇了报告的事实基础。此外，各章节存在大量关于厂商具体战略、产品、技术、挑战和机遇的断言，缺乏直接证据支持。报告整体质量远未达到可接受标准，需要全面修订和补充研究。"
+      },
+      "issues": [
+        {
+          "claim_text": "2025年，中国新能源汽车市场已进入渗透率实质性突破50%的主流普及新阶段（sec_2）；进入2025年，中国新能源汽车市场已实质性迈入主流普及阶段，市场渗透率预计将历史性地突破50%（sec_4）；进入2025年，中国新能源汽车市场在渗透率实质性突破50%并迈向主流普及阶段的同时（sec_5）；2025年，中国新能源汽车市场已实质性迈入主流普及阶段，市场渗透率预计将历史性地突破50%（sec_6）。",
+          "description": "报告在sec_2、sec_4、sec_5、sec_6的开篇或关键位置，将‘2025年市场渗透率突破50%’作为已实现的、描述市场现状的‘事实’进行陈述。然而，现有证据（如evidence_1f36380cac98db77c3ff, evidence_db0daf71681ff56cb058）明确显示，这是行业对2025年的‘预测’，而非已实现的、可验证的数据。这与sec_1中相对谨慎的预测性表述（‘行业普遍预测其渗透率将突破50%’）构成严重冲突。将预测当作事实陈述，严重损害了报告的可信度和事实基础。",
+          "issue_id": null,
+          "issue_type": "factual_conflict",
+          "missing_evidence": null,
+          "recommended_action": "revise",
+          "requires_external_evidence": false,
+          "search_query": null,
+          "section_ids": [
+            "sec_2",
+            "sec_4",
+            "sec_5",
+            "sec_6"
+          ],
+          "severity": "critical"
+        },
+        {
+          "claim_text": "理想汽车作为新势力代表，成功进入新能源厂商零售销量前十，位列第八。...理想汽车...1月同比增幅为34%。",
+          "description": "sec_2中关于理想汽车2025年1月零售销量排名和同比增幅的表述存在内部冲突。正文先称其‘位列第八’，后又称‘1月同比增幅为34%’。然而，所引用的证据（evidence_528ad927f426e9dd140b）显示理想汽车‘零售销量负增长’。‘负增长’与‘同比增幅为34%’直接矛盾。这导致关于理想汽车市场表现的关键信息不可信。",
+          "issue_id": null,
+          "issue_type": "factual_conflict",
+          "missing_evidence": "需要准确、一致的证据澄清理想汽车2025年1月的零售销量排名和同比增速。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "2025年1月 理想汽车 零售销量 排名 同比增速",
+          "section_ids": [
+            "sec_2"
+          ],
+          "severity": "major"
+        },
+        {
+          "claim_text": "报告中对四家厂商（比亚迪、吉利、长安、理想）的品牌定位、产品矩阵、价格带布局、技术竞争力、具体挑战与机遇、未来战略任务等进行了大量具体描述和比较分析。",
+          "description": "报告各章节包含大量关于厂商具体情况的断言，例如：比亚迪‘科技普惠’定位和全价格带覆盖（sec_2）、吉利银河系列爆款效应（sec_2）、长安深蓝G318硬派越野（sec_2）、理想高压纯电规划（sec_3）、各厂商供应链风险差异（sec_5）、技术输出潜力（sec_5）、生态变现布局（sec_5）、2025年核心任务（sec_6）等。这些断言绝大多数缺乏直接证据支持，现有证据主要集中于宏观市场数据和部分销量数据，无法支撑如此细致和具体的厂商层面分析。这导致报告的分析部分很大程度上是基于推测，可信度低。",
+          "issue_id": null,
+          "issue_type": "evidence_gap",
+          "missing_evidence": "需要为报告中关于四家厂商的具体战略、产品、技术、财务、竞争态势等断言，逐一寻找来自厂商官方、行业报告、权威媒体或专业分析的支持证据。",
+          "recommended_action": "research",
+          "requires_external_evidence": true,
+          "search_query": "比亚迪 2025 品牌定位 产品矩阵；吉利 银河 2025 市场表现；长安 深蓝 G318 2025；理想汽车 高压纯电 规划 2025；新能源汽车 供应链风险 厂商对比 2025；吉利 SEA 技术输出；长安 华为 合作 2025 竞争力；理想汽车 生态变现 2025",
+          "section_ids": [
+            "sec_2",
+            "sec_3",
+            "sec_5",
+            "sec_6"
+          ],
+          "severity": "major"
+        }
+      ],
+      "fact_check_results": [],
+      "missing_aspects": [],
+      "strength_points": [],
+      "resolved_issue_ids": [],
+      "unresolved_issue_ids": [
+        "issue_adc00c5b",
+        "issue_cf0eec7e",
+        "issue_51066d2b",
+        "issue_6c9a5dec",
+        "issue_10745936",
+        "issue_e7378043",
+        "issue_c1902b9b",
+        "issue_878c5a10",
+        "issue_e7f186ce",
+        "issue_09660b20",
+        "issue_aab82d6e",
+        "issue_4d81ae1c",
+        "issue_e684d778",
+        "issue_0e4d6d91",
+        "issue_f67e7559",
+        "issue_2759cdcf",
+        "issue_79d088bd",
+        "issue_ca6747ed",
+        "issue_eb218101",
+        "issue_29ca7046",
+        "issue_b344d369",
+        "issue_da776fdb",
+        "issue_eefd3a69",
+        "issue_56ce1728",
+        "issue_8c07058e",
+        "issue_407fb67f",
+        "issue_721a3065",
+        "issue_54487a20",
+        "issue_cc8d7582",
+        "issue_97f3b930",
+        "issue_fd8879be",
+        "issue_4179ab27",
+        "issue_48eeb513",
+        "issue_4dac2d58",
+        "issue_44f2c577",
+        "issue_d95741d1",
+        "issue_062c8089",
+        "issue_85fc192a",
+        "issue_24fcb55a",
+        "issue_89172d12",
+        "issue_1afa6373"
+      ],
+      "origin": {
+        "file": "reviews/round_2_global_attempt_1.json",
+        "pointer": "/canonical_structured_output"
+      }
+    }
+  ]
+}
